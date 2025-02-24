@@ -1,3 +1,0 @@
-PORT=4000
-DATABASEURL=mongodb+srv://username:password@cluster0-oazgl.mongodb.net/test?retryWrites=true
-JWTKEY=set_your_jwt_key
