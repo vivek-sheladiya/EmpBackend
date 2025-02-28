@@ -15,6 +15,7 @@ const { spawn } = require("child_process");
 const { AttendanceModel, UserModel } = require("./lib/Models/User");
 const http = require("http");
 const { Server } = require("socket.io");
+const { MongoClient } = require("mongodb");
 
 require("./cronJob");
 
@@ -56,7 +57,34 @@ async function startServer() {
   expressApp.use("/api", RequestRouter);
   expressApp.use("/api/notes", NotesRouter);
   expressApp.use(express.static(path.join(__dirname, "lib", "frontend")));
-  expressApp.use('/uploads', express.static(path.join(__dirname, 'uploads')));
+  expressApp.use("/uploads", express.static(path.join(__dirname, "uploads")));
+
+  expressApp.get("/commonData", async (req, res) => {
+    let client;
+    try {
+      client = await MongoClient.connect(mongo_url, {
+        // useNewUrlParser: true,
+        useUnifiedTopology: true,
+      });
+
+      const db = client.db();
+      const commonDataCollection = db.collection("commonData");
+
+      const commonData = await commonDataCollection.findOne({});
+
+      if (commonData) {
+        res.json(commonData);
+      } else {
+        res.status(404).json({ message: "No data found" });
+      }
+    } catch (error) {
+      res.status(500).json({ error: error.message });
+    } finally {
+      if (client) {
+        client.close();
+      }
+    }
+  });
 
   socketConnection(PORT);
 
