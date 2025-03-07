@@ -101,7 +101,7 @@ const socketConnection = async (PORT) => {
     cors: {
       origin: "*",
       methods: ["GET", "POST"],
-      credentials: false,
+      // credentials: false,
     },
     allowEIO3: true,
   });
