@@ -113,6 +113,10 @@ const socketConnection = async (PORT) => {
       console.log("Attendance:", data);
       socket.broadcast.emit("receive_message", data);
     });
+
+    socket.on("userData", (data) => {
+      socket.broadcast.emit("userData", data);
+    });
   });
 
   server.listen(PORT, () => {
