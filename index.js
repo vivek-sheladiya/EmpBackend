@@ -101,7 +101,6 @@ const socketConnection = async (PORT) => {
     cors: {
       origin: "*",
       methods: ["GET", "POST"],
-      // credentials: false,
     },
     allowEIO3: true,
   });
@@ -116,6 +115,10 @@ const socketConnection = async (PORT) => {
 
     socket.on("userData", (data) => {
       socket.broadcast.emit("userData", data);
+    });
+
+    socket.on("attendanceData", (data) => {
+      socket.broadcast.emit("attendanceData", data);
     });
   });
 
