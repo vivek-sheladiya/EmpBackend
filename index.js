@@ -115,18 +115,18 @@ const socketConnection = async (PORT) => {
     });
 
     socket.on("userData", (data) => {
-      socket.emit("userData", data);
+      socket.broadcast.emit("userDetails", data);
       // socket.broadcast.emit("userData", data);
     });
 
     socket.on("attendanceData", (data) => {
       // socket.broadcast.emit("attendanceData", data);
-      socket.emit("attendanceData", data);
+      socket.broadcast.emit("attendanceDetails", data);
     });
   });
 
-  server.listen(PORT, () => {
-    console.log(`Server is running on ${PORT}`);
+  server.listen(PORT,'192.168.0.104', () => {
+    console.log(`Server is running on`);
     // startElectronApp();
   });
 };
