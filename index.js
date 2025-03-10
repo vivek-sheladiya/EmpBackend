@@ -109,7 +109,7 @@ const socketConnection = async (PORT) => {
     // console.log("connection done");
 
     socket.on("socketMessage", (data) => {
-      console.log("Attendance:", data);
+      // console.log("Attendance:", data);
       // socket.broadcast.emit("receive_message", data);
       socket.emit("receive_message", data);
     });
@@ -125,7 +125,7 @@ const socketConnection = async (PORT) => {
     });
   });
 
-  server.listen(PORT,'192.168.0.104', () => {
+  server.listen(PORT, () => {
     console.log(`Server is running on`);
     // startElectronApp();
   });
