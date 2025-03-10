@@ -106,7 +106,7 @@ const socketConnection = async (PORT) => {
   });
 
   io.on("connection", (socket) => {
-    console.log("connection done");
+    // console.log("connection done");
 
     socket.on("socketMessage", (data) => {
       console.log("Attendance:", data);
