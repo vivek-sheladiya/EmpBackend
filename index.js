@@ -5,7 +5,6 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 require("dotenv").config();
 const AuthRouter = require("./lib/Routes/AuthRouter");
-const RequestRouter = require("./lib/Routes/RequestRouter");
 const UserDataRouter = require("./lib/Routes/UserDataRouter");
 const NotesRouter = require("./lib/Routes/NotesRouter");
 const fs = require("fs");
@@ -54,7 +53,6 @@ async function startServer() {
   expressApp.use(cors());
   expressApp.use("/auth", AuthRouter);
   expressApp.use("/api", UserDataRouter);
-  expressApp.use("/api", RequestRouter);
   expressApp.use("/api/notes", NotesRouter);
   expressApp.use(express.static(path.join(__dirname, "lib", "frontend")));
   expressApp.use("/uploads", express.static(path.join(__dirname, "uploads")));
