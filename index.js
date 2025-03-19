@@ -6,14 +6,12 @@ const cors = require("cors");
 require("dotenv").config();
 const AuthRouter = require("./lib/Routes/AuthRouter");
 const UserDataRouter = require("./lib/Routes/UserDataRouter");
-const NotesRouter = require("./lib/Routes/NotesRouter");
 const fs = require("fs");
 const path = require("path");
 const mongoose = require("mongoose");
 const { spawn } = require("child_process");
 const { AttendanceModel, UserModel } = require("./lib/Models/User");
 const http = require("http");
-const { Server } = require("socket.io");
 const { MongoClient } = require("mongodb");
 
 require("./cronJob");
@@ -32,15 +30,6 @@ async function connectToDatabase() {
 async function startServer() {
   await connectToDatabase();
 
-  const profilePhotoDir = path.join(__dirname, "uploads/profilePhoto");
-  const screenshotDir = path.join(__dirname, "uploads/screenshots");
-  if (!fs.existsSync(profilePhotoDir)) {
-    fs.mkdirSync(profilePhotoDir);
-  }
-  if (!fs.existsSync(screenshotDir)) {
-    fs.mkdirSync(screenshotDir);
-  }
-
   const PORT = process.env.PORT || 8080;
 
   expressApp.get("/ping", (req, res) => {
@@ -53,7 +42,6 @@ async function startServer() {
   expressApp.use(cors());
   expressApp.use("/auth", AuthRouter);
   expressApp.use("/api", UserDataRouter);
-  expressApp.use("/api/notes", NotesRouter);
   expressApp.use(express.static(path.join(__dirname, "lib", "frontend")));
   expressApp.use("/uploads", express.static(path.join(__dirname, "uploads")));
 
@@ -84,71 +72,70 @@ async function startServer() {
     }
   });
 
-  socketConnection(PORT);
+  // socketConnection(PORT);
 
-  // expressApp.listen(PORT, () => {/
-  //   console.log(`Server is running on ${PORT}`);
-  //   startElectronApp();
-  // });
-}
-
-const socketConnection = async (PORT) => {
-  const server = http.createServer(expressApp);
-
-  const io = new Server(server, {
-    cors: {
-      origin: "*",
-      methods: ["GET", "POST"],
-    },
-    allowEIO3: true,
-  });
-
-  io.on("connection", (socket) => {
-    // console.log("connection done");
-
-    socket.on("socketMessage", (data) => {
-      // console.log("Attendance:", data);
-      // socket.broadcast.emit("receive_message", data);
-      socket.emit("receive_message", data);
-    });
-
-    socket.on("userData", (data) => {
-      socket.broadcast.emit("userDetails", data);
-      // socket.broadcast.emit("userData", data);
-    });
-
-    socket.on("attendanceData", (data) => {
-      // socket.broadcast.emit("attendanceData", data);
-      socket.broadcast.emit("attendanceDetails", data);
-    });
-  });
-
-  server.listen(PORT, () => {
-    console.log(`Server is running on`);
-    // startElectronApp();
-  });
-};
-
-const pathToElectron = path.join(
-  __dirname,
-  "node_modules",
-  "electron",
-  "dist",
-  "electron"
-);
-
-function startElectronApp() {
-  const electronProcess = spawn(pathToElectron, ["electron.js"], {
-    stdio: "inherit",
-  });
-
-  electronProcess.on("error", (error) => {
-    console.error("Error spawning Electron process:", error);
-  });
-
-  electronProcess.on("exit", (code) => {
-    console.log(`Electron process exited with code ${code}`);
+  expressApp.listen(PORT, () => {
+    console.log(`Server is running on ${PORT}`);
   });
 }
+
+// const socketConnection = async (PORT) => {
+//   const server = http.createServer(expressApp);
+
+//   const io = new Server(server, {
+//     cors: {
+//       origin: "*",
+//       methods: ["GET", "POST"],
+//     },
+//     allowEIO3: true,
+//   });
+
+//   io.on("connection", (socket) => {
+//     // console.log("connection done");
+
+//     socket.on("socketMessage", (data) => {
+//       // console.log("Attendance:", data);
+//       // socket.broadcast.emit("receive_message", data);
+//       socket.emit("receive_message", data);
+//     });
+
+//     socket.on("userData", (data) => {
+//       socket.broadcast.emit("userDetails", data);
+//       // socket.broadcast.emit("userData", data);
+//     });
+
+//     socket.on("attendanceData", (data) => {
+//       // socket.broadcast.emit("attendanceData", data);
+//       socket.broadcast.emit("attendanceDetails", data);
+//     });
+//   });
+
+//   server.listen(PORT, () => {
+//     console.log(`Server is running on`);
+//     // startElectronApp();
+//   });
+// };
+
+// const pathToElectron = path.join(
+//   __dirname,
+//   "node_modules",
+//   "electron",
+//   "dist",
+//   "electron"
+// );
+
+// function startElectronApp() {
+//   const electronProcess = spawn(pathToElectron, ["electron.js"], {
+//     stdio: "inherit",
+//   });
+
+//   electronProcess.on("error", (error) => {
+//     console.error("Error spawning Electron process:", error);
+//   });
+
+//   electronProcess.on("exit", (code) => {
+//     console.log(`Electron process exited with code ${code}`);
+//   });
+// }
 
 startServer();
