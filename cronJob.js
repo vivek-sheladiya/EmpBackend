@@ -2,32 +2,47 @@ const cron = require('node-cron');
 const moment = require('moment');
 const { AttendanceModel } = require('./lib/Models/User');
 
-cron.schedule('0 0 * * *', async () => {
-  try {
-    const previousDayDate = moment().subtract(1, 'day').format("DD-MM-YYYY");
-    const prevDayAttendances = await AttendanceModel.find({
-      date: previousDayDate,
-      isPunchIn: true,
-      'punchTime.punchOutTime': { $exists: false }
+const autoPunchOutJob = () => {
+  cron.schedule('0 0 * * *', async () => {  // Runs once a day at 12:00 AM (midnight)
+    try {
+      const yesterdayStart = moment().subtract(1, "days").startOf("day").valueOf();
+      const yesterdayEnd = moment().subtract(1, "days").endOf("day").valueOf();
+      const currentTime = Date.now();
+  
+      const records = await AttendanceModel.find({
+        createdAt: { $gte: new Date(yesterdayStart), $lte: new Date(yesterdayEnd) },
+        $or: [{ isPunchIn: true }, { isBreakIn: true }],
+        "punchTime.punchOutTime": null
     });
-
-    if (prevDayAttendances.length === 0) {
+  
+      console.log('Attendance records found:', records);
+  
+      if (records.length === 0) {
+        console.log('No users found for auto punch-out.');
         return;
       }
-
-      for (let prevDayAttendance of prevDayAttendances) {
-        const autoPunchOutTime = moment().startOf('day').valueOf();
-        prevDayAttendance.punchTime[prevDayAttendance.punchTime.length - 1].punchOutTime = autoPunchOutTime;
+  
+      for (let prevDayAttendance of records) {
+        const autoPunchOutTime = moment().subtract(1, 'day').set({ hour: 18, minute: 0, second: 0, millisecond: 0 }).valueOf(); // Previous day 6:00 PM timestamp
+        const lastPunch = prevDayAttendance.punchTime[prevDayAttendance.punchTime.length - 1];
+        
+        lastPunch.punchOutTime = autoPunchOutTime;
         prevDayAttendance.isPunchIn = false;
         prevDayAttendance.isUnderVerification = true;
-        if(prevDayAttendance.isBreakIn === true) {
-            prevDayAttendance.breakTime[prevDayAttendance.breakTime.length - 1].breakOutTime = autoPunchOutTime;
-            prevDayAttendance.isBreakIn = false;
+  
+        if (prevDayAttendance.isBreakIn) {
+          const lastBreak = prevDayAttendance.breakTime[prevDayAttendance.breakTime.length - 1];
+          lastBreak.breakOutTime = autoPunchOutTime;
+          prevDayAttendance.isBreakIn = false;
         }
+  
         await prevDayAttendance.save();
+        console.log(`Auto punch-out updated for user: ${prevDayAttendance.userId}`);
       }
+    } catch (err) {
+      console.error('Error in auto punch-out task:', err);
+    }
+  });
+};
 
-  } catch (err) {
-    console.error('Error in auto punch-out task:', err);
-  }
-});
+module.exports = autoPunchOutJob;

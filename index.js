@@ -14,7 +14,7 @@ const { AttendanceModel, UserModel } = require("./lib/Models/User");
 const http = require("http");
 const { MongoClient } = require("mongodb");
 
-require("./cronJob");
+const autoPunchOutJob = require('./cronJob');
 
 const mongo_url = process.env.MONGO_CONN;
 
@@ -73,6 +73,7 @@ async function startServer() {
   });
 
   // socketConnection(PORT);
+  autoPunchOutJob();
 
   expressApp.listen(PORT, () => {
     console.log(`Server is running on ${PORT}`);
