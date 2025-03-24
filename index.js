@@ -6,6 +6,7 @@ const cors = require("cors");
 require("dotenv").config();
 const AuthRouter = require("./lib/Routes/AuthRouter");
 const UserDataRouter = require("./lib/Routes/UserDataRouter");
+const AppSettingDataRouter = require("./lib/Routes/AppSettingDataRouter");
 const fs = require("fs");
 const path = require("path");
 const mongoose = require("mongoose");
@@ -42,6 +43,7 @@ async function startServer() {
   expressApp.use(cors());
   expressApp.use("/auth", AuthRouter);
   expressApp.use("/api", UserDataRouter);
+  expressApp.use(AppSettingDataRouter);
   expressApp.use(express.static(path.join(__dirname, "lib", "frontend")));
   expressApp.use("/uploads", express.static(path.join(__dirname, "uploads")));
 
