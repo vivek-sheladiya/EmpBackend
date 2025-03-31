@@ -15,7 +15,7 @@ const autoPunchOutJob = () => {
         "punchTime.punchOutTime": null
     });
   
-      console.log('Attendance records found:', records);
+      console.log('Attendance records found:', records.length);
   
       if (records.length === 0) {
         console.log('No users found for auto punch-out.');
