@@ -16,6 +16,7 @@ const http = require("http");
 const { MongoClient } = require("mongodb");
 
 const autoPunchOutJob = require('./cronJob');
+const ensureAuthenticated = require("./lib/Middlewares/Auth");
 
 const mongo_url = process.env.MONGO_CONN;
 
@@ -42,8 +43,8 @@ async function startServer() {
   expressApp.use(express.urlencoded({ extended: true }));
   expressApp.use(cors());
   expressApp.use("/auth", AuthRouter);
-  expressApp.use("/api", UserDataRouter);
-  expressApp.use(AppSettingDataRouter);
+  expressApp.use("/api", ensureAuthenticated,UserDataRouter);
+  expressApp.use(ensureAuthenticated, AppSettingDataRouter);
   expressApp.use(express.static(path.join(__dirname, "lib", "frontend")));
   expressApp.use("/uploads", express.static(path.join(__dirname, "uploads")));
 
