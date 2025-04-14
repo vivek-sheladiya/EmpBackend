@@ -44,7 +44,7 @@ async function startServer() {
   expressApp.use(cors());
   expressApp.use("/auth", AuthRouter);
   expressApp.use("/api", ensureAuthenticated,UserDataRouter);
-  expressApp.use(ensureAuthenticated, AppSettingDataRouter);
+  expressApp.use(AppSettingDataRouter);
   expressApp.use(express.static(path.join(__dirname, "lib", "frontend")));
   expressApp.use("/uploads", express.static(path.join(__dirname, "uploads")));
 
