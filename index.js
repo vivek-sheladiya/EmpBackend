@@ -1,19 +1,19 @@
 const express = require("express");
 const expressApp = express();
-// const UserModel = require("./lib/Models/User");
 const bodyParser = require("body-parser");
 const cors = require("cors");
 require("dotenv").config();
 const AuthRouter = require("./lib/Routes/AuthRouter");
 const UserDataRouter = require("./lib/Routes/UserDataRouter");
+const HolidayEventRouter = require("./lib/Routes/HolidayEventRouter");
+const AttendanceRouter = require("./lib/Routes/AttendanceRouter");
+const TaskRouter = require("./lib/Routes/TaskRouter");
+const DashboardRouter = require("./lib/Routes/DashboardRouter");
 const AppSettingDataRouter = require("./lib/Routes/AppSettingDataRouter");
-const fs = require("fs");
+const ProjectRouter = require("./lib/Routes/ProjectRouter");
 const path = require("path");
 const mongoose = require("mongoose");
-const { spawn } = require("child_process");
-const { AttendanceModel, UserModel } = require("./lib/Models/User");
-const http = require("http");
-const { MongoClient } = require("mongodb");
+const {MongoClient} = require("mongodb");
 
 const autoPunchOutJob = require('./cronJob');
 const ensureAuthenticated = require("./lib/Middlewares/Auth");
@@ -21,66 +21,73 @@ const ensureAuthenticated = require("./lib/Middlewares/Auth");
 const mongo_url = process.env.MONGO_CONN;
 
 async function connectToDatabase() {
-  try {
-    await mongoose.connect(mongo_url);
-    console.log("Connected to MongoDB");
-  } catch (error) {
-    console.error("Error connecting to MongoDB:", error);
-  }
+    try {
+        await mongoose.connect(mongo_url);
+        console.log("Connected to MongoDB");
+    } catch (error) {
+        console.error("Error connecting to MongoDB:", error);
+    }
 }
 
 async function startServer() {
-  await connectToDatabase();
+    await connectToDatabase();
 
-  const PORT = process.env.PORT || 8080;
+    const PORT = process.env.PORT || 8080;
 
-  expressApp.get("/ping", (req, res) => {
-    res.send("PONG");
-  });
+    expressApp.get("/ping", (req, res) => {
+        res.send("PONG");
+    });
 
-  expressApp.use(bodyParser.json());
-  expressApp.use(express.json());
-  expressApp.use(express.urlencoded({ extended: true }));
-  expressApp.use(cors());
-  expressApp.use("/auth", AuthRouter);
-  expressApp.use("/api", ensureAuthenticated,UserDataRouter);
-  expressApp.use(AppSettingDataRouter);
-  expressApp.use(express.static(path.join(__dirname, "lib", "frontend")));
-  expressApp.use("/uploads", express.static(path.join(__dirname, "uploads")));
+    expressApp.use(bodyParser.json());
+    expressApp.use(express.json());
+    expressApp.use(express.urlencoded({extended: true}));
+    expressApp.use(cors());
 
-  expressApp.get("/commonData", async (req, res) => {
-    let client;
-    try {
-      client = await MongoClient.connect(mongo_url, {
-        // useNewUrlParser: true,
-        useUnifiedTopology: true,
-      });
+    expressApp.use("/auth", AuthRouter);
+    expressApp.use("/api", ensureAuthenticated, UserDataRouter);
+    expressApp.use("/api", ensureAuthenticated, HolidayEventRouter);
+    expressApp.use("/api", ensureAuthenticated, AttendanceRouter);
+    expressApp.use("/api", ensureAuthenticated, TaskRouter);
+    expressApp.use("/api", ensureAuthenticated, DashboardRouter);
+    expressApp.use("/api", ensureAuthenticated, ProjectRouter);
 
-      const db = client.db();
-      const commonDataCollection = db.collection("commonData");
+    expressApp.use(AppSettingDataRouter);
+    expressApp.use(express.static(path.join(__dirname, "lib", "frontend")));
+    expressApp.use("/uploads", express.static(path.join(__dirname, "uploads")));
 
-      const commonData = await commonDataCollection.findOne({});
+    expressApp.get("/commonData", async (req, res) => {
+        let client;
+        try {
+            client = await MongoClient.connect(mongo_url, {
+                // useNewUrlParser: true,
+                useUnifiedTopology: true,
+            });
 
-      if (commonData) {
-        res.json(commonData);
-      } else {
-        res.status(404).json({ message: "No data found" });
-      }
-    } catch (error) {
-      res.status(500).json({ error: error.message });
-    } finally {
-      if (client) {
-        client.close();
-      }
-    }
-  });
+            const db = client.db();
+            const commonDataCollection = db.collection("commonData");
 
-  // socketConnection(PORT);
-  autoPunchOutJob();
+            const commonData = await commonDataCollection.findOne({});
 
-  expressApp.listen(PORT, () => {
-    console.log(`Server is running on ${PORT}`);
-  });
+            if (commonData) {
+                res.json(commonData);
+            } else {
+                res.status(404).json({message: "No data found"});
+            }
+        } catch (error) {
+            res.status(500).json({error: error.message});
+        } finally {
+            if (client) {
+                client.close();
+            }
+        }
+    });
+
+    // socketConnection(PORT);
+    autoPunchOutJob();
+
+    expressApp.listen(PORT, () => {
+        console.log(`Server is running on ${PORT}`);
+    });
 }
 
 // const socketConnection = async (PORT) => {

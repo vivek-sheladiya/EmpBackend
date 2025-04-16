@@ -1,6 +1,6 @@
 const cron = require('node-cron');
 const moment = require('moment');
-const { AttendanceModel } = require('./lib/Models/User');
+const { AttendanceModel } = require('./lib/Models/AttendanceModel');
 
 const autoPunchOutJob = () => {
   cron.schedule('0 0 * * *', async () => {  // Runs once a day at 12:00 AM (midnight)
