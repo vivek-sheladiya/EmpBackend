@@ -9,11 +9,12 @@ const HolidayEventRouter = require("./lib/Routes/HolidayEventRouter");
 const AttendanceRouter = require("./lib/Routes/AttendanceRouter");
 const TaskRouter = require("./lib/Routes/TaskRouter");
 const DashboardRouter = require("./lib/Routes/DashboardRouter");
+const LeaveDataRouter = require('./lib/Routes/LeaveRouter')
 const AppSettingDataRouter = require("./lib/Routes/AppSettingDataRouter");
 const ProjectRouter = require("./lib/Routes/ProjectRouter");
 const path = require("path");
 const mongoose = require("mongoose");
-const {MongoClient} = require("mongodb");
+const { MongoClient } = require("mongodb");
 
 const autoPunchOutJob = require('./cronJob');
 const ensureAuthenticated = require("./lib/Middlewares/Auth");
@@ -40,8 +41,14 @@ async function startServer() {
 
     expressApp.use(bodyParser.json());
     expressApp.use(express.json());
-    expressApp.use(express.urlencoded({extended: true}));
+    expressApp.use(express.urlencoded({ extended: true }));
     expressApp.use(cors());
+    expressApp.use("/auth", AuthRouter);
+    expressApp.use("/api", ensureAuthenticated, UserDataRouter);
+    expressApp.use("/api", LeaveDataRouter)
+    expressApp.use(AppSettingDataRouter);
+    expressApp.use(express.static(path.join(__dirname, "lib", "frontend")));
+    expressApp.use("/uploads", express.static(path.join(__dirname, "uploads")));
 
     expressApp.use("/auth", AuthRouter);
     expressApp.use("/api", ensureAuthenticated, UserDataRouter);
@@ -71,10 +78,10 @@ async function startServer() {
             if (commonData) {
                 res.json(commonData);
             } else {
-                res.status(404).json({message: "No data found"});
+                res.status(404).json({ message: "No data found" });
             }
         } catch (error) {
-            res.status(500).json({error: error.message});
+            res.status(500).json({ error: error.message });
         } finally {
             if (client) {
                 client.close();
