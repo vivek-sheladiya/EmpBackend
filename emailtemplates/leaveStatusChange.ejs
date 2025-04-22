@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leave Request</title>
+    <style>
+        body {
+            background-color: #edf0f5;
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .email-box {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 30px;
+            color: #333;
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+        }
+
+        h2 {
+            color: #e53935;
+            margin-top: 0;
+        }
+
+        .label {
+            font-weight: bold;
+            color: #444;
+        }
+
+        .value {
+            color: #000;
+        }
+
+        .footer {
+            margin-top: 30px;
+            color: #6c63ff;
+        }
+
+        p {
+            margin: 8px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="email-box">
+        <p>Hey</p>
+        <p style="font-weight: bold; color: #e53935; font-size: 30px;">
+            <%= userName %>
+        </p>
+        <p style="font-weight: bold;">Your Leave Request Has Been <%= status %> Successfully</p>
+
+        <p><span class="label">Leave Type :</span> <span class="value">
+                <%= leaveType %>
+            </span></p>
+        <p><span class="label">Leave Hours :</span> <span class="value">
+                <%= leaveHours %>
+            </span></p>
+        <p><span class="label">Reason :</span> <span class="value">
+                <%= reason %>
+            </span></p>
+        <p><span class="label">Start Date :</span> <span class="value">
+                <%= startDate %>
+            </span></p>
+        <p><span class="label">Leave Category :</span> <span class="value" style="color: purple; font-weight: bold;">
+                <%= leaveCategory %>
+            </span></p>
+        <p><span class="label">Leave Status :</span> <span class="value" style="color: purple; font-weight: bold;">
+                <%= status %>
+            </span></p>
+
+        <div class="footer">
+            <p>Thanks,</p>
+            <p>Teqheal Team</p>
+        </div>
+    </div>
+</body>
+
+</html>
