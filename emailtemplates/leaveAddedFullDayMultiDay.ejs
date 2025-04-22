@@ -50,26 +50,26 @@
 
 <body>
     <div class="email-box">
-        <p>Hey</p>
-        <p style="font-weight: bold; color: #e53935; font-size: 30px;">
-            <%= userName %>
-        </p>
-        <p style="font-weight: bold;">Your Leave Request Has Been <%= status %> Successfully</p>
-
+        <h2>
+            <%= userName %><span style="color:#000;font-weight:500"> Send Leave Request.</span>
+        </h2>
         <p><span class="label">Leave Type :</span> <span class="value">
                 <%= leaveType %>
             </span></p>
+        <p><span class="label">Description :</span> <span class="value">
+                <%= dayType %>
+            </span></p>
         <p><span class="label">Leave Day :</span> <span class="value">
-                <%= leaveDay %>
-            </span></p>
-        <p><span class="label">Leave Hours :</span> <span class="value">
-                <%= leaveHours %>
-            </span></p>
-        <p><span class="label">Date :</span> <span class="value">
-                <%= startDate %>
+                <%= totalDays %>
             </span></p>
         <p><span class="label">Reason :</span> <span class="value">
                 <%= reason %>
+            </span></p>
+        <p><span class="label">Start Date :</span> <span class="value">
+                <%= startDate %>
+            </span></p>
+        <p><span class="label">End Date :</span> <span class="value">
+                <%= endDate %>
             </span></p>
         <p><span class="label">Leave Category :</span> <span class="value" style="color: purple; font-weight: bold;">
                 <%= leaveCategory %>
