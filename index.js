@@ -9,8 +9,9 @@ const HolidayEventRouter = require("./lib/Routes/HolidayEventRouter");
 const AttendanceRouter = require("./lib/Routes/AttendanceRouter");
 const TaskRouter = require("./lib/Routes/TaskRouter");
 const DashboardRouter = require("./lib/Routes/DashboardRouter");
-const LeaveDataRouter = require('./lib/Routes/LeaveRouter')
-const BasicSalary = require("./lib/Routes/basicSalaryRouter")
+const LeaveDataRouter = require('./lib/Routes/LeaveRouter');
+const BasicSalary = require("./lib/Routes/basicSalaryRouter");
+const ClientProject = require("./lib/Routes/clientProjectRouter")
 const AppSettingDataRouter = require("./lib/Routes/AppSettingDataRouter");
 const ProjectRouter = require("./lib/Routes/ProjectRouter");
 const path = require("path");
@@ -58,7 +59,8 @@ async function startServer() {
     expressApp.use("/api", ensureAuthenticated, DashboardRouter);
     expressApp.use("/api", ensureAuthenticated, ProjectRouter);
     expressApp.use("/api", ensureAuthenticated, LeaveDataRouter);
-    expressApp.use("/api", ensureAuthenticated, BasicSalary)
+    expressApp.use("/api", ensureAuthenticated, BasicSalary);
+    expressApp.use("/api", ensureAuthenticated, ClientProject);
 
     expressApp.use(AppSettingDataRouter);
     expressApp.use(express.static(path.join(__dirname, "lib", "frontend")));
