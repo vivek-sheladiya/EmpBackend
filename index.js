@@ -46,6 +46,11 @@ async function startServer() {
     expressApp.use(express.json());
     expressApp.use(express.urlencoded({ extended: true }));
     expressApp.use(cors());
+    // expressApp.use(cors({
+    //     origin: 'https://whogetsa.web.app',
+    //     credentials: true,
+    // }));
+    expressApp.options('*', cors());
     expressApp.use("/auth", AuthRouter);
     expressApp.use("/api", ensureAuthenticated, UserDataRouter);
     expressApp.use(AppSettingDataRouter);
