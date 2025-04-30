@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Leave Request</title>
+    <style>
+        body {
+            background-color: #edf0f5;
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .email-box {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 30px;
+            color: #333;
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+        }
+
+        h2 {
+            color: #e53935;
+            margin-top: 0;
+        }
+
+        .footer {
+            margin-top: 30px;
+            color: #6c63ff;
+        }
+
+        p {
+            margin: 8px 0;
+        }
+
+        .label {
+            font-weight: 600;
+            background-color: #f9f9f9;
+            padding: 8px 12px;
+            border: 1px solid #ddd;
+            width: 40%;
+        }
+
+        .value {
+            padding: 8px 12px;
+            border: 1px solid #ddd;
+            background-color: #fff;
+        }
+
+        table {
+            font-size: 15px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f4f7fa;
+        }
+    </style>
+</head>
+
+<body>
+<div class="email-box">
+    <h2>
+        <%= userName %><span style="color:#000;font-weight:500">
+                <%= isAdmin ? ' added leave on behalf of employee' : ' sent a leave request' %>.
+            </span>
+    </h2>
+
+    <table style="width: 100%; border-collapse: collapse; margin-top: 20px;">
+        <% if (leaveType) { %>
+            <tr>
+                <td class="label">Leave Type</td>
+                <td class="value"><%= leaveType %></td>
+            </tr>
+        <% } %>
+
+        <% if (leaveHalfDayType) { %>
+            <tr>
+                <td class="label">Half Day Type</td>
+                <td class="value"><%= leaveHalfDayType %></td>
+            </tr>
+        <% } %>
+
+        <% if (leaveDay) { %>
+            <tr>
+                <td class="label">Leave Day</td>
+                <td class="value"><%= leaveDay %></td>
+            </tr>
+        <% } %>
+
+        <% if (hours) { %>
+            <tr>
+                <td class="label">Hours</td>
+                <td class="value"><%= hours %></td>
+            </tr>
+        <% } %>
+
+        <% if (reason) { %>
+            <tr>
+                <td class="label">Reason</td>
+                <td class="value"><%= reason %></td>
+            </tr>
+        <% } %>
+
+        <% if (rejectedReason) { %>
+            <tr>
+                <td class="label">Rejected Reason</td>
+                <td class="value"><%= rejectedReason %></td>
+            </tr>
+        <% } %>
+
+        <% if (startDate) { %>
+            <tr>
+                <td class="label">Date</td>
+                <td class="value"><%= startDate %></td>
+            </tr>
+        <% } %>
+
+        <% if (leaveCategory) { %>
+            <tr>
+                <td class="label">Leave Category</td>
+                <td class="value" style="color: purple; font-weight: bold;"><%= leaveCategory %></td>
+            </tr>
+        <% } %>
+    </table>
+
+    <div class="footer">
+        <p>Thanks,</p>
+        <p>Teqheal Team</p>
+    </div>
+</div>
+</body>
+
+</html>
