@@ -15,6 +15,7 @@ const ClientProject = require("./lib/Routes/clientProjectRouter")
 const AppSettingDataRouter = require("./lib/Routes/AppSettingDataRouter");
 const ProjectRouter = require("./lib/Routes/ProjectRouter");
 const punchReport = require("./lib/Routes/punchReportRoutes");
+const userFileUpload = require("./lib/Routes/userFileUploadRouter")
 const path = require("path");
 const mongoose = require("mongoose");
 const { MongoClient } = require("mongodb");
@@ -68,6 +69,7 @@ async function startServer() {
     expressApp.use("/api", ensureAuthenticated, BasicSalary);
     expressApp.use("/api", ensureAuthenticated, ClientProject);
     expressApp.use("/api", ensureAuthenticated, punchReport)
+    expressApp.use("/api", ensureAuthenticated, userFileUpload)
 
     expressApp.use(AppSettingDataRouter);
     expressApp.use(express.static(path.join(__dirname, "lib", "frontend")));
