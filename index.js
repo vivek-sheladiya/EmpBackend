@@ -21,7 +21,7 @@ const mongoose = require("mongoose");
 const { MongoClient } = require("mongodb");
 
 const autoPunchOutJob = require('./cronJob');
-const ensureAuthenticated = require("./lib/Middlewares/Auth");
+const {ensureAuthenticated} = require("./lib/Middlewares/Auth");
 
 const mongo_url = process.env.MONGO_CONN;
 
