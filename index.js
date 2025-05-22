@@ -43,7 +43,9 @@ async function startServer() {
         res.send("PONG");
     });
 
-    expressApp.use(bodyParser.json());
+    // expressApp.use(bodyParser.json());
+    expressApp.use(bodyParser.json({ limit: '50mb' }));
+    expressApp.use(bodyParser.urlencoded({ limit: '50mb', extended: true }));
     expressApp.use(express.json());
     expressApp.use(express.urlencoded({ extended: true }));
     expressApp.use(cors());
