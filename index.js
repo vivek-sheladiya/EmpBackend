@@ -22,6 +22,10 @@ const { MongoClient } = require("mongodb");
 
 const autoPunchOutJob = require('./cronJob');
 const {ensureAuthenticated} = require("./lib/Middlewares/Auth");
+const http = require("node:http");
+const {Server} = require("socket.io");
+const {generateGroupWiseTaskList} = require("./lib/Controllers/TaskController");
+const {UserModel} = require("./lib/Models/UserModel");
 
 const mongo_url = process.env.MONGO_CONN;
 
@@ -104,50 +108,68 @@ async function startServer() {
         }
     });
 
-    // socketConnection(PORT);
+    socketConnection(PORT);
     autoPunchOutJob();
 
-    expressApp.listen(PORT, () => {
-        console.log(`Server is running on ${PORT}`);
-    });
+    // expressApp.listen(PORT, () => {
+    //     console.log(`Server is running on ${PORT}`);
+    // });
 }
 
-// const socketConnection = async (PORT) => {
-//   const server = http.createServer(expressApp);
+const socketConnection = async (PORT) => {
+  const server = http.createServer(expressApp);
 
-//   const io = new Server(server, {
-//     cors: {
-//       origin: "*",
-//       methods: ["GET", "POST"],
-//     },
-//     allowEIO3: true,
-//   });
+  const io = new Server(server, {
+    cors: {
+      origin: "*",
+      methods: ["GET", "POST"],
+    },
+    allowEIO3: true,
+  });
 
-//   io.on("connection", (socket) => {
-//     // console.log("connection done");
+    expressApp.use((req, res, next) => {
+        console.log("xcvgxdsfg", req.user);
+    });
 
-//     socket.on("socketMessage", (data) => {
-//       // console.log("Attendance:", data);
-//       // socket.broadcast.emit("receive_message", data);
-//       socket.emit("receive_message", data);
-//     });
+  io.on("connection", (socket) => {
+    // console.log("connection done");
 
-//     socket.on("userData", (data) => {
-//       socket.broadcast.emit("userDetails", data);
-//       // socket.broadcast.emit("userData", data);
-//     });
+    socket.on("socketMessage", (data) => {
+      console.log("socketMessage:", data);
+      // socket.broadcast.emit("receive_message", data);
+      socket.emit("receive_message", data);
+    });
 
-//     socket.on("attendanceData", (data) => {
-//       // socket.broadcast.emit("attendanceData", data);
-//       socket.broadcast.emit("attendanceDetails", data);
-//     });
-//   });
+    // socket.on("userData", (data) => {
+    //   socket.broadcast.emit("userDetails", data);
+    //   // socket.broadcast.emit("userData", data);
+    // });
+    //
+    // socket.on("attendanceData", (data) => {
+    //   // socket.broadcast.emit("attendanceData", data);
+    //   socket.broadcast.emit("attendanceDetails", data);
+    // });
 
-//   server.listen(PORT, () => {
-//     console.log(`Server is running on`);
-//     // startElectronApp();
-//   });
-// };
+    socket.on("taskData", async (data) => {
+        console.log("taskData:", data);
+
+        const users = await UserModel.find(undefined, undefined, undefined);
+
+        for (let user of users) {
+            const taskBoardData = await generateGroupWiseTaskList(user);
+            socket.emit("taskData", taskBoardData);
+        }
+
+        // const taskBoardData = await generateGroupWiseTaskList(data);
+        // socket.broadcast.emit("taskData", taskBoardData);
+    });
+  });
+
+  server.listen(PORT, () => {
+    console.log(`Server is running on ${PORT}`);
+    // startElectronApp();
+  });
+};
 
 // const pathToElectron = path.join(
 //   __dirname,
