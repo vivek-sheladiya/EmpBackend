@@ -74,8 +74,8 @@ async function startServer() {
     expressApp.use("/api", ensureAuthenticated, LeaveDataRouter);
     expressApp.use("/api", ensureAuthenticated, BasicSalary);
     expressApp.use("/api", ensureAuthenticated, ClientProject);
-    expressApp.use("/api", ensureAuthenticated, punchReport)
-    expressApp.use("/api", ensureAuthenticated, userFileUpload)
+    expressApp.use("/api", ensureAuthenticated, punchReport);
+    expressApp.use("/api", ensureAuthenticated, userFileUpload);
 
     expressApp.use(AppSettingDataRouter);
     expressApp.use(express.static(path.join(__dirname, "lib", "frontend")));
@@ -108,12 +108,12 @@ async function startServer() {
         }
     });
 
-    socketConnection(PORT);
+    // socketConnection(PORT);
     autoPunchOutJob();
 
-    // expressApp.listen(PORT, () => {
-    //     console.log(`Server is running on ${PORT}`);
-    // });
+    expressApp.listen(PORT, () => {
+        console.log(`Server is running on ${PORT}`);
+    });
 }
 
 const socketConnection = async (PORT) => {
