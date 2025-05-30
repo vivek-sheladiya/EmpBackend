@@ -108,19 +108,20 @@ async function startServer() {
         }
     });
 
-    // socketConnection(PORT);
+    socketConnection(PORT);
     autoPunchOutJob();
 
-    expressApp.listen(PORT, () => {
-        console.log(`Server is running on ${PORT}`);
-    });
+    // expressApp.listen(PORT, () => {
+    //     console.log(`Server is running on ${PORT}`);
+    // });
 }
 
 const socketConnection = async (PORT) => {
   const server = http.createServer(expressApp);
 
   const io = new Server(server, {
-    cors: {
+      path: "/socket.io",
+      cors: {
       origin: "*",
       methods: ["GET", "POST"],
     },
@@ -152,14 +153,8 @@ const socketConnection = async (PORT) => {
 
     socket.on("taskData", async (data) => {
         console.log("taskData:", data);
-
-        const users = await UserModel.find(undefined, undefined, undefined);
-
-        for (let user of users) {
-            const taskBoardData = await generateGroupWiseTaskList(user);
-            socket.emit("taskData", taskBoardData);
-        }
-
+        // const taskBoardData = await generateGroupWiseTaskList(user);
+        socket.emit("taskData", data);
         // const taskBoardData = await generateGroupWiseTaskList(data);
         // socket.broadcast.emit("taskData", taskBoardData);
     });
