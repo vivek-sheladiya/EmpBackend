@@ -22,10 +22,11 @@ const { MongoClient } = require("mongodb");
 
 const autoPunchOutJob = require('./cronJob');
 const {ensureAuthenticated} = require("./lib/Middlewares/Auth");
-const http = require("node:http");
-const {Server} = require("socket.io");
+// const http = require("node:http");
+// const {Server} = require("socket.io");
 const {generateGroupWiseTaskList} = require("./lib/Controllers/TaskController");
 const {UserModel} = require("./lib/Models/UserModel");
+const {TasksModel} = require("./lib/Models/TaskModel");
 
 const mongo_url = process.env.MONGO_CONN;
 
@@ -81,6 +82,44 @@ async function startServer() {
     expressApp.use(express.static(path.join(__dirname, "lib", "frontend")));
     expressApp.use("/uploads", express.static(path.join(__dirname, "uploads")));
 
+    expressApp.get('/tasksChange', async (req, res) => {
+        const { userId, role } = req.query;
+        const loginUser = { _id: userId, role };
+
+        res.setHeader('Content-Type', 'text/event-stream');
+        res.setHeader('Cache-Control', 'no-cache');
+        res.setHeader('Connection', 'keep-alive');
+        res.flushHeaders();
+
+        let isAnyChange = false;
+
+        const changeStream = TasksModel.watch();
+
+        changeStream.on('change', async (change) => {
+            isAnyChange = true;
+        });
+
+        const interval = setInterval(async () => {
+            if (isAnyChange) {
+                try {
+                    const testData = await generateGroupWiseTaskList(loginUser);
+                    isAnyChange = false;
+                    res.write(`data: ${JSON.stringify(testData)}\n\n`);
+                } catch (err) {
+                    console.log("Error->", err);
+                    // res.write(`data: ${JSON.stringify({error: err.message})}\n\n`);
+                }
+            }
+        }, 1000);
+
+        req.on('close', () => {
+            clearInterval(interval);
+            changeStream.close();
+            res.end();
+            console.log('SSE connection closed');
+        });
+    });
+
     expressApp.get("/commonData", async (req, res) => {
         let client;
         try {
@@ -108,63 +147,59 @@ async function startServer() {
         }
     });
 
-    socketConnection(PORT);
+    // socketConnection(PORT);
     autoPunchOutJob();
 
-    // expressApp.listen(PORT, () => {
-    //     console.log(`Server is running on ${PORT}`);
-    // });
+    expressApp.listen(PORT, () => {
+        console.log(`Server is running on ${PORT}`);
+    });
 }
 
-const socketConnection = async (PORT) => {
-  const server = http.createServer(expressApp);
-
-  const io = new Server(server, {
-      path: "/socket.io",
-      cors: {
-      origin: "*",
-      methods: ["GET", "POST"],
-    },
-    allowEIO3: true,
-  });
-
-    expressApp.use((req, res, next) => {
-        console.log("xcvgxdsfg", req.user);
-    });
-
-  io.on("connection", (socket) => {
-    // console.log("connection done");
-
-    socket.on("socketMessage", (data) => {
-      console.log("socketMessage:", data);
-      // socket.broadcast.emit("receive_message", data);
-      socket.emit("receive_message", data);
-    });
-
-    // socket.on("userData", (data) => {
-    //   socket.broadcast.emit("userDetails", data);
-    //   // socket.broadcast.emit("userData", data);
-    // });
-    //
-    // socket.on("attendanceData", (data) => {
-    //   // socket.broadcast.emit("attendanceData", data);
-    //   socket.broadcast.emit("attendanceDetails", data);
-    // });
-
-    socket.on("taskData", async (data) => {
-        console.log("taskData:", data);
-        // const taskBoardData = await generateGroupWiseTaskList(user);
-        socket.emit("taskData", data);
-        // const taskBoardData = await generateGroupWiseTaskList(data);
-        // socket.broadcast.emit("taskData", taskBoardData);
-    });
-  });
-
-  server.listen(PORT, () => {
-    console.log(`Server is running on ${PORT}`);
-    // startElectronApp();
-  });
-};
+// const socketConnection = async (PORT) => {
+//   const server = http.createServer(expressApp);
+//
+//   const io = new Server(server, {
+//       path: "/socket.io",
+//       cors: {
+//       origin: "*",
+//       methods: ["GET", "POST"],
+//     },
+//     allowEIO3: true,
+//   });
+//
+//   io.on("connection", (socket) => {
+//     // console.log("connection done");
+//
+//     socket.on("socketMessage", (data) => {
+//       console.log("socketMessage:", data);
+//       // socket.broadcast.emit("receive_message", data);
+//       socket.emit("receive_message", data);
+//     });
+//
+//     // socket.on("userData", (data) => {
+//     //   socket.broadcast.emit("userDetails", data);
+//     //   // socket.broadcast.emit("userData", data);
+//     // });
+//     //
+//     // socket.on("attendanceData", (data) => {
+//     //   // socket.broadcast.emit("attendanceData", data);
+//     //   socket.broadcast.emit("attendanceDetails", data);
+//     // });
+//
+//     socket.on("taskData", async (data) => {
+//         // console.log("taskData:", data);
+//         // const taskBoardData = await generateGroupWiseTaskList(user);
+//         socket.emit("taskData", data);
+//         // const taskBoardData = await generateGroupWiseTaskList(data);
+//         // socket.broadcast.emit("taskData", taskBoardData);
+//     });
+//   });
+//
+//   server.listen(PORT, () => {
+//     console.log(`Server is running on ${PORT}`);
+//     // startElectronApp();
+//   });
+// };
 
 // const pathToElectron = path.join(
 //   __dirname,
