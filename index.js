@@ -13,9 +13,11 @@ const LeaveDataRouter = require('./lib/Routes/LeaveRouter');
 const BasicSalary = require("./lib/Routes/basicSalaryRouter");
 const ClientProject = require("./lib/Routes/clientProjectRouter")
 const AppSettingDataRouter = require("./lib/Routes/AppSettingDataRouter");
+const ChattingRouter = require("./lib/Routes/ChattingRouter");
 const ProjectRouter = require("./lib/Routes/ProjectRouter");
 const punchReport = require("./lib/Routes/punchReportRoutes");
 const userFileUpload = require("./lib/Routes/userFileUploadRouter")
+const FileUploadRouter = require("./lib/Routes/FileUploadRouter")
 const path = require("path");
 const mongoose = require("mongoose");
 const { MongoClient } = require("mongodb");
@@ -27,6 +29,15 @@ const {ensureAuthenticated} = require("./lib/Middlewares/Auth");
 const {generateGroupWiseTaskList} = require("./lib/Controllers/TaskController");
 const {UserModel} = require("./lib/Models/UserModel");
 const {TasksModel} = require("./lib/Models/TaskModel");
+const {UserRole} = require("./lib/utils/utils");
+const axios = require("axios");
+
+const fs = require('fs');
+const https = require('https');
+const upload = require("./imageUploader");
+const environment = require("./apiEndpoints");
+const {chatUpdates} = require("./lib/Controllers/ChatControllerNew");
+// const path = require('path');
 
 const mongo_url = process.env.MONGO_CONN;
 
@@ -77,10 +88,60 @@ async function startServer() {
     expressApp.use("/api", ensureAuthenticated, ClientProject);
     expressApp.use("/api", ensureAuthenticated, punchReport);
     expressApp.use("/api", ensureAuthenticated, userFileUpload);
+    expressApp.use("/api", ensureAuthenticated, ChattingRouter);
+    expressApp.use("/api", FileUploadRouter);
 
     expressApp.use(AppSettingDataRouter);
     expressApp.use(express.static(path.join(__dirname, "lib", "frontend")));
     expressApp.use("/uploads", express.static(path.join(__dirname, "uploads")));
+
+    expressApp.get('/employeesChange', async (req, res) => {
+        const { userId, role } = req.query;
+
+        res.setHeader('Content-Type', 'text/event-stream');
+        res.setHeader('Cache-Control', 'no-cache');
+        res.setHeader('Connection', 'keep-alive');
+        res.flushHeaders();
+
+        let isAnyChange = false;
+
+        const changeStream = UserModel.watch();
+
+        changeStream.on('change', async (change) => {
+            isAnyChange = true;
+        });
+
+        const interval = setInterval(async () => {
+            if (isAnyChange) {
+                try {
+                    const usersData = await UserModel.find({}, role === UserRole.Admin ? {} : {
+                        _id: 1,
+                        fullName: 1,
+                        mobileNumber: 1,
+                        emailAddress: 1,
+                        role: 1,
+                        profilePhoto: 1,
+                        approvalStatus: 1,
+                        isActive: 1,
+                        status: 1,
+                    }, undefined);
+                    isAnyChange = false;
+                    res.write(`data: ${JSON.stringify(usersData)}\n\n`);
+                } catch (err) {
+                    console.log("Error->", err);
+                }
+            }
+        }, 1000);
+
+        req.on('close', () => {
+            clearInterval(interval);
+            changeStream.close();
+            res.end();
+            console.log('SSE connection closed');
+        });
+    });
+
+    chatUpdates(expressApp);
 
     expressApp.get('/tasksChange', async (req, res) => {
         const { userId, role } = req.query;
@@ -120,30 +181,71 @@ async function startServer() {
         });
     });
 
-    expressApp.get("/commonData", async (req, res) => {
-        let client;
+    expressApp.post('/api/upload', upload.single('file'), async (req, res) => {
         try {
-            client = await MongoClient.connect(mongo_url, {
-                // useNewUrlParser: true,
-                useUnifiedTopology: true,
-            });
+            const file = req.file;
+            if (file) {
+                const form = new FormData();
+                const blob = new Blob([file.buffer], { type: file.mimetype });
+                const filename = `${Date.now()}_${file.originalname}`;
 
-            const db = client.db();
-            const commonDataCollection = db.collection("commonData");
+                form.append("image", blob, filename);
 
-            const commonData = await commonDataCollection.findOne({});
+                const response = await fetch(`${environment.apiBaseUrl}upload.php`, {
+                    method: "POST",
+                    body: form,
+                });
 
-            if (commonData) {
-                res.json(commonData);
-            } else {
-                res.status(404).json({ message: "No data found" });
+                const result = await response.json();
+
+                if (result.status === true) {
+                    return res.status(200).json({
+                        success: true,
+                        message: "Upload successfully",
+                        data: {
+                            attachmentType: file.mimetype,
+                            url: `${environment.apiBaseUrl}${result.file_url}`,
+                        },
+                    });
+                }
             }
         } catch (error) {
-            res.status(500).json({ error: error.message });
-        } finally {
-            if (client) {
-                client.close();
+            res.status(500).json({
+                success: false,
+                message: "Internal server error",
+            });
+        }
+    });
+
+    expressApp.post('/api/delete', async (req, res) => {
+        try {
+            const {fileUrl} = req.body;
+
+            const fileName = fileUrl.split("/").pop().split("?")[0];
+
+            const form = new FormData();
+            form.append("filename", fileName);
+
+            const response = await fetch(`${environment.apiBaseUrl}delete.php`, {
+                method: "POST",
+                body: form,
+            });
+
+            const result = await response.json();
+
+            if (result.status === true) {
+                return res.status(200).json({success: true, message: "Image deleted successfully"});
+            } else {
+                return res.status(500).json({
+                    success: false,
+                    message: "Failed to delete image from storage",
+                });
             }
+        } catch (error) {
+            return res.status(500).json({
+                success: false,
+                message: "Failed to delete image from storage",
+            });
         }
     });
 
@@ -153,7 +255,82 @@ async function startServer() {
     expressApp.listen(PORT, () => {
         console.log(`Server is running on ${PORT}`);
     });
+
+
 }
+
+// // Base URL
+// const baseUrl = "https://fonts.gstatic.com/s/e/notoemoji/latest";
+//
+// // Output folder
+// const outputDir = "./downloads";
+// if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir);
+//
+// // Parse emoji entries
+// const emojiList = emojiRawList.trim().split('\n').map(line => {
+//     const [, code, name, group] = line.split('->');
+//     return { code, name, group };
+// });
+//
+// // Download helper
+// function downloadFile(url, dest) {
+//     return new Promise((resolve, reject) => {
+//         const file = fs.createWriteStream(dest);
+//         https.get(url, response => {
+//             if (response.statusCode !== 200) {
+//                 fs.unlink(dest, () => {});
+//                 return reject(`Failed: ${url}`);
+//             }
+//             response.pipe(file);
+//             file.on('finish', () => file.close(resolve));
+//         }).on('error', err => {
+//             fs.unlink(dest, () => {});
+//             reject(err.message);
+//         });
+//     });
+// }
+//
+// const outputJson = {};
+//
+// // Process all emojis
+// (async () => {
+//     for (const emoji of emojiList) {
+//         const { code, name, group } = emoji;
+//
+//         const media = {
+//             image: `${code}.webp`,
+//             gif: `${code}.gif`,
+//             animation: `${code}.json`
+//         };
+//
+//         const item = {
+//             code,
+//             name,
+//             ...media,
+//             group
+//         };
+//
+//         if (!outputJson[group]) {
+//             outputJson[group] = [];
+//         }
+//
+//         outputJson[group].push(item);
+//
+//         try {
+//             console.log(`Downloading ${code}...`);
+//             await downloadFile(`${baseUrl}/${code}/512.webp`, path.join(outputDir, media.image));
+//             await downloadFile(`${baseUrl}/${code}/512.gif`, path.join(outputDir, media.gif));
+//             await downloadFile(`${baseUrl}/${code}/lottie.json`, path.join(outputDir, media.animation));
+//             console.log(`Done: ${code}`);
+//         } catch (err) {
+//             console.error(`Error downloading ${code}: ${err}`);
+//         }
+//     }
+//
+//     // Save final JSON file
+//     fs.writeFileSync("emoji-data.json", JSON.stringify(outputJson, null, 2));
+//     console.log("✅ JSON saved as emoji-data.json");
+// })();
 
 // const socketConnection = async (PORT) => {
 //   const server = http.createServer(expressApp);

@@ -1,0 +1,5804 @@
+{
+  "Smileys and emotions": [
+    {
+      "code": "1f600",
+      "name": "Smile",
+      "image": "1f600.webp",
+      "gif": "1f600.gif",
+      "animation": "1f600.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f600",
+      "name": "Smile",
+      "image": "1f600.webp",
+      "gif": "1f600.gif",
+      "animation": "1f600.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f603",
+      "name": "Smile-with-big-eyes",
+      "image": "1f603.webp",
+      "gif": "1f603.gif",
+      "animation": "1f603.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f604",
+      "name": "Grin",
+      "image": "1f604.webp",
+      "gif": "1f604.gif",
+      "animation": "1f604.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f601",
+      "name": "Grinning",
+      "image": "1f601.webp",
+      "gif": "1f601.gif",
+      "animation": "1f601.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f606",
+      "name": "Laughing",
+      "image": "1f606.webp",
+      "gif": "1f606.gif",
+      "animation": "1f606.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f605",
+      "name": "Grin-sweat",
+      "image": "1f605.webp",
+      "gif": "1f605.gif",
+      "animation": "1f605.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f602",
+      "name": "Joy",
+      "image": "1f602.webp",
+      "gif": "1f602.gif",
+      "animation": "1f602.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f923",
+      "name": "Rofl",
+      "image": "1f923.webp",
+      "gif": "1f923.gif",
+      "animation": "1f923.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f62d",
+      "name": "Loudly-crying",
+      "image": "1f62d.webp",
+      "gif": "1f62d.gif",
+      "animation": "1f62d.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f609",
+      "name": "Wink",
+      "image": "1f609.webp",
+      "gif": "1f609.gif",
+      "animation": "1f609.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f617",
+      "name": "Kissing",
+      "image": "1f617.webp",
+      "gif": "1f617.gif",
+      "animation": "1f617.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f619",
+      "name": "Kissing-smiling-eyes",
+      "image": "1f619.webp",
+      "gif": "1f619.gif",
+      "animation": "1f619.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f61a",
+      "name": "Kissing-closed-eyes",
+      "image": "1f61a.webp",
+      "gif": "1f61a.gif",
+      "animation": "1f61a.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f618",
+      "name": "Kissing-heart",
+      "image": "1f618.webp",
+      "gif": "1f618.gif",
+      "animation": "1f618.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f970",
+      "name": "Heart-face",
+      "image": "1f970.webp",
+      "gif": "1f970.gif",
+      "animation": "1f970.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f60d",
+      "name": "Heart-eyes",
+      "image": "1f60d.webp",
+      "gif": "1f60d.gif",
+      "animation": "1f60d.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f929",
+      "name": "Star-struck",
+      "image": "1f929.webp",
+      "gif": "1f929.gif",
+      "animation": "1f929.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f973",
+      "name": "Partying-face",
+      "image": "1f973.webp",
+      "gif": "1f973.gif",
+      "animation": "1f973.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1fae0",
+      "name": "Melting",
+      "image": "1fae0.webp",
+      "gif": "1fae0.gif",
+      "animation": "1fae0.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f643",
+      "name": "Upside-down-face",
+      "image": "1f643.webp",
+      "gif": "1f643.gif",
+      "animation": "1f643.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f642",
+      "name": "Slightly-happy",
+      "image": "1f642.webp",
+      "gif": "1f642.gif",
+      "animation": "1f642.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f972",
+      "name": "Happy-cry",
+      "image": "1f972.webp",
+      "gif": "1f972.gif",
+      "animation": "1f972.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f979",
+      "name": "Holding-back-tears",
+      "image": "1f979.webp",
+      "gif": "1f979.gif",
+      "animation": "1f979.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f60a",
+      "name": "Blush",
+      "image": "1f60a.webp",
+      "gif": "1f60a.gif",
+      "animation": "1f60a.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "263a_fe0f",
+      "name": "Warm-smile",
+      "image": "263a_fe0f.webp",
+      "gif": "263a_fe0f.gif",
+      "animation": "263a_fe0f.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f60c",
+      "name": "Relieved",
+      "image": "1f60c.webp",
+      "gif": "1f60c.gif",
+      "animation": "1f60c.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f642_200d_2195_fe0f",
+      "name": "Head-nod",
+      "image": "1f642_200d_2195_fe0f.webp",
+      "gif": "1f642_200d_2195_fe0f.gif",
+      "animation": "1f642_200d_2195_fe0f.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f642_200d_2194_fe0f",
+      "name": "Head-shake",
+      "image": "1f642_200d_2194_fe0f.webp",
+      "gif": "1f642_200d_2194_fe0f.gif",
+      "animation": "1f642_200d_2194_fe0f.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f60f",
+      "name": "Smirk",
+      "image": "1f60f.webp",
+      "gif": "1f60f.gif",
+      "animation": "1f60f.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f924",
+      "name": "Drool",
+      "image": "1f924.webp",
+      "gif": "1f924.gif",
+      "animation": "1f924.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f60b",
+      "name": "Yum",
+      "image": "1f60b.webp",
+      "gif": "1f60b.gif",
+      "animation": "1f60b.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f61b",
+      "name": "Stuck-out-tongue",
+      "image": "1f61b.webp",
+      "gif": "1f61b.gif",
+      "animation": "1f61b.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f61d",
+      "name": "Squinting-tongue",
+      "image": "1f61d.webp",
+      "gif": "1f61d.gif",
+      "animation": "1f61d.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f61c",
+      "name": "Winky-tongue",
+      "image": "1f61c.webp",
+      "gif": "1f61c.gif",
+      "animation": "1f61c.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f92a",
+      "name": "Zany-face",
+      "image": "1f92a.webp",
+      "gif": "1f92a.gif",
+      "animation": "1f92a.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f974",
+      "name": "Woozy",
+      "image": "1f974.webp",
+      "gif": "1f974.gif",
+      "animation": "1f974.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f614",
+      "name": "Pensive",
+      "image": "1f614.webp",
+      "gif": "1f614.gif",
+      "animation": "1f614.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f97a",
+      "name": "Pleading",
+      "image": "1f97a.webp",
+      "gif": "1f97a.gif",
+      "animation": "1f97a.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f62c",
+      "name": "Grimacing",
+      "image": "1f62c.webp",
+      "gif": "1f62c.gif",
+      "animation": "1f62c.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f611",
+      "name": "Expressionless",
+      "image": "1f611.webp",
+      "gif": "1f611.gif",
+      "animation": "1f611.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f610",
+      "name": "Neutral-face",
+      "image": "1f610.webp",
+      "gif": "1f610.gif",
+      "animation": "1f610.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f636",
+      "name": "Mouth-none",
+      "image": "1f636.webp",
+      "gif": "1f636.gif",
+      "animation": "1f636.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f636_200d_1f32b_fe0f",
+      "name": "Face-in-clouds",
+      "image": "1f636_200d_1f32b_fe0f.webp",
+      "gif": "1f636_200d_1f32b_fe0f.gif",
+      "animation": "1f636_200d_1f32b_fe0f.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1fae5",
+      "name": "Dotted-line-face",
+      "image": "1fae5.webp",
+      "gif": "1fae5.gif",
+      "animation": "1fae5.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f910",
+      "name": "Zipper-face",
+      "image": "1f910.webp",
+      "gif": "1f910.gif",
+      "animation": "1f910.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1fae1",
+      "name": "Salute",
+      "image": "1fae1.webp",
+      "gif": "1fae1.gif",
+      "animation": "1fae1.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f914",
+      "name": "Thinking-face",
+      "image": "1f914.webp",
+      "gif": "1f914.gif",
+      "animation": "1f914.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f92b",
+      "name": "Shushing-face",
+      "image": "1f92b.webp",
+      "gif": "1f92b.gif",
+      "animation": "1f92b.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1fae2",
+      "name": "Hand-over-mouth",
+      "image": "1fae2.webp",
+      "gif": "1fae2.gif",
+      "animation": "1fae2.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f92d",
+      "name": "Smiling-eyes-with-hand-over-mouth",
+      "image": "1f92d.webp",
+      "gif": "1f92d.gif",
+      "animation": "1f92d.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f971",
+      "name": "Yawn",
+      "image": "1f971.webp",
+      "gif": "1f971.gif",
+      "animation": "1f971.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f917",
+      "name": "Hug-face",
+      "image": "1f917.webp",
+      "gif": "1f917.gif",
+      "animation": "1f917.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1fae3",
+      "name": "Peeking",
+      "image": "1fae3.webp",
+      "gif": "1fae3.gif",
+      "animation": "1fae3.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f631",
+      "name": "Screaming",
+      "image": "1f631.webp",
+      "gif": "1f631.gif",
+      "animation": "1f631.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f928",
+      "name": "Raised-eyebrow",
+      "image": "1f928.webp",
+      "gif": "1f928.gif",
+      "animation": "1f928.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f9d0",
+      "name": "Monocle",
+      "image": "1f9d0.webp",
+      "gif": "1f9d0.gif",
+      "animation": "1f9d0.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f612",
+      "name": "Unamused",
+      "image": "1f612.webp",
+      "gif": "1f612.gif",
+      "animation": "1f612.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f644",
+      "name": "Rolling-eyes",
+      "image": "1f644.webp",
+      "gif": "1f644.gif",
+      "animation": "1f644.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f62e_200d_1f4a8",
+      "name": "Exhale",
+      "image": "1f62e_200d_1f4a8.webp",
+      "gif": "1f62e_200d_1f4a8.gif",
+      "animation": "1f62e_200d_1f4a8.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f624",
+      "name": "Triumph",
+      "image": "1f624.webp",
+      "gif": "1f624.gif",
+      "animation": "1f624.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f620",
+      "name": "Angry",
+      "image": "1f620.webp",
+      "gif": "1f620.gif",
+      "animation": "1f620.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f621",
+      "name": "Rage",
+      "image": "1f621.webp",
+      "gif": "1f621.gif",
+      "animation": "1f621.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f92c",
+      "name": "Cursing",
+      "image": "1f92c.webp",
+      "gif": "1f92c.gif",
+      "animation": "1f92c.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f61e",
+      "name": "Sad",
+      "image": "1f61e.webp",
+      "gif": "1f61e.gif",
+      "animation": "1f61e.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f613",
+      "name": "Sweat",
+      "image": "1f613.webp",
+      "gif": "1f613.gif",
+      "animation": "1f613.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f61f",
+      "name": "Worried",
+      "image": "1f61f.webp",
+      "gif": "1f61f.gif",
+      "animation": "1f61f.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f625",
+      "name": "Concerned",
+      "image": "1f625.webp",
+      "gif": "1f625.gif",
+      "animation": "1f625.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f622",
+      "name": "Cry",
+      "image": "1f622.webp",
+      "gif": "1f622.gif",
+      "animation": "1f622.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "2639_fe0f",
+      "name": "Big-frown",
+      "image": "2639_fe0f.webp",
+      "gif": "2639_fe0f.gif",
+      "animation": "2639_fe0f.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f641",
+      "name": "Frown",
+      "image": "1f641.webp",
+      "gif": "1f641.gif",
+      "animation": "1f641.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1fae4",
+      "name": "Diagonal-mouth",
+      "image": "1fae4.webp",
+      "gif": "1fae4.gif",
+      "animation": "1fae4.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f615",
+      "name": "Slightly-frowning",
+      "image": "1f615.webp",
+      "gif": "1f615.gif",
+      "animation": "1f615.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f630",
+      "name": "Anxious-with-sweat",
+      "image": "1f630.webp",
+      "gif": "1f630.gif",
+      "animation": "1f630.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f628",
+      "name": "Scared",
+      "image": "1f628.webp",
+      "gif": "1f628.gif",
+      "animation": "1f628.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f627",
+      "name": "Anguished",
+      "image": "1f627.webp",
+      "gif": "1f627.gif",
+      "animation": "1f627.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f626",
+      "name": "Gasp",
+      "image": "1f626.webp",
+      "gif": "1f626.gif",
+      "animation": "1f626.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f62e",
+      "name": "Mouth-open",
+      "image": "1f62e.webp",
+      "gif": "1f62e.gif",
+      "animation": "1f62e.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f62f",
+      "name": "Surprised",
+      "image": "1f62f.webp",
+      "gif": "1f62f.gif",
+      "animation": "1f62f.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f632",
+      "name": "Astonished",
+      "image": "1f632.webp",
+      "gif": "1f632.gif",
+      "animation": "1f632.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f633",
+      "name": "Flushed",
+      "image": "1f633.webp",
+      "gif": "1f633.gif",
+      "animation": "1f633.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f92f",
+      "name": "Mind-blown",
+      "image": "1f92f.webp",
+      "gif": "1f92f.gif",
+      "animation": "1f92f.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f616",
+      "name": "Scrunched-mouth",
+      "image": "1f616.webp",
+      "gif": "1f616.gif",
+      "animation": "1f616.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f623",
+      "name": "Scrunched-eyes",
+      "image": "1f623.webp",
+      "gif": "1f623.gif",
+      "animation": "1f623.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f629",
+      "name": "Weary",
+      "image": "1f629.webp",
+      "gif": "1f629.gif",
+      "animation": "1f629.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f62b",
+      "name": "Distraught",
+      "image": "1f62b.webp",
+      "gif": "1f62b.gif",
+      "animation": "1f62b.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f635",
+      "name": "X-eyes",
+      "image": "1f635.webp",
+      "gif": "1f635.gif",
+      "animation": "1f635.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f635_200d_1f4ab",
+      "name": "Dizzy-face",
+      "image": "1f635_200d_1f4ab.webp",
+      "gif": "1f635_200d_1f4ab.gif",
+      "animation": "1f635_200d_1f4ab.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1fae8",
+      "name": "Shaking-face",
+      "image": "1fae8.webp",
+      "gif": "1fae8.gif",
+      "animation": "1fae8.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f976",
+      "name": "Cold-face",
+      "image": "1f976.webp",
+      "gif": "1f976.gif",
+      "animation": "1f976.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f975",
+      "name": "Hot-face",
+      "image": "1f975.webp",
+      "gif": "1f975.gif",
+      "animation": "1f975.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f922",
+      "name": "Sick",
+      "image": "1f922.webp",
+      "gif": "1f922.gif",
+      "animation": "1f922.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f92e",
+      "name": "Vomit",
+      "image": "1f92e.webp",
+      "gif": "1f92e.gif",
+      "animation": "1f92e.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1fae9",
+      "name": "Tired",
+      "image": "1fae9.webp",
+      "gif": "1fae9.gif",
+      "animation": "1fae9.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f634",
+      "name": "Sleep",
+      "image": "1f634.webp",
+      "gif": "1f634.gif",
+      "animation": "1f634.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f62a",
+      "name": "Sleepy",
+      "image": "1f62a.webp",
+      "gif": "1f62a.gif",
+      "animation": "1f62a.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f927",
+      "name": "Sneeze",
+      "image": "1f927.webp",
+      "gif": "1f927.gif",
+      "animation": "1f927.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f912",
+      "name": "Thermometer-face",
+      "image": "1f912.webp",
+      "gif": "1f912.gif",
+      "animation": "1f912.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f915",
+      "name": "Bandage-face",
+      "image": "1f915.webp",
+      "gif": "1f915.gif",
+      "animation": "1f915.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f637",
+      "name": "Mask",
+      "image": "1f637.webp",
+      "gif": "1f637.gif",
+      "animation": "1f637.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f925",
+      "name": "Liar",
+      "image": "1f925.webp",
+      "gif": "1f925.gif",
+      "animation": "1f925.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f607",
+      "name": "Halo",
+      "image": "1f607.webp",
+      "gif": "1f607.gif",
+      "animation": "1f607.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f920",
+      "name": "Cowboy",
+      "image": "1f920.webp",
+      "gif": "1f920.gif",
+      "animation": "1f920.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f911",
+      "name": "Money-face",
+      "image": "1f911.webp",
+      "gif": "1f911.gif",
+      "animation": "1f911.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f913",
+      "name": "Nerd-face",
+      "image": "1f913.webp",
+      "gif": "1f913.gif",
+      "animation": "1f913.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f60e",
+      "name": "Sunglasses-face",
+      "image": "1f60e.webp",
+      "gif": "1f60e.gif",
+      "animation": "1f60e.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f978",
+      "name": "Disguise",
+      "image": "1f978.webp",
+      "gif": "1f978.gif",
+      "animation": "1f978.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f921",
+      "name": "Clown",
+      "image": "1f921.webp",
+      "gif": "1f921.gif",
+      "animation": "1f921.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f4a9",
+      "name": "Poop",
+      "image": "1f4a9.webp",
+      "gif": "1f4a9.gif",
+      "animation": "1f4a9.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f608",
+      "name": "Imp-smile",
+      "image": "1f608.webp",
+      "gif": "1f608.gif",
+      "animation": "1f608.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f47f",
+      "name": "Imp-frown",
+      "image": "1f47f.webp",
+      "gif": "1f47f.gif",
+      "animation": "1f47f.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f47b",
+      "name": "Ghost",
+      "image": "1f47b.webp",
+      "gif": "1f47b.gif",
+      "animation": "1f47b.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f480",
+      "name": "Skull",
+      "image": "1f480.webp",
+      "gif": "1f480.gif",
+      "animation": "1f480.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "2603_fe0f",
+      "name": "Snowman-with-snow",
+      "image": "2603_fe0f.webp",
+      "gif": "2603_fe0f.gif",
+      "animation": "2603_fe0f.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "26c4",
+      "name": "Snowman",
+      "image": "26c4.webp",
+      "gif": "26c4.gif",
+      "animation": "26c4.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f383",
+      "name": "Jack-o-lantern",
+      "image": "1f383.webp",
+      "gif": "1f383.gif",
+      "animation": "1f383.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f916",
+      "name": "Robot",
+      "image": "1f916.webp",
+      "gif": "1f916.gif",
+      "animation": "1f916.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f47d",
+      "name": "Alien",
+      "image": "1f47d.webp",
+      "gif": "1f47d.gif",
+      "animation": "1f47d.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f47e",
+      "name": "Alien-monster",
+      "image": "1f47e.webp",
+      "gif": "1f47e.gif",
+      "animation": "1f47e.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f31e",
+      "name": "Sun-with-face",
+      "image": "1f31e.webp",
+      "gif": "1f31e.gif",
+      "animation": "1f31e.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f31b",
+      "name": "Moon-face-first-quarter",
+      "image": "1f31b.webp",
+      "gif": "1f31b.gif",
+      "animation": "1f31b.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f31c",
+      "name": "Moon-face-last-quarter",
+      "image": "1f31c.webp",
+      "gif": "1f31c.gif",
+      "animation": "1f31c.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f63a",
+      "name": "Smiley-cat",
+      "image": "1f63a.webp",
+      "gif": "1f63a.gif",
+      "animation": "1f63a.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f638",
+      "name": "Smile-cat",
+      "image": "1f638.webp",
+      "gif": "1f638.gif",
+      "animation": "1f638.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f639",
+      "name": "Joy-cat",
+      "image": "1f639.webp",
+      "gif": "1f639.gif",
+      "animation": "1f639.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f63b",
+      "name": "Heart-eyes-cat",
+      "image": "1f63b.webp",
+      "gif": "1f63b.gif",
+      "animation": "1f63b.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f63c",
+      "name": "Smirk-cat",
+      "image": "1f63c.webp",
+      "gif": "1f63c.gif",
+      "animation": "1f63c.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f63d",
+      "name": "Kissing-cat",
+      "image": "1f63d.webp",
+      "gif": "1f63d.gif",
+      "animation": "1f63d.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f640",
+      "name": "Scream-cat",
+      "image": "1f640.webp",
+      "gif": "1f640.gif",
+      "animation": "1f640.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f63f",
+      "name": "Crying-cat-face",
+      "image": "1f63f.webp",
+      "gif": "1f63f.gif",
+      "animation": "1f63f.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f63e",
+      "name": "Pouting-cat",
+      "image": "1f63e.webp",
+      "gif": "1f63e.gif",
+      "animation": "1f63e.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f648",
+      "name": "See-no-evil-monkey",
+      "image": "1f648.webp",
+      "gif": "1f648.gif",
+      "animation": "1f648.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f649",
+      "name": "Hear-no-evil-monkey",
+      "image": "1f649.webp",
+      "gif": "1f649.gif",
+      "animation": "1f649.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f64a",
+      "name": "Speak-no-evil-monkey",
+      "image": "1f64a.webp",
+      "gif": "1f64a.gif",
+      "animation": "1f64a.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f31f",
+      "name": "Glowing-star",
+      "image": "1f31f.webp",
+      "gif": "1f31f.gif",
+      "animation": "1f31f.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "2728",
+      "name": "Sparkles",
+      "image": "2728.webp",
+      "gif": "2728.gif",
+      "animation": "2728.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "26a1",
+      "name": "Electricity",
+      "image": "26a1.webp",
+      "gif": "26a1.gif",
+      "animation": "26a1.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f4a5",
+      "name": "Collision",
+      "image": "1f4a5.webp",
+      "gif": "1f4a5.gif",
+      "animation": "1f4a5.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f525",
+      "name": "Fire",
+      "image": "1f525.webp",
+      "gif": "1f525.gif",
+      "animation": "1f525.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f4af",
+      "name": "100",
+      "image": "1f4af.webp",
+      "gif": "1f4af.gif",
+      "animation": "1f4af.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f389",
+      "name": "Party-popper",
+      "image": "1f389.webp",
+      "gif": "1f389.gif",
+      "animation": "1f389.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f38a",
+      "name": "Confetti-ball",
+      "image": "1f38a.webp",
+      "gif": "1f38a.gif",
+      "animation": "1f38a.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "2764_fe0f",
+      "name": "Red-heart",
+      "image": "2764_fe0f.webp",
+      "gif": "2764_fe0f.gif",
+      "animation": "2764_fe0f.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f9e1",
+      "name": "Orange-heart",
+      "image": "1f9e1.webp",
+      "gif": "1f9e1.gif",
+      "animation": "1f9e1.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f49b",
+      "name": "Yellow-heart",
+      "image": "1f49b.webp",
+      "gif": "1f49b.gif",
+      "animation": "1f49b.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f49a",
+      "name": "Green-heart",
+      "image": "1f49a.webp",
+      "gif": "1f49a.gif",
+      "animation": "1f49a.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1fa75",
+      "name": "Light-blue-heart",
+      "image": "1fa75.webp",
+      "gif": "1fa75.gif",
+      "animation": "1fa75.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f499",
+      "name": "Blue-heart",
+      "image": "1f499.webp",
+      "gif": "1f499.gif",
+      "animation": "1f499.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f49c",
+      "name": "Purple-heart",
+      "image": "1f49c.webp",
+      "gif": "1f49c.gif",
+      "animation": "1f49c.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f90e",
+      "name": "Brown-heart",
+      "image": "1f90e.webp",
+      "gif": "1f90e.gif",
+      "animation": "1f90e.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f5a4",
+      "name": "Black-heart",
+      "image": "1f5a4.webp",
+      "gif": "1f5a4.gif",
+      "animation": "1f5a4.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1fa76",
+      "name": "Grey-heart",
+      "image": "1fa76.webp",
+      "gif": "1fa76.gif",
+      "animation": "1fa76.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f90d",
+      "name": "White-heart",
+      "image": "1f90d.webp",
+      "gif": "1f90d.gif",
+      "animation": "1f90d.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1fa77",
+      "name": "Pink-heart",
+      "image": "1fa77.webp",
+      "gif": "1fa77.gif",
+      "animation": "1fa77.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f498",
+      "name": "Cupid",
+      "image": "1f498.webp",
+      "gif": "1f498.gif",
+      "animation": "1f498.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f49d",
+      "name": "Gift-heart",
+      "image": "1f49d.webp",
+      "gif": "1f49d.gif",
+      "animation": "1f49d.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f496",
+      "name": "Sparkling-heart",
+      "image": "1f496.webp",
+      "gif": "1f496.gif",
+      "animation": "1f496.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f497",
+      "name": "Heart-grow",
+      "image": "1f497.webp",
+      "gif": "1f497.gif",
+      "animation": "1f497.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f493",
+      "name": "Beating-heart",
+      "image": "1f493.webp",
+      "gif": "1f493.gif",
+      "animation": "1f493.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f49e",
+      "name": "Revolving-hearts",
+      "image": "1f49e.webp",
+      "gif": "1f49e.gif",
+      "animation": "1f49e.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f495",
+      "name": "Two-hearts",
+      "image": "1f495.webp",
+      "gif": "1f495.gif",
+      "animation": "1f495.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f48c",
+      "name": "Love-letter",
+      "image": "1f48c.webp",
+      "gif": "1f48c.gif",
+      "animation": "1f48c.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f49f",
+      "name": "Heart-box",
+      "image": "1f49f.webp",
+      "gif": "1f49f.gif",
+      "animation": "1f49f.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "2763_fe0f",
+      "name": "Heart-exclamation-point",
+      "image": "2763_fe0f.webp",
+      "gif": "2763_fe0f.gif",
+      "animation": "2763_fe0f.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "2764_fe0f_200d_1fa79",
+      "name": "Bandaged-heart",
+      "image": "2764_fe0f_200d_1fa79.webp",
+      "gif": "2764_fe0f_200d_1fa79.gif",
+      "animation": "2764_fe0f_200d_1fa79.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f494",
+      "name": "Broken-heart",
+      "image": "1f494.webp",
+      "gif": "1f494.gif",
+      "animation": "1f494.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "2764_fe0f_200d_1f525",
+      "name": "Fire-heart",
+      "image": "2764_fe0f_200d_1f525.webp",
+      "gif": "2764_fe0f_200d_1f525.gif",
+      "animation": "2764_fe0f_200d_1f525.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f48b",
+      "name": "Kiss",
+      "image": "1f48b.webp",
+      "gif": "1f48b.gif",
+      "animation": "1f48b.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f463",
+      "name": "Footprints",
+      "image": "1f463.webp",
+      "gif": "1f463.gif",
+      "animation": "1f463.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1fac6",
+      "name": "Fingerprint",
+      "image": "1fac6.webp",
+      "gif": "1fac6.gif",
+      "animation": "1fac6.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1fac0",
+      "name": "Anatomical-heart",
+      "image": "1fac0.webp",
+      "gif": "1fac0.gif",
+      "animation": "1fac0.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1fa78",
+      "name": "Blood",
+      "image": "1fa78.webp",
+      "gif": "1fa78.gif",
+      "animation": "1fa78.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f9a0",
+      "name": "Microbe",
+      "image": "1f9a0.webp",
+      "gif": "1f9a0.gif",
+      "animation": "1f9a0.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f440",
+      "name": "Eyes",
+      "image": "1f440.webp",
+      "gif": "1f440.gif",
+      "animation": "1f440.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f441_fe0f",
+      "name": "Eye",
+      "image": "1f441_fe0f.webp",
+      "gif": "1f441_fe0f.gif",
+      "animation": "1f441_fe0f.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1fae6",
+      "name": "Biting-lip",
+      "image": "1fae6.webp",
+      "gif": "1fae6.gif",
+      "animation": "1fae6.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f443",
+      "name": "Nose",
+      "image": "1f443.webp",
+      "gif": "1f443.gif",
+      "animation": "1f443.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f443_1f3fb",
+      "name": "Nose",
+      "image": "1f443_1f3fb.webp",
+      "gif": "1f443_1f3fb.gif",
+      "animation": "1f443_1f3fb.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f443_1f3fc",
+      "name": "Nose",
+      "image": "1f443_1f3fc.webp",
+      "gif": "1f443_1f3fc.gif",
+      "animation": "1f443_1f3fc.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f443_1f3fd",
+      "name": "Nose",
+      "image": "1f443_1f3fd.webp",
+      "gif": "1f443_1f3fd.gif",
+      "animation": "1f443_1f3fd.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f443_1f3fe",
+      "name": "Nose",
+      "image": "1f443_1f3fe.webp",
+      "gif": "1f443_1f3fe.gif",
+      "animation": "1f443_1f3fe.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f443_1f3ff",
+      "name": "Nose",
+      "image": "1f443_1f3ff.webp",
+      "gif": "1f443_1f3ff.gif",
+      "animation": "1f443_1f3ff.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f442",
+      "name": "Ear",
+      "image": "1f442.webp",
+      "gif": "1f442.gif",
+      "animation": "1f442.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f442_1f3fb",
+      "name": "Ear",
+      "image": "1f442_1f3fb.webp",
+      "gif": "1f442_1f3fb.gif",
+      "animation": "1f442_1f3fb.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f442_1f3fc",
+      "name": "Ear",
+      "image": "1f442_1f3fc.webp",
+      "gif": "1f442_1f3fc.gif",
+      "animation": "1f442_1f3fc.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f442_1f3fd",
+      "name": "Ear",
+      "image": "1f442_1f3fd.webp",
+      "gif": "1f442_1f3fd.gif",
+      "animation": "1f442_1f3fd.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f442_1f3fe",
+      "name": "Ear",
+      "image": "1f442_1f3fe.webp",
+      "gif": "1f442_1f3fe.gif",
+      "animation": "1f442_1f3fe.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f442_1f3ff",
+      "name": "Ear",
+      "image": "1f442_1f3ff.webp",
+      "gif": "1f442_1f3ff.gif",
+      "animation": "1f442_1f3ff.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f9bb",
+      "name": "Hearing-aid",
+      "image": "1f9bb.webp",
+      "gif": "1f9bb.gif",
+      "animation": "1f9bb.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f9bb_1f3fb",
+      "name": "Hearing-aid",
+      "image": "1f9bb_1f3fb.webp",
+      "gif": "1f9bb_1f3fb.gif",
+      "animation": "1f9bb_1f3fb.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f9bb_1f3fc",
+      "name": "Hearing-aid",
+      "image": "1f9bb_1f3fc.webp",
+      "gif": "1f9bb_1f3fc.gif",
+      "animation": "1f9bb_1f3fc.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f9bb_1f3fd",
+      "name": "Hearing-aid",
+      "image": "1f9bb_1f3fd.webp",
+      "gif": "1f9bb_1f3fd.gif",
+      "animation": "1f9bb_1f3fd.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f9bb_1f3fe",
+      "name": "Hearing-aid",
+      "image": "1f9bb_1f3fe.webp",
+      "gif": "1f9bb_1f3fe.gif",
+      "animation": "1f9bb_1f3fe.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f9bb_1f3ff",
+      "name": "Hearing-aid",
+      "image": "1f9bb_1f3ff.webp",
+      "gif": "1f9bb_1f3ff.gif",
+      "animation": "1f9bb_1f3ff.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f9b6",
+      "name": "Foot",
+      "image": "1f9b6.webp",
+      "gif": "1f9b6.gif",
+      "animation": "1f9b6.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f9b6_1f3fb",
+      "name": "Foot",
+      "image": "1f9b6_1f3fb.webp",
+      "gif": "1f9b6_1f3fb.gif",
+      "animation": "1f9b6_1f3fb.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f9b6_1f3fc",
+      "name": "Foot",
+      "image": "1f9b6_1f3fc.webp",
+      "gif": "1f9b6_1f3fc.gif",
+      "animation": "1f9b6_1f3fc.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f9b6_1f3fd",
+      "name": "Foot",
+      "image": "1f9b6_1f3fd.webp",
+      "gif": "1f9b6_1f3fd.gif",
+      "animation": "1f9b6_1f3fd.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f9b6_1f3fe",
+      "name": "Foot",
+      "image": "1f9b6_1f3fe.webp",
+      "gif": "1f9b6_1f3fe.gif",
+      "animation": "1f9b6_1f3fe.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f9b6_1f3ff",
+      "name": "Foot",
+      "image": "1f9b6_1f3ff.webp",
+      "gif": "1f9b6_1f3ff.gif",
+      "animation": "1f9b6_1f3ff.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f9b5",
+      "name": "Leg",
+      "image": "1f9b5.webp",
+      "gif": "1f9b5.gif",
+      "animation": "1f9b5.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f9b5_1f3fb",
+      "name": "Leg",
+      "image": "1f9b5_1f3fb.webp",
+      "gif": "1f9b5_1f3fb.gif",
+      "animation": "1f9b5_1f3fb.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f9b5_1f3fc",
+      "name": "Leg",
+      "image": "1f9b5_1f3fc.webp",
+      "gif": "1f9b5_1f3fc.gif",
+      "animation": "1f9b5_1f3fc.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f9b5_1f3fd",
+      "name": "Leg",
+      "image": "1f9b5_1f3fd.webp",
+      "gif": "1f9b5_1f3fd.gif",
+      "animation": "1f9b5_1f3fd.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f9b5_1f3fe",
+      "name": "Leg",
+      "image": "1f9b5_1f3fe.webp",
+      "gif": "1f9b5_1f3fe.gif",
+      "animation": "1f9b5_1f3fe.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f9b5_1f3ff",
+      "name": "Leg",
+      "image": "1f9b5_1f3ff.webp",
+      "gif": "1f9b5_1f3ff.gif",
+      "animation": "1f9b5_1f3ff.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f9bf",
+      "name": "Leg-mechanical",
+      "image": "1f9bf.webp",
+      "gif": "1f9bf.gif",
+      "animation": "1f9bf.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f9be",
+      "name": "Arm-mechanical",
+      "image": "1f9be.webp",
+      "gif": "1f9be.gif",
+      "animation": "1f9be.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f4aa",
+      "name": "Muscle",
+      "image": "1f4aa.webp",
+      "gif": "1f4aa.gif",
+      "animation": "1f4aa.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f4aa_1f3fb",
+      "name": "Muscle",
+      "image": "1f4aa_1f3fb.webp",
+      "gif": "1f4aa_1f3fb.gif",
+      "animation": "1f4aa_1f3fb.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f4aa_1f3fc",
+      "name": "Muscle",
+      "image": "1f4aa_1f3fc.webp",
+      "gif": "1f4aa_1f3fc.gif",
+      "animation": "1f4aa_1f3fc.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f4aa_1f3fd",
+      "name": "Muscle",
+      "image": "1f4aa_1f3fd.webp",
+      "gif": "1f4aa_1f3fd.gif",
+      "animation": "1f4aa_1f3fd.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f4aa_1f3fe",
+      "name": "Muscle",
+      "image": "1f4aa_1f3fe.webp",
+      "gif": "1f4aa_1f3fe.gif",
+      "animation": "1f4aa_1f3fe.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f4aa_1f3ff",
+      "name": "Muscle",
+      "image": "1f4aa_1f3ff.webp",
+      "gif": "1f4aa_1f3ff.gif",
+      "animation": "1f4aa_1f3ff.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f44f",
+      "name": "Clap",
+      "image": "1f44f.webp",
+      "gif": "1f44f.gif",
+      "animation": "1f44f.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f44f_1f3fb",
+      "name": "Clap",
+      "image": "1f44f_1f3fb.webp",
+      "gif": "1f44f_1f3fb.gif",
+      "animation": "1f44f_1f3fb.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f44f_1f3fc",
+      "name": "Clap",
+      "image": "1f44f_1f3fc.webp",
+      "gif": "1f44f_1f3fc.gif",
+      "animation": "1f44f_1f3fc.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f44f_1f3fd",
+      "name": "Clap",
+      "image": "1f44f_1f3fd.webp",
+      "gif": "1f44f_1f3fd.gif",
+      "animation": "1f44f_1f3fd.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f44f_1f3fe",
+      "name": "Clap",
+      "image": "1f44f_1f3fe.webp",
+      "gif": "1f44f_1f3fe.gif",
+      "animation": "1f44f_1f3fe.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f44f_1f3ff",
+      "name": "Clap",
+      "image": "1f44f_1f3ff.webp",
+      "gif": "1f44f_1f3ff.gif",
+      "animation": "1f44f_1f3ff.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f44d",
+      "name": "Thumbs-up",
+      "image": "1f44d.webp",
+      "gif": "1f44d.gif",
+      "animation": "1f44d.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f44d_1f3fb",
+      "name": "Thumbs-up",
+      "image": "1f44d_1f3fb.webp",
+      "gif": "1f44d_1f3fb.gif",
+      "animation": "1f44d_1f3fb.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f44d_1f3fc",
+      "name": "Thumbs-up",
+      "image": "1f44d_1f3fc.webp",
+      "gif": "1f44d_1f3fc.gif",
+      "animation": "1f44d_1f3fc.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f44d_1f3fd",
+      "name": "Thumbs-up",
+      "image": "1f44d_1f3fd.webp",
+      "gif": "1f44d_1f3fd.gif",
+      "animation": "1f44d_1f3fd.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f44d_1f3fe",
+      "name": "Thumbs-up",
+      "image": "1f44d_1f3fe.webp",
+      "gif": "1f44d_1f3fe.gif",
+      "animation": "1f44d_1f3fe.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f44d_1f3ff",
+      "name": "Thumbs-up",
+      "image": "1f44d_1f3ff.webp",
+      "gif": "1f44d_1f3ff.gif",
+      "animation": "1f44d_1f3ff.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f44e",
+      "name": "Thumbs-down",
+      "image": "1f44e.webp",
+      "gif": "1f44e.gif",
+      "animation": "1f44e.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f44e_1f3fb",
+      "name": "Thumbs-down",
+      "image": "1f44e_1f3fb.webp",
+      "gif": "1f44e_1f3fb.gif",
+      "animation": "1f44e_1f3fb.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f44e_1f3fc",
+      "name": "Thumbs-down",
+      "image": "1f44e_1f3fc.webp",
+      "gif": "1f44e_1f3fc.gif",
+      "animation": "1f44e_1f3fc.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f44e_1f3fd",
+      "name": "Thumbs-down",
+      "image": "1f44e_1f3fd.webp",
+      "gif": "1f44e_1f3fd.gif",
+      "animation": "1f44e_1f3fd.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f44e_1f3fe",
+      "name": "Thumbs-down",
+      "image": "1f44e_1f3fe.webp",
+      "gif": "1f44e_1f3fe.gif",
+      "animation": "1f44e_1f3fe.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f44e_1f3ff",
+      "name": "Thumbs-down",
+      "image": "1f44e_1f3ff.webp",
+      "gif": "1f44e_1f3ff.gif",
+      "animation": "1f44e_1f3ff.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf6",
+      "name": "Heart-hands",
+      "image": "1faf6.webp",
+      "gif": "1faf6.gif",
+      "animation": "1faf6.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf6_1f3fb",
+      "name": "Heart-hands",
+      "image": "1faf6_1f3fb.webp",
+      "gif": "1faf6_1f3fb.gif",
+      "animation": "1faf6_1f3fb.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf6_1f3fc",
+      "name": "Heart-hands",
+      "image": "1faf6_1f3fc.webp",
+      "gif": "1faf6_1f3fc.gif",
+      "animation": "1faf6_1f3fc.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf6_1f3fd",
+      "name": "Heart-hands",
+      "image": "1faf6_1f3fd.webp",
+      "gif": "1faf6_1f3fd.gif",
+      "animation": "1faf6_1f3fd.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf6_1f3fe",
+      "name": "Heart-hands",
+      "image": "1faf6_1f3fe.webp",
+      "gif": "1faf6_1f3fe.gif",
+      "animation": "1faf6_1f3fe.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf6_1f3ff",
+      "name": "Heart-hands",
+      "image": "1faf6_1f3ff.webp",
+      "gif": "1faf6_1f3ff.gif",
+      "animation": "1faf6_1f3ff.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f64c",
+      "name": "Raising-hands",
+      "image": "1f64c.webp",
+      "gif": "1f64c.gif",
+      "animation": "1f64c.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f64c_1f3fb",
+      "name": "Raising-hands",
+      "image": "1f64c_1f3fb.webp",
+      "gif": "1f64c_1f3fb.gif",
+      "animation": "1f64c_1f3fb.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f64c_1f3fc",
+      "name": "Raising-hands",
+      "image": "1f64c_1f3fc.webp",
+      "gif": "1f64c_1f3fc.gif",
+      "animation": "1f64c_1f3fc.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f64c_1f3fd",
+      "name": "Raising-hands",
+      "image": "1f64c_1f3fd.webp",
+      "gif": "1f64c_1f3fd.gif",
+      "animation": "1f64c_1f3fd.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f64c_1f3fe",
+      "name": "Raising-hands",
+      "image": "1f64c_1f3fe.webp",
+      "gif": "1f64c_1f3fe.gif",
+      "animation": "1f64c_1f3fe.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f64c_1f3ff",
+      "name": "Raising-hands",
+      "image": "1f64c_1f3ff.webp",
+      "gif": "1f64c_1f3ff.gif",
+      "animation": "1f64c_1f3ff.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f450",
+      "name": "Open-hands",
+      "image": "1f450.webp",
+      "gif": "1f450.gif",
+      "animation": "1f450.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f450_1f3fb",
+      "name": "Open-hands",
+      "image": "1f450_1f3fb.webp",
+      "gif": "1f450_1f3fb.gif",
+      "animation": "1f450_1f3fb.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f450_1f3fc",
+      "name": "Open-hands",
+      "image": "1f450_1f3fc.webp",
+      "gif": "1f450_1f3fc.gif",
+      "animation": "1f450_1f3fc.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f450_1f3fd",
+      "name": "Open-hands",
+      "image": "1f450_1f3fd.webp",
+      "gif": "1f450_1f3fd.gif",
+      "animation": "1f450_1f3fd.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f450_1f3fe",
+      "name": "Open-hands",
+      "image": "1f450_1f3fe.webp",
+      "gif": "1f450_1f3fe.gif",
+      "animation": "1f450_1f3fe.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f450_1f3ff",
+      "name": "Open-hands",
+      "image": "1f450_1f3ff.webp",
+      "gif": "1f450_1f3ff.gif",
+      "animation": "1f450_1f3ff.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f932",
+      "name": "Palms-up",
+      "image": "1f932.webp",
+      "gif": "1f932.gif",
+      "animation": "1f932.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f932_1f3fb",
+      "name": "Palms-up",
+      "image": "1f932_1f3fb.webp",
+      "gif": "1f932_1f3fb.gif",
+      "animation": "1f932_1f3fb.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f932_1f3fc",
+      "name": "Palms-up",
+      "image": "1f932_1f3fc.webp",
+      "gif": "1f932_1f3fc.gif",
+      "animation": "1f932_1f3fc.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f932_1f3fd",
+      "name": "Palms-up",
+      "image": "1f932_1f3fd.webp",
+      "gif": "1f932_1f3fd.gif",
+      "animation": "1f932_1f3fd.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f932_1f3fe",
+      "name": "Palms-up",
+      "image": "1f932_1f3fe.webp",
+      "gif": "1f932_1f3fe.gif",
+      "animation": "1f932_1f3fe.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f932_1f3ff",
+      "name": "Palms-up",
+      "image": "1f932_1f3ff.webp",
+      "gif": "1f932_1f3ff.gif",
+      "animation": "1f932_1f3ff.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f91c",
+      "name": "Fist-rightwards",
+      "image": "1f91c.webp",
+      "gif": "1f91c.gif",
+      "animation": "1f91c.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f91c_1f3fb",
+      "name": "Fist-rightwards",
+      "image": "1f91c_1f3fb.webp",
+      "gif": "1f91c_1f3fb.gif",
+      "animation": "1f91c_1f3fb.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f91c_1f3fc",
+      "name": "Fist-rightwards",
+      "image": "1f91c_1f3fc.webp",
+      "gif": "1f91c_1f3fc.gif",
+      "animation": "1f91c_1f3fc.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f91c_1f3fd",
+      "name": "Fist-rightwards",
+      "image": "1f91c_1f3fd.webp",
+      "gif": "1f91c_1f3fd.gif",
+      "animation": "1f91c_1f3fd.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f91c_1f3fe",
+      "name": "Fist-rightwards",
+      "image": "1f91c_1f3fe.webp",
+      "gif": "1f91c_1f3fe.gif",
+      "animation": "1f91c_1f3fe.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f91c_1f3ff",
+      "name": "Fist-rightwards",
+      "image": "1f91c_1f3ff.webp",
+      "gif": "1f91c_1f3ff.gif",
+      "animation": "1f91c_1f3ff.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f91b",
+      "name": "Fist-leftwards",
+      "image": "1f91b.webp",
+      "gif": "1f91b.gif",
+      "animation": "1f91b.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f91b_1f3fb",
+      "name": "Fist-leftwards",
+      "image": "1f91b_1f3fb.webp",
+      "gif": "1f91b_1f3fb.gif",
+      "animation": "1f91b_1f3fb.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f91b_1f3fc",
+      "name": "Fist-leftwards",
+      "image": "1f91b_1f3fc.webp",
+      "gif": "1f91b_1f3fc.gif",
+      "animation": "1f91b_1f3fc.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f91b_1f3fd",
+      "name": "Fist-leftwards",
+      "image": "1f91b_1f3fd.webp",
+      "gif": "1f91b_1f3fd.gif",
+      "animation": "1f91b_1f3fd.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f91b_1f3fe",
+      "name": "Fist-leftwards",
+      "image": "1f91b_1f3fe.webp",
+      "gif": "1f91b_1f3fe.gif",
+      "animation": "1f91b_1f3fe.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f91b_1f3ff",
+      "name": "Fist-leftwards",
+      "image": "1f91b_1f3ff.webp",
+      "gif": "1f91b_1f3ff.gif",
+      "animation": "1f91b_1f3ff.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "270a",
+      "name": "Raised-fist",
+      "image": "270a.webp",
+      "gif": "270a.gif",
+      "animation": "270a.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "270a_1f3fb",
+      "name": "Raised-fist",
+      "image": "270a_1f3fb.webp",
+      "gif": "270a_1f3fb.gif",
+      "animation": "270a_1f3fb.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "270a_1f3fc",
+      "name": "Raised-fist",
+      "image": "270a_1f3fc.webp",
+      "gif": "270a_1f3fc.gif",
+      "animation": "270a_1f3fc.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "270a_1f3fd",
+      "name": "Raised-fist",
+      "image": "270a_1f3fd.webp",
+      "gif": "270a_1f3fd.gif",
+      "animation": "270a_1f3fd.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "270a_1f3fe",
+      "name": "Raised-fist",
+      "image": "270a_1f3fe.webp",
+      "gif": "270a_1f3fe.gif",
+      "animation": "270a_1f3fe.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "270a_1f3ff",
+      "name": "Raised-fist",
+      "image": "270a_1f3ff.webp",
+      "gif": "270a_1f3ff.gif",
+      "animation": "270a_1f3ff.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f44a",
+      "name": "Fist",
+      "image": "1f44a.webp",
+      "gif": "1f44a.gif",
+      "animation": "1f44a.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f44a_1f3fb",
+      "name": "Fist",
+      "image": "1f44a_1f3fb.webp",
+      "gif": "1f44a_1f3fb.gif",
+      "animation": "1f44a_1f3fb.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f44a_1f3fc",
+      "name": "Fist",
+      "image": "1f44a_1f3fc.webp",
+      "gif": "1f44a_1f3fc.gif",
+      "animation": "1f44a_1f3fc.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f44a_1f3fd",
+      "name": "Fist",
+      "image": "1f44a_1f3fd.webp",
+      "gif": "1f44a_1f3fd.gif",
+      "animation": "1f44a_1f3fd.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f44a_1f3fe",
+      "name": "Fist",
+      "image": "1f44a_1f3fe.webp",
+      "gif": "1f44a_1f3fe.gif",
+      "animation": "1f44a_1f3fe.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f44a_1f3ff",
+      "name": "Fist",
+      "image": "1f44a_1f3ff.webp",
+      "gif": "1f44a_1f3ff.gif",
+      "animation": "1f44a_1f3ff.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf3",
+      "name": "Palm-down",
+      "image": "1faf3.webp",
+      "gif": "1faf3.gif",
+      "animation": "1faf3.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf3_1f3fb",
+      "name": "Palm-down",
+      "image": "1faf3_1f3fb.webp",
+      "gif": "1faf3_1f3fb.gif",
+      "animation": "1faf3_1f3fb.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf3_1f3fc",
+      "name": "Palm-down",
+      "image": "1faf3_1f3fc.webp",
+      "gif": "1faf3_1f3fc.gif",
+      "animation": "1faf3_1f3fc.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf3_1f3fd",
+      "name": "Palm-down",
+      "image": "1faf3_1f3fd.webp",
+      "gif": "1faf3_1f3fd.gif",
+      "animation": "1faf3_1f3fd.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf3_1f3fe",
+      "name": "Palm-down",
+      "image": "1faf3_1f3fe.webp",
+      "gif": "1faf3_1f3fe.gif",
+      "animation": "1faf3_1f3fe.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf3_1f3ff",
+      "name": "Palm-down",
+      "image": "1faf3_1f3ff.webp",
+      "gif": "1faf3_1f3ff.gif",
+      "animation": "1faf3_1f3ff.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf4",
+      "name": "Palm-up",
+      "image": "1faf4.webp",
+      "gif": "1faf4.gif",
+      "animation": "1faf4.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf4_1f3fb",
+      "name": "Palm-up",
+      "image": "1faf4_1f3fb.webp",
+      "gif": "1faf4_1f3fb.gif",
+      "animation": "1faf4_1f3fb.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf4_1f3fc",
+      "name": "Palm-up",
+      "image": "1faf4_1f3fc.webp",
+      "gif": "1faf4_1f3fc.gif",
+      "animation": "1faf4_1f3fc.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf4_1f3fd",
+      "name": "Palm-up",
+      "image": "1faf4_1f3fd.webp",
+      "gif": "1faf4_1f3fd.gif",
+      "animation": "1faf4_1f3fd.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf4_1f3fe",
+      "name": "Palm-up",
+      "image": "1faf4_1f3fe.webp",
+      "gif": "1faf4_1f3fe.gif",
+      "animation": "1faf4_1f3fe.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf4_1f3ff",
+      "name": "Palm-up",
+      "image": "1faf4_1f3ff.webp",
+      "gif": "1faf4_1f3ff.gif",
+      "animation": "1faf4_1f3ff.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf1",
+      "name": "Rightwards-hand",
+      "image": "1faf1.webp",
+      "gif": "1faf1.gif",
+      "animation": "1faf1.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf1_1f3fb",
+      "name": "Rightwards-hand",
+      "image": "1faf1_1f3fb.webp",
+      "gif": "1faf1_1f3fb.gif",
+      "animation": "1faf1_1f3fb.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf1_1f3fc",
+      "name": "Rightwards-hand",
+      "image": "1faf1_1f3fc.webp",
+      "gif": "1faf1_1f3fc.gif",
+      "animation": "1faf1_1f3fc.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf1_1f3fd",
+      "name": "Rightwards-hand",
+      "image": "1faf1_1f3fd.webp",
+      "gif": "1faf1_1f3fd.gif",
+      "animation": "1faf1_1f3fd.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf1_1f3fe",
+      "name": "Rightwards-hand",
+      "image": "1faf1_1f3fe.webp",
+      "gif": "1faf1_1f3fe.gif",
+      "animation": "1faf1_1f3fe.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf1_1f3ff",
+      "name": "Rightwards-hand",
+      "image": "1faf1_1f3ff.webp",
+      "gif": "1faf1_1f3ff.gif",
+      "animation": "1faf1_1f3ff.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf2",
+      "name": "Leftwards-hand",
+      "image": "1faf2.webp",
+      "gif": "1faf2.gif",
+      "animation": "1faf2.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf2_1f3fb",
+      "name": "Leftwards-hand",
+      "image": "1faf2_1f3fb.webp",
+      "gif": "1faf2_1f3fb.gif",
+      "animation": "1faf2_1f3fb.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf2_1f3fc",
+      "name": "Leftwards-hand",
+      "image": "1faf2_1f3fc.webp",
+      "gif": "1faf2_1f3fc.gif",
+      "animation": "1faf2_1f3fc.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf2_1f3fd",
+      "name": "Leftwards-hand",
+      "image": "1faf2_1f3fd.webp",
+      "gif": "1faf2_1f3fd.gif",
+      "animation": "1faf2_1f3fd.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf2_1f3fe",
+      "name": "Leftwards-hand",
+      "image": "1faf2_1f3fe.webp",
+      "gif": "1faf2_1f3fe.gif",
+      "animation": "1faf2_1f3fe.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf2_1f3ff",
+      "name": "Leftwards-hand",
+      "image": "1faf2_1f3ff.webp",
+      "gif": "1faf2_1f3ff.gif",
+      "animation": "1faf2_1f3ff.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf8",
+      "name": "Push-rightwards",
+      "image": "1faf8.webp",
+      "gif": "1faf8.gif",
+      "animation": "1faf8.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf8_1f3fb",
+      "name": "Push-rightwards",
+      "image": "1faf8_1f3fb.webp",
+      "gif": "1faf8_1f3fb.gif",
+      "animation": "1faf8_1f3fb.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf8_1f3fc",
+      "name": "Push-rightwards",
+      "image": "1faf8_1f3fc.webp",
+      "gif": "1faf8_1f3fc.gif",
+      "animation": "1faf8_1f3fc.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf8_1f3fd",
+      "name": "Push-rightwards",
+      "image": "1faf8_1f3fd.webp",
+      "gif": "1faf8_1f3fd.gif",
+      "animation": "1faf8_1f3fd.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf8_1f3fe",
+      "name": "Push-rightwards",
+      "image": "1faf8_1f3fe.webp",
+      "gif": "1faf8_1f3fe.gif",
+      "animation": "1faf8_1f3fe.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf8_1f3ff",
+      "name": "Push-rightwards",
+      "image": "1faf8_1f3ff.webp",
+      "gif": "1faf8_1f3ff.gif",
+      "animation": "1faf8_1f3ff.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf7",
+      "name": "Push-leftwards",
+      "image": "1faf7.webp",
+      "gif": "1faf7.gif",
+      "animation": "1faf7.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf7_1f3fb",
+      "name": "Push-leftwards",
+      "image": "1faf7_1f3fb.webp",
+      "gif": "1faf7_1f3fb.gif",
+      "animation": "1faf7_1f3fb.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf7_1f3fc",
+      "name": "Push-leftwards",
+      "image": "1faf7_1f3fc.webp",
+      "gif": "1faf7_1f3fc.gif",
+      "animation": "1faf7_1f3fc.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf7_1f3fd",
+      "name": "Push-leftwards",
+      "image": "1faf7_1f3fd.webp",
+      "gif": "1faf7_1f3fd.gif",
+      "animation": "1faf7_1f3fd.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf7_1f3fe",
+      "name": "Push-leftwards",
+      "image": "1faf7_1f3fe.webp",
+      "gif": "1faf7_1f3fe.gif",
+      "animation": "1faf7_1f3fe.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf7_1f3ff",
+      "name": "Push-leftwards",
+      "image": "1faf7_1f3ff.webp",
+      "gif": "1faf7_1f3ff.gif",
+      "animation": "1faf7_1f3ff.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f44b",
+      "name": "Wave",
+      "image": "1f44b.webp",
+      "gif": "1f44b.gif",
+      "animation": "1f44b.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f44b_1f3fb",
+      "name": "Wave",
+      "image": "1f44b_1f3fb.webp",
+      "gif": "1f44b_1f3fb.gif",
+      "animation": "1f44b_1f3fb.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f44b_1f3fc",
+      "name": "Wave",
+      "image": "1f44b_1f3fc.webp",
+      "gif": "1f44b_1f3fc.gif",
+      "animation": "1f44b_1f3fc.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f44b_1f3fd",
+      "name": "Wave",
+      "image": "1f44b_1f3fd.webp",
+      "gif": "1f44b_1f3fd.gif",
+      "animation": "1f44b_1f3fd.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f44b_1f3fe",
+      "name": "Wave",
+      "image": "1f44b_1f3fe.webp",
+      "gif": "1f44b_1f3fe.gif",
+      "animation": "1f44b_1f3fe.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f44b_1f3ff",
+      "name": "Wave",
+      "image": "1f44b_1f3ff.webp",
+      "gif": "1f44b_1f3ff.gif",
+      "animation": "1f44b_1f3ff.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f91a",
+      "name": "Back-hand",
+      "image": "1f91a.webp",
+      "gif": "1f91a.gif",
+      "animation": "1f91a.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f91a_1f3fb",
+      "name": "Back-hand",
+      "image": "1f91a_1f3fb.webp",
+      "gif": "1f91a_1f3fb.gif",
+      "animation": "1f91a_1f3fb.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f91a_1f3fc",
+      "name": "Back-hand",
+      "image": "1f91a_1f3fc.webp",
+      "gif": "1f91a_1f3fc.gif",
+      "animation": "1f91a_1f3fc.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f91a_1f3fd",
+      "name": "Back-hand",
+      "image": "1f91a_1f3fd.webp",
+      "gif": "1f91a_1f3fd.gif",
+      "animation": "1f91a_1f3fd.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f91a_1f3fe",
+      "name": "Back-hand",
+      "image": "1f91a_1f3fe.webp",
+      "gif": "1f91a_1f3fe.gif",
+      "animation": "1f91a_1f3fe.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f91a_1f3ff",
+      "name": "Back-hand",
+      "image": "1f91a_1f3ff.webp",
+      "gif": "1f91a_1f3ff.gif",
+      "animation": "1f91a_1f3ff.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f590_fe0f",
+      "name": "Palm",
+      "image": "1f590_fe0f.webp",
+      "gif": "1f590_fe0f.gif",
+      "animation": "1f590_fe0f.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f590_1f3fb",
+      "name": "Palm",
+      "image": "1f590_1f3fb.webp",
+      "gif": "1f590_1f3fb.gif",
+      "animation": "1f590_1f3fb.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f590_1f3fc",
+      "name": "Palm",
+      "image": "1f590_1f3fc.webp",
+      "gif": "1f590_1f3fc.gif",
+      "animation": "1f590_1f3fc.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f590_1f3fd",
+      "name": "Palm",
+      "image": "1f590_1f3fd.webp",
+      "gif": "1f590_1f3fd.gif",
+      "animation": "1f590_1f3fd.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f590_1f3fe",
+      "name": "Palm",
+      "image": "1f590_1f3fe.webp",
+      "gif": "1f590_1f3fe.gif",
+      "animation": "1f590_1f3fe.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f590_1f3ff",
+      "name": "Palm",
+      "image": "1f590_1f3ff.webp",
+      "gif": "1f590_1f3ff.gif",
+      "animation": "1f590_1f3ff.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "270b",
+      "name": "Raised-hand",
+      "image": "270b.webp",
+      "gif": "270b.gif",
+      "animation": "270b.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "270b_1f3fb",
+      "name": "Raised-hand",
+      "image": "270b_1f3fb.webp",
+      "gif": "270b_1f3fb.gif",
+      "animation": "270b_1f3fb.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "270b_1f3fc",
+      "name": "Raised-hand",
+      "image": "270b_1f3fc.webp",
+      "gif": "270b_1f3fc.gif",
+      "animation": "270b_1f3fc.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "270b_1f3fd",
+      "name": "Raised-hand",
+      "image": "270b_1f3fd.webp",
+      "gif": "270b_1f3fd.gif",
+      "animation": "270b_1f3fd.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "270b_1f3fe",
+      "name": "Raised-hand",
+      "image": "270b_1f3fe.webp",
+      "gif": "270b_1f3fe.gif",
+      "animation": "270b_1f3fe.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "270b_1f3ff",
+      "name": "Raised-hand",
+      "image": "270b_1f3ff.webp",
+      "gif": "270b_1f3ff.gif",
+      "animation": "270b_1f3ff.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f596",
+      "name": "Vulcan",
+      "image": "1f596.webp",
+      "gif": "1f596.gif",
+      "animation": "1f596.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f596_1f3fb",
+      "name": "Vulcan",
+      "image": "1f596_1f3fb.webp",
+      "gif": "1f596_1f3fb.gif",
+      "animation": "1f596_1f3fb.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f596_1f3fc",
+      "name": "Vulcan",
+      "image": "1f596_1f3fc.webp",
+      "gif": "1f596_1f3fc.gif",
+      "animation": "1f596_1f3fc.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f596_1f3fd",
+      "name": "Vulcan",
+      "image": "1f596_1f3fd.webp",
+      "gif": "1f596_1f3fd.gif",
+      "animation": "1f596_1f3fd.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f596_1f3fe",
+      "name": "Vulcan",
+      "image": "1f596_1f3fe.webp",
+      "gif": "1f596_1f3fe.gif",
+      "animation": "1f596_1f3fe.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f596_1f3ff",
+      "name": "Vulcan",
+      "image": "1f596_1f3ff.webp",
+      "gif": "1f596_1f3ff.gif",
+      "animation": "1f596_1f3ff.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f918",
+      "name": "Metal",
+      "image": "1f918.webp",
+      "gif": "1f918.gif",
+      "animation": "1f918.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f918_1f3fb",
+      "name": "Metal",
+      "image": "1f918_1f3fb.webp",
+      "gif": "1f918_1f3fb.gif",
+      "animation": "1f918_1f3fb.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f918_1f3fc",
+      "name": "Metal",
+      "image": "1f918_1f3fc.webp",
+      "gif": "1f918_1f3fc.gif",
+      "animation": "1f918_1f3fc.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f918_1f3fd",
+      "name": "Metal",
+      "image": "1f918_1f3fd.webp",
+      "gif": "1f918_1f3fd.gif",
+      "animation": "1f918_1f3fd.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f918_1f3fe",
+      "name": "Metal",
+      "image": "1f918_1f3fe.webp",
+      "gif": "1f918_1f3fe.gif",
+      "animation": "1f918_1f3fe.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f918_1f3ff",
+      "name": "Metal",
+      "image": "1f918_1f3ff.webp",
+      "gif": "1f918_1f3ff.gif",
+      "animation": "1f918_1f3ff.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "270c_fe0f",
+      "name": "Victory",
+      "image": "270c_fe0f.webp",
+      "gif": "270c_fe0f.gif",
+      "animation": "270c_fe0f.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "270c_1f3fb",
+      "name": "Victory",
+      "image": "270c_1f3fb.webp",
+      "gif": "270c_1f3fb.gif",
+      "animation": "270c_1f3fb.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "270c_1f3fc",
+      "name": "Victory",
+      "image": "270c_1f3fc.webp",
+      "gif": "270c_1f3fc.gif",
+      "animation": "270c_1f3fc.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "270c_1f3fd",
+      "name": "Victory",
+      "image": "270c_1f3fd.webp",
+      "gif": "270c_1f3fd.gif",
+      "animation": "270c_1f3fd.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "270c_1f3fe",
+      "name": "Victory",
+      "image": "270c_1f3fe.webp",
+      "gif": "270c_1f3fe.gif",
+      "animation": "270c_1f3fe.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "270c_1f3ff",
+      "name": "Victory",
+      "image": "270c_1f3ff.webp",
+      "gif": "270c_1f3ff.gif",
+      "animation": "270c_1f3ff.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f91e",
+      "name": "Crossed-fingers",
+      "image": "1f91e.webp",
+      "gif": "1f91e.gif",
+      "animation": "1f91e.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f91e_1f3fb",
+      "name": "Crossed-fingers",
+      "image": "1f91e_1f3fb.webp",
+      "gif": "1f91e_1f3fb.gif",
+      "animation": "1f91e_1f3fb.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f91e_1f3fc",
+      "name": "Crossed-fingers",
+      "image": "1f91e_1f3fc.webp",
+      "gif": "1f91e_1f3fc.gif",
+      "animation": "1f91e_1f3fc.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f91e_1f3fd",
+      "name": "Crossed-fingers",
+      "image": "1f91e_1f3fd.webp",
+      "gif": "1f91e_1f3fd.gif",
+      "animation": "1f91e_1f3fd.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f91e_1f3fe",
+      "name": "Crossed-fingers",
+      "image": "1f91e_1f3fe.webp",
+      "gif": "1f91e_1f3fe.gif",
+      "animation": "1f91e_1f3fe.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f91e_1f3ff",
+      "name": "Crossed-fingers",
+      "image": "1f91e_1f3ff.webp",
+      "gif": "1f91e_1f3ff.gif",
+      "animation": "1f91e_1f3ff.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf0",
+      "name": "Hand-with-index-finger-and-thumb-crossed",
+      "image": "1faf0.webp",
+      "gif": "1faf0.gif",
+      "animation": "1faf0.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf0_1f3fb",
+      "name": "Hand-with-index-finger-and-thumb-crossed",
+      "image": "1faf0_1f3fb.webp",
+      "gif": "1faf0_1f3fb.gif",
+      "animation": "1faf0_1f3fb.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf0_1f3fc",
+      "name": "Hand-with-index-finger-and-thumb-crossed",
+      "image": "1faf0_1f3fc.webp",
+      "gif": "1faf0_1f3fc.gif",
+      "animation": "1faf0_1f3fc.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf0_1f3fd",
+      "name": "Hand-with-index-finger-and-thumb-crossed",
+      "image": "1faf0_1f3fd.webp",
+      "gif": "1faf0_1f3fd.gif",
+      "animation": "1faf0_1f3fd.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf0_1f3fe",
+      "name": "Hand-with-index-finger-and-thumb-crossed",
+      "image": "1faf0_1f3fe.webp",
+      "gif": "1faf0_1f3fe.gif",
+      "animation": "1faf0_1f3fe.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf0_1f3ff",
+      "name": "Hand-with-index-finger-and-thumb-crossed",
+      "image": "1faf0_1f3ff.webp",
+      "gif": "1faf0_1f3ff.gif",
+      "animation": "1faf0_1f3ff.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f919",
+      "name": "Call-me-hand",
+      "image": "1f919.webp",
+      "gif": "1f919.gif",
+      "animation": "1f919.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f919_1f3fb",
+      "name": "Call-me-hand",
+      "image": "1f919_1f3fb.webp",
+      "gif": "1f919_1f3fb.gif",
+      "animation": "1f919_1f3fb.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f919_1f3fc",
+      "name": "Call-me-hand",
+      "image": "1f919_1f3fc.webp",
+      "gif": "1f919_1f3fc.gif",
+      "animation": "1f919_1f3fc.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f919_1f3fd",
+      "name": "Call-me-hand",
+      "image": "1f919_1f3fd.webp",
+      "gif": "1f919_1f3fd.gif",
+      "animation": "1f919_1f3fd.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f919_1f3fe",
+      "name": "Call-me-hand",
+      "image": "1f919_1f3fe.webp",
+      "gif": "1f919_1f3fe.gif",
+      "animation": "1f919_1f3fe.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f919_1f3ff",
+      "name": "Call-me-hand",
+      "image": "1f919_1f3ff.webp",
+      "gif": "1f919_1f3ff.gif",
+      "animation": "1f919_1f3ff.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f90c",
+      "name": "Pinched-fingers",
+      "image": "1f90c.webp",
+      "gif": "1f90c.gif",
+      "animation": "1f90c.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f90c_1f3fb",
+      "name": "Pinched-fingers",
+      "image": "1f90c_1f3fb.webp",
+      "gif": "1f90c_1f3fb.gif",
+      "animation": "1f90c_1f3fb.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f90c_1f3fc",
+      "name": "Pinched-fingers",
+      "image": "1f90c_1f3fc.webp",
+      "gif": "1f90c_1f3fc.gif",
+      "animation": "1f90c_1f3fc.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f90c_1f3fd",
+      "name": "Pinched-fingers",
+      "image": "1f90c_1f3fd.webp",
+      "gif": "1f90c_1f3fd.gif",
+      "animation": "1f90c_1f3fd.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f90c_1f3fe",
+      "name": "Pinched-fingers",
+      "image": "1f90c_1f3fe.webp",
+      "gif": "1f90c_1f3fe.gif",
+      "animation": "1f90c_1f3fe.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f90c_1f3ff",
+      "name": "Pinched-fingers",
+      "image": "1f90c_1f3ff.webp",
+      "gif": "1f90c_1f3ff.gif",
+      "animation": "1f90c_1f3ff.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f90f",
+      "name": "Pinch",
+      "image": "1f90f.webp",
+      "gif": "1f90f.gif",
+      "animation": "1f90f.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f90f_1f3fb",
+      "name": "Pinch",
+      "image": "1f90f_1f3fb.webp",
+      "gif": "1f90f_1f3fb.gif",
+      "animation": "1f90f_1f3fb.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f90f_1f3fc",
+      "name": "Pinch",
+      "image": "1f90f_1f3fc.webp",
+      "gif": "1f90f_1f3fc.gif",
+      "animation": "1f90f_1f3fc.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f90f_1f3fd",
+      "name": "Pinch",
+      "image": "1f90f_1f3fd.webp",
+      "gif": "1f90f_1f3fd.gif",
+      "animation": "1f90f_1f3fd.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f90f_1f3fe",
+      "name": "Pinch",
+      "image": "1f90f_1f3fe.webp",
+      "gif": "1f90f_1f3fe.gif",
+      "animation": "1f90f_1f3fe.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f90f_1f3ff",
+      "name": "Pinch",
+      "image": "1f90f_1f3ff.webp",
+      "gif": "1f90f_1f3ff.gif",
+      "animation": "1f90f_1f3ff.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f44c",
+      "name": "Ok",
+      "image": "1f44c.webp",
+      "gif": "1f44c.gif",
+      "animation": "1f44c.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f44c_1f3fb",
+      "name": "Ok",
+      "image": "1f44c_1f3fb.webp",
+      "gif": "1f44c_1f3fb.gif",
+      "animation": "1f44c_1f3fb.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f44c_1f3fc",
+      "name": "Ok",
+      "image": "1f44c_1f3fc.webp",
+      "gif": "1f44c_1f3fc.gif",
+      "animation": "1f44c_1f3fc.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f44c_1f3fd",
+      "name": "Ok",
+      "image": "1f44c_1f3fd.webp",
+      "gif": "1f44c_1f3fd.gif",
+      "animation": "1f44c_1f3fd.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f44c_1f3fe",
+      "name": "Ok",
+      "image": "1f44c_1f3fe.webp",
+      "gif": "1f44c_1f3fe.gif",
+      "animation": "1f44c_1f3fe.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f44c_1f3ff",
+      "name": "Ok",
+      "image": "1f44c_1f3ff.webp",
+      "gif": "1f44c_1f3ff.gif",
+      "animation": "1f44c_1f3ff.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf5",
+      "name": "Pointing",
+      "image": "1faf5.webp",
+      "gif": "1faf5.gif",
+      "animation": "1faf5.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf5_1f3fb",
+      "name": "Pointing",
+      "image": "1faf5_1f3fb.webp",
+      "gif": "1faf5_1f3fb.gif",
+      "animation": "1faf5_1f3fb.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf5_1f3fc",
+      "name": "Pointing",
+      "image": "1faf5_1f3fc.webp",
+      "gif": "1faf5_1f3fc.gif",
+      "animation": "1faf5_1f3fc.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf5_1f3fd",
+      "name": "Pointing",
+      "image": "1faf5_1f3fd.webp",
+      "gif": "1faf5_1f3fd.gif",
+      "animation": "1faf5_1f3fd.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf5_1f3fe",
+      "name": "Pointing",
+      "image": "1faf5_1f3fe.webp",
+      "gif": "1faf5_1f3fe.gif",
+      "animation": "1faf5_1f3fe.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf5_1f3ff",
+      "name": "Pointing",
+      "image": "1faf5_1f3ff.webp",
+      "gif": "1faf5_1f3ff.gif",
+      "animation": "1faf5_1f3ff.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f449",
+      "name": "Point-right",
+      "image": "1f449.webp",
+      "gif": "1f449.gif",
+      "animation": "1f449.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f449_1f3fb",
+      "name": "Point-right",
+      "image": "1f449_1f3fb.webp",
+      "gif": "1f449_1f3fb.gif",
+      "animation": "1f449_1f3fb.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f449_1f3fc",
+      "name": "Point-right",
+      "image": "1f449_1f3fc.webp",
+      "gif": "1f449_1f3fc.gif",
+      "animation": "1f449_1f3fc.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f449_1f3fd",
+      "name": "Point-right",
+      "image": "1f449_1f3fd.webp",
+      "gif": "1f449_1f3fd.gif",
+      "animation": "1f449_1f3fd.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f449_1f3fe",
+      "name": "Point-right",
+      "image": "1f449_1f3fe.webp",
+      "gif": "1f449_1f3fe.gif",
+      "animation": "1f449_1f3fe.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f449_1f3ff",
+      "name": "Point-right",
+      "image": "1f449_1f3ff.webp",
+      "gif": "1f449_1f3ff.gif",
+      "animation": "1f449_1f3ff.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f448",
+      "name": "Point-left",
+      "image": "1f448.webp",
+      "gif": "1f448.gif",
+      "animation": "1f448.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f448_1f3fb",
+      "name": "Point-left",
+      "image": "1f448_1f3fb.webp",
+      "gif": "1f448_1f3fb.gif",
+      "animation": "1f448_1f3fb.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f448_1f3fc",
+      "name": "Point-left",
+      "image": "1f448_1f3fc.webp",
+      "gif": "1f448_1f3fc.gif",
+      "animation": "1f448_1f3fc.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f448_1f3fd",
+      "name": "Point-left",
+      "image": "1f448_1f3fd.webp",
+      "gif": "1f448_1f3fd.gif",
+      "animation": "1f448_1f3fd.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f448_1f3fe",
+      "name": "Point-left",
+      "image": "1f448_1f3fe.webp",
+      "gif": "1f448_1f3fe.gif",
+      "animation": "1f448_1f3fe.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f448_1f3ff",
+      "name": "Point-left",
+      "image": "1f448_1f3ff.webp",
+      "gif": "1f448_1f3ff.gif",
+      "animation": "1f448_1f3ff.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "261d_fe0f",
+      "name": "Index-finger",
+      "image": "261d_fe0f.webp",
+      "gif": "261d_fe0f.gif",
+      "animation": "261d_fe0f.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "261d_1f3fb",
+      "name": "Index-finger",
+      "image": "261d_1f3fb.webp",
+      "gif": "261d_1f3fb.gif",
+      "animation": "261d_1f3fb.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "261d_1f3fc",
+      "name": "Index-finger",
+      "image": "261d_1f3fc.webp",
+      "gif": "261d_1f3fc.gif",
+      "animation": "261d_1f3fc.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "261d_1f3fd",
+      "name": "Index-finger",
+      "image": "261d_1f3fd.webp",
+      "gif": "261d_1f3fd.gif",
+      "animation": "261d_1f3fd.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "261d_1f3fe",
+      "name": "Index-finger",
+      "image": "261d_1f3fe.webp",
+      "gif": "261d_1f3fe.gif",
+      "animation": "261d_1f3fe.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "261d_1f3ff",
+      "name": "Index-finger",
+      "image": "261d_1f3ff.webp",
+      "gif": "261d_1f3ff.gif",
+      "animation": "261d_1f3ff.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f446",
+      "name": "Point-up",
+      "image": "1f446.webp",
+      "gif": "1f446.gif",
+      "animation": "1f446.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f446_1f3fb",
+      "name": "Point-up",
+      "image": "1f446_1f3fb.webp",
+      "gif": "1f446_1f3fb.gif",
+      "animation": "1f446_1f3fb.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f446_1f3fc",
+      "name": "Point-up",
+      "image": "1f446_1f3fc.webp",
+      "gif": "1f446_1f3fc.gif",
+      "animation": "1f446_1f3fc.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f446_1f3fd",
+      "name": "Point-up",
+      "image": "1f446_1f3fd.webp",
+      "gif": "1f446_1f3fd.gif",
+      "animation": "1f446_1f3fd.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f446_1f3fe",
+      "name": "Point-up",
+      "image": "1f446_1f3fe.webp",
+      "gif": "1f446_1f3fe.gif",
+      "animation": "1f446_1f3fe.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f446_1f3ff",
+      "name": "Point-up",
+      "image": "1f446_1f3ff.webp",
+      "gif": "1f446_1f3ff.gif",
+      "animation": "1f446_1f3ff.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f447",
+      "name": "Point-down",
+      "image": "1f447.webp",
+      "gif": "1f447.gif",
+      "animation": "1f447.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f447_1f3fb",
+      "name": "Point-down",
+      "image": "1f447_1f3fb.webp",
+      "gif": "1f447_1f3fb.gif",
+      "animation": "1f447_1f3fb.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f447_1f3fc",
+      "name": "Point-down",
+      "image": "1f447_1f3fc.webp",
+      "gif": "1f447_1f3fc.gif",
+      "animation": "1f447_1f3fc.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f447_1f3fd",
+      "name": "Point-down",
+      "image": "1f447_1f3fd.webp",
+      "gif": "1f447_1f3fd.gif",
+      "animation": "1f447_1f3fd.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f447_1f3fe",
+      "name": "Point-down",
+      "image": "1f447_1f3fe.webp",
+      "gif": "1f447_1f3fe.gif",
+      "animation": "1f447_1f3fe.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f447_1f3ff",
+      "name": "Point-down",
+      "image": "1f447_1f3ff.webp",
+      "gif": "1f447_1f3ff.gif",
+      "animation": "1f447_1f3ff.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f595",
+      "name": "Middle-finger",
+      "image": "1f595.webp",
+      "gif": "1f595.gif",
+      "animation": "1f595.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f595_1f3fb",
+      "name": "Middle-finger",
+      "image": "1f595_1f3fb.webp",
+      "gif": "1f595_1f3fb.gif",
+      "animation": "1f595_1f3fb.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f595_1f3fc",
+      "name": "Middle-finger",
+      "image": "1f595_1f3fc.webp",
+      "gif": "1f595_1f3fc.gif",
+      "animation": "1f595_1f3fc.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f595_1f3fd",
+      "name": "Middle-finger",
+      "image": "1f595_1f3fd.webp",
+      "gif": "1f595_1f3fd.gif",
+      "animation": "1f595_1f3fd.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f595_1f3fe",
+      "name": "Middle-finger",
+      "image": "1f595_1f3fe.webp",
+      "gif": "1f595_1f3fe.gif",
+      "animation": "1f595_1f3fe.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f595_1f3ff",
+      "name": "Middle-finger",
+      "image": "1f595_1f3ff.webp",
+      "gif": "1f595_1f3ff.gif",
+      "animation": "1f595_1f3ff.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "270d_fe0f",
+      "name": "Writing-hand",
+      "image": "270d_fe0f.webp",
+      "gif": "270d_fe0f.gif",
+      "animation": "270d_fe0f.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "270d_1f3fb",
+      "name": "Writing-hand",
+      "image": "270d_1f3fb.webp",
+      "gif": "270d_1f3fb.gif",
+      "animation": "270d_1f3fb.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "270d_1f3fc",
+      "name": "Writing-hand",
+      "image": "270d_1f3fc.webp",
+      "gif": "270d_1f3fc.gif",
+      "animation": "270d_1f3fc.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "270d_1f3fd",
+      "name": "Writing-hand",
+      "image": "270d_1f3fd.webp",
+      "gif": "270d_1f3fd.gif",
+      "animation": "270d_1f3fd.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "270d_1f3fe",
+      "name": "Writing-hand",
+      "image": "270d_1f3fe.webp",
+      "gif": "270d_1f3fe.gif",
+      "animation": "270d_1f3fe.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "270d_1f3ff",
+      "name": "Writing-hand",
+      "image": "270d_1f3ff.webp",
+      "gif": "270d_1f3ff.gif",
+      "animation": "270d_1f3ff.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f933",
+      "name": "Selfie",
+      "image": "1f933.webp",
+      "gif": "1f933.gif",
+      "animation": "1f933.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f933_1f3fb",
+      "name": "Selfie",
+      "image": "1f933_1f3fb.webp",
+      "gif": "1f933_1f3fb.gif",
+      "animation": "1f933_1f3fb.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f933_1f3fc",
+      "name": "Selfie",
+      "image": "1f933_1f3fc.webp",
+      "gif": "1f933_1f3fc.gif",
+      "animation": "1f933_1f3fc.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f933_1f3fd",
+      "name": "Selfie",
+      "image": "1f933_1f3fd.webp",
+      "gif": "1f933_1f3fd.gif",
+      "animation": "1f933_1f3fd.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f933_1f3fe",
+      "name": "Selfie",
+      "image": "1f933_1f3fe.webp",
+      "gif": "1f933_1f3fe.gif",
+      "animation": "1f933_1f3fe.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f933_1f3ff",
+      "name": "Selfie",
+      "image": "1f933_1f3ff.webp",
+      "gif": "1f933_1f3ff.gif",
+      "animation": "1f933_1f3ff.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f64f",
+      "name": "Folded-hands",
+      "image": "1f64f.webp",
+      "gif": "1f64f.gif",
+      "animation": "1f64f.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f64f_1f3fb",
+      "name": "Folded-hands",
+      "image": "1f64f_1f3fb.webp",
+      "gif": "1f64f_1f3fb.gif",
+      "animation": "1f64f_1f3fb.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f64f_1f3fc",
+      "name": "Folded-hands",
+      "image": "1f64f_1f3fc.webp",
+      "gif": "1f64f_1f3fc.gif",
+      "animation": "1f64f_1f3fc.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f64f_1f3fd",
+      "name": "Folded-hands",
+      "image": "1f64f_1f3fd.webp",
+      "gif": "1f64f_1f3fd.gif",
+      "animation": "1f64f_1f3fd.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f64f_1f3fe",
+      "name": "Folded-hands",
+      "image": "1f64f_1f3fe.webp",
+      "gif": "1f64f_1f3fe.gif",
+      "animation": "1f64f_1f3fe.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f64f_1f3ff",
+      "name": "Folded-hands",
+      "image": "1f64f_1f3ff.webp",
+      "gif": "1f64f_1f3ff.gif",
+      "animation": "1f64f_1f3ff.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f485",
+      "name": "Nail-care",
+      "image": "1f485.webp",
+      "gif": "1f485.gif",
+      "animation": "1f485.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f485_1f3fb",
+      "name": "Nail-care",
+      "image": "1f485_1f3fb.webp",
+      "gif": "1f485_1f3fb.gif",
+      "animation": "1f485_1f3fb.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f485_1f3fc",
+      "name": "Nail-care",
+      "image": "1f485_1f3fc.webp",
+      "gif": "1f485_1f3fc.gif",
+      "animation": "1f485_1f3fc.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f485_1f3fd",
+      "name": "Nail-care",
+      "image": "1f485_1f3fd.webp",
+      "gif": "1f485_1f3fd.gif",
+      "animation": "1f485_1f3fd.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f485_1f3fe",
+      "name": "Nail-care",
+      "image": "1f485_1f3fe.webp",
+      "gif": "1f485_1f3fe.gif",
+      "animation": "1f485_1f3fe.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f485_1f3ff",
+      "name": "Nail-care",
+      "image": "1f485_1f3ff.webp",
+      "gif": "1f485_1f3ff.gif",
+      "animation": "1f485_1f3ff.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f91d",
+      "name": "Handshake",
+      "image": "1f91d.webp",
+      "gif": "1f91d.gif",
+      "animation": "1f91d.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f91d_1f3fb",
+      "name": "Handshake",
+      "image": "1f91d_1f3fb.webp",
+      "gif": "1f91d_1f3fb.gif",
+      "animation": "1f91d_1f3fb.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf1_1f3fb_200d_1faf2_1f3fc",
+      "name": "Handshake",
+      "image": "1faf1_1f3fb_200d_1faf2_1f3fc.webp",
+      "gif": "1faf1_1f3fb_200d_1faf2_1f3fc.gif",
+      "animation": "1faf1_1f3fb_200d_1faf2_1f3fc.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf1_1f3fb_200d_1faf2_1f3fd",
+      "name": "Handshake",
+      "image": "1faf1_1f3fb_200d_1faf2_1f3fd.webp",
+      "gif": "1faf1_1f3fb_200d_1faf2_1f3fd.gif",
+      "animation": "1faf1_1f3fb_200d_1faf2_1f3fd.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf1_1f3fb_200d_1faf2_1f3fe",
+      "name": "Handshake",
+      "image": "1faf1_1f3fb_200d_1faf2_1f3fe.webp",
+      "gif": "1faf1_1f3fb_200d_1faf2_1f3fe.gif",
+      "animation": "1faf1_1f3fb_200d_1faf2_1f3fe.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf1_1f3fb_200d_1faf2_1f3ff",
+      "name": "Handshake",
+      "image": "1faf1_1f3fb_200d_1faf2_1f3ff.webp",
+      "gif": "1faf1_1f3fb_200d_1faf2_1f3ff.gif",
+      "animation": "1faf1_1f3fb_200d_1faf2_1f3ff.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf1_1f3fc_200d_1faf2_1f3fb",
+      "name": "Handshake",
+      "image": "1faf1_1f3fc_200d_1faf2_1f3fb.webp",
+      "gif": "1faf1_1f3fc_200d_1faf2_1f3fb.gif",
+      "animation": "1faf1_1f3fc_200d_1faf2_1f3fb.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f91d_1f3fc",
+      "name": "Handshake",
+      "image": "1f91d_1f3fc.webp",
+      "gif": "1f91d_1f3fc.gif",
+      "animation": "1f91d_1f3fc.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf1_1f3fc_200d_1faf2_1f3fd",
+      "name": "Handshake",
+      "image": "1faf1_1f3fc_200d_1faf2_1f3fd.webp",
+      "gif": "1faf1_1f3fc_200d_1faf2_1f3fd.gif",
+      "animation": "1faf1_1f3fc_200d_1faf2_1f3fd.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf1_1f3fc_200d_1faf2_1f3fe",
+      "name": "Handshake",
+      "image": "1faf1_1f3fc_200d_1faf2_1f3fe.webp",
+      "gif": "1faf1_1f3fc_200d_1faf2_1f3fe.gif",
+      "animation": "1faf1_1f3fc_200d_1faf2_1f3fe.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf1_1f3fc_200d_1faf2_1f3ff",
+      "name": "Handshake",
+      "image": "1faf1_1f3fc_200d_1faf2_1f3ff.webp",
+      "gif": "1faf1_1f3fc_200d_1faf2_1f3ff.gif",
+      "animation": "1faf1_1f3fc_200d_1faf2_1f3ff.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf1_1f3fd_200d_1faf2_1f3fb",
+      "name": "Handshake",
+      "image": "1faf1_1f3fd_200d_1faf2_1f3fb.webp",
+      "gif": "1faf1_1f3fd_200d_1faf2_1f3fb.gif",
+      "animation": "1faf1_1f3fd_200d_1faf2_1f3fb.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf1_1f3fd_200d_1faf2_1f3fc",
+      "name": "Handshake",
+      "image": "1faf1_1f3fd_200d_1faf2_1f3fc.webp",
+      "gif": "1faf1_1f3fd_200d_1faf2_1f3fc.gif",
+      "animation": "1faf1_1f3fd_200d_1faf2_1f3fc.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f91d_1f3fd",
+      "name": "Handshake",
+      "image": "1f91d_1f3fd.webp",
+      "gif": "1f91d_1f3fd.gif",
+      "animation": "1f91d_1f3fd.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf1_1f3fd_200d_1faf2_1f3fe",
+      "name": "Handshake",
+      "image": "1faf1_1f3fd_200d_1faf2_1f3fe.webp",
+      "gif": "1faf1_1f3fd_200d_1faf2_1f3fe.gif",
+      "animation": "1faf1_1f3fd_200d_1faf2_1f3fe.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf1_1f3fd_200d_1faf2_1f3ff",
+      "name": "Handshake",
+      "image": "1faf1_1f3fd_200d_1faf2_1f3ff.webp",
+      "gif": "1faf1_1f3fd_200d_1faf2_1f3ff.gif",
+      "animation": "1faf1_1f3fd_200d_1faf2_1f3ff.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf1_1f3fe_200d_1faf2_1f3fb",
+      "name": "Handshake",
+      "image": "1faf1_1f3fe_200d_1faf2_1f3fb.webp",
+      "gif": "1faf1_1f3fe_200d_1faf2_1f3fb.gif",
+      "animation": "1faf1_1f3fe_200d_1faf2_1f3fb.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf1_1f3fe_200d_1faf2_1f3fc",
+      "name": "Handshake",
+      "image": "1faf1_1f3fe_200d_1faf2_1f3fc.webp",
+      "gif": "1faf1_1f3fe_200d_1faf2_1f3fc.gif",
+      "animation": "1faf1_1f3fe_200d_1faf2_1f3fc.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf1_1f3fe_200d_1faf2_1f3fd",
+      "name": "Handshake",
+      "image": "1faf1_1f3fe_200d_1faf2_1f3fd.webp",
+      "gif": "1faf1_1f3fe_200d_1faf2_1f3fd.gif",
+      "animation": "1faf1_1f3fe_200d_1faf2_1f3fd.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f91d_1f3fe",
+      "name": "Handshake",
+      "image": "1f91d_1f3fe.webp",
+      "gif": "1f91d_1f3fe.gif",
+      "animation": "1f91d_1f3fe.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf1_1f3fe_200d_1faf2_1f3ff",
+      "name": "Handshake",
+      "image": "1faf1_1f3fe_200d_1faf2_1f3ff.webp",
+      "gif": "1faf1_1f3fe_200d_1faf2_1f3ff.gif",
+      "animation": "1faf1_1f3fe_200d_1faf2_1f3ff.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf1_1f3ff_200d_1faf2_1f3fb",
+      "name": "Handshake",
+      "image": "1faf1_1f3ff_200d_1faf2_1f3fb.webp",
+      "gif": "1faf1_1f3ff_200d_1faf2_1f3fb.gif",
+      "animation": "1faf1_1f3ff_200d_1faf2_1f3fb.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf1_1f3ff_200d_1faf2_1f3fc",
+      "name": "Handshake",
+      "image": "1faf1_1f3ff_200d_1faf2_1f3fc.webp",
+      "gif": "1faf1_1f3ff_200d_1faf2_1f3fc.gif",
+      "animation": "1faf1_1f3ff_200d_1faf2_1f3fc.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf1_1f3ff_200d_1faf2_1f3fd",
+      "name": "Handshake",
+      "image": "1faf1_1f3ff_200d_1faf2_1f3fd.webp",
+      "gif": "1faf1_1f3ff_200d_1faf2_1f3fd.gif",
+      "animation": "1faf1_1f3ff_200d_1faf2_1f3fd.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1faf1_1f3ff_200d_1faf2_1f3fe",
+      "name": "Handshake",
+      "image": "1faf1_1f3ff_200d_1faf2_1f3fe.webp",
+      "gif": "1faf1_1f3ff_200d_1faf2_1f3fe.gif",
+      "animation": "1faf1_1f3ff_200d_1faf2_1f3fe.json",
+      "group": "Smileys and emotions"
+    },
+    {
+      "code": "1f91d_1f3ff",
+      "name": "Handshake",
+      "image": "1f91d_1f3ff.webp",
+      "gif": "1f91d_1f3ff.gif",
+      "animation": "1f91d_1f3ff.json",
+      "group": "Smileys and emotions"
+    }
+  ],
+  "People": [
+    {
+      "code": "1f483",
+      "name": "Dancer-woman",
+      "image": "1f483.webp",
+      "gif": "1f483.gif",
+      "animation": "1f483.json",
+      "group": "People"
+    },
+    {
+      "code": "1f483",
+      "name": "Dancer-woman",
+      "image": "1f483.webp",
+      "gif": "1f483.gif",
+      "animation": "1f483.json",
+      "group": "People"
+    },
+    {
+      "code": "1f483_1f3fb",
+      "name": "Dancer-woman",
+      "image": "1f483_1f3fb.webp",
+      "gif": "1f483_1f3fb.gif",
+      "animation": "1f483_1f3fb.json",
+      "group": "People"
+    },
+    {
+      "code": "1f483_1f3fc",
+      "name": "Dancer-woman",
+      "image": "1f483_1f3fc.webp",
+      "gif": "1f483_1f3fc.gif",
+      "animation": "1f483_1f3fc.json",
+      "group": "People"
+    },
+    {
+      "code": "1f483_1f3fd",
+      "name": "Dancer-woman",
+      "image": "1f483_1f3fd.webp",
+      "gif": "1f483_1f3fd.gif",
+      "animation": "1f483_1f3fd.json",
+      "group": "People"
+    },
+    {
+      "code": "1f483_1f3fe",
+      "name": "Dancer-woman",
+      "image": "1f483_1f3fe.webp",
+      "gif": "1f483_1f3fe.gif",
+      "animation": "1f483_1f3fe.json",
+      "group": "People"
+    },
+    {
+      "code": "1f483_1f3ff",
+      "name": "Dancer-woman",
+      "image": "1f483_1f3ff.webp",
+      "gif": "1f483_1f3ff.gif",
+      "animation": "1f483_1f3ff.json",
+      "group": "People"
+    }
+  ],
+  "Animals and nature": [
+    {
+      "code": "1f490",
+      "name": "Bouquet",
+      "image": "1f490.webp",
+      "gif": "1f490.gif",
+      "animation": "1f490.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f490",
+      "name": "Bouquet",
+      "image": "1f490.webp",
+      "gif": "1f490.gif",
+      "animation": "1f490.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f339",
+      "name": "Rose",
+      "image": "1f339.webp",
+      "gif": "1f339.gif",
+      "animation": "1f339.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f940",
+      "name": "Wilted-flower",
+      "image": "1f940.webp",
+      "gif": "1f940.gif",
+      "animation": "1f940.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f342",
+      "name": "Fallen-leaf",
+      "image": "1f342.webp",
+      "gif": "1f342.gif",
+      "animation": "1f342.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f331",
+      "name": "Plant",
+      "image": "1f331.webp",
+      "gif": "1f331.gif",
+      "animation": "1f331.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f343",
+      "name": "Leaves",
+      "image": "1f343.webp",
+      "gif": "1f343.gif",
+      "animation": "1f343.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f340",
+      "name": "Luck",
+      "image": "1f340.webp",
+      "gif": "1f340.gif",
+      "animation": "1f340.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1fabe",
+      "name": "Leafless-tree",
+      "image": "1fabe.webp",
+      "gif": "1fabe.gif",
+      "animation": "1fabe.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "2744_fe0f",
+      "name": "Snowflake",
+      "image": "2744_fe0f.webp",
+      "gif": "2744_fe0f.gif",
+      "animation": "2744_fe0f.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f30b",
+      "name": "Volcano",
+      "image": "1f30b.webp",
+      "gif": "1f30b.gif",
+      "animation": "1f30b.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f305",
+      "name": "Sunrise",
+      "image": "1f305.webp",
+      "gif": "1f305.gif",
+      "animation": "1f305.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f304",
+      "name": "Sunrise-over-mountains",
+      "image": "1f304.webp",
+      "gif": "1f304.gif",
+      "animation": "1f304.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f308",
+      "name": "Rainbow",
+      "image": "1f308.webp",
+      "gif": "1f308.gif",
+      "animation": "1f308.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1fae7",
+      "name": "Bubbles",
+      "image": "1fae7.webp",
+      "gif": "1fae7.gif",
+      "animation": "1fae7.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f30a",
+      "name": "Ocean",
+      "image": "1f30a.webp",
+      "gif": "1f30a.gif",
+      "animation": "1f30a.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f32c_fe0f",
+      "name": "Wind-face",
+      "image": "1f32c_fe0f.webp",
+      "gif": "1f32c_fe0f.gif",
+      "animation": "1f32c_fe0f.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f32a_fe0f",
+      "name": "Tornado",
+      "image": "1f32a_fe0f.webp",
+      "gif": "1f32a_fe0f.gif",
+      "animation": "1f32a_fe0f.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f4a7",
+      "name": "Droplet",
+      "image": "1f4a7.webp",
+      "gif": "1f4a7.gif",
+      "animation": "1f4a7.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f327_fe0f",
+      "name": "Rain-cloud",
+      "image": "1f327_fe0f.webp",
+      "gif": "1f327_fe0f.gif",
+      "animation": "1f327_fe0f.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f329_fe0f",
+      "name": "Cloud-with-lightning",
+      "image": "1f329_fe0f.webp",
+      "gif": "1f329_fe0f.gif",
+      "animation": "1f329_fe0f.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f30d",
+      "name": "Globe-showing-europe-africa",
+      "image": "1f30d.webp",
+      "gif": "1f30d.gif",
+      "animation": "1f30d.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f30e",
+      "name": "Globe-showing-americas",
+      "image": "1f30e.webp",
+      "gif": "1f30e.gif",
+      "animation": "1f30e.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f30f",
+      "name": "Globe-showing-asia-australia",
+      "image": "1f30f.webp",
+      "gif": "1f30f.gif",
+      "animation": "1f30f.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "2604_fe0f",
+      "name": "Comet",
+      "image": "2604_fe0f.webp",
+      "gif": "2604_fe0f.gif",
+      "animation": "2604_fe0f.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f42e",
+      "name": "Cow-face",
+      "image": "1f42e.webp",
+      "gif": "1f42e.gif",
+      "animation": "1f42e.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f984",
+      "name": "Unicorn",
+      "image": "1f984.webp",
+      "gif": "1f984.gif",
+      "animation": "1f984.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f98e",
+      "name": "Lizard",
+      "image": "1f98e.webp",
+      "gif": "1f98e.gif",
+      "animation": "1f98e.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f409",
+      "name": "Dragon",
+      "image": "1f409.webp",
+      "gif": "1f409.gif",
+      "animation": "1f409.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f996",
+      "name": "T-rex",
+      "image": "1f996.webp",
+      "gif": "1f996.gif",
+      "animation": "1f996.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f995",
+      "name": "Dinosaur",
+      "image": "1f995.webp",
+      "gif": "1f995.gif",
+      "animation": "1f995.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f422",
+      "name": "Turtle",
+      "image": "1f422.webp",
+      "gif": "1f422.gif",
+      "animation": "1f422.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f40a",
+      "name": "Crocodile",
+      "image": "1f40a.webp",
+      "gif": "1f40a.gif",
+      "animation": "1f40a.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f40d",
+      "name": "Snake",
+      "image": "1f40d.webp",
+      "gif": "1f40d.gif",
+      "animation": "1f40d.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f438",
+      "name": "Frog",
+      "image": "1f438.webp",
+      "gif": "1f438.gif",
+      "animation": "1f438.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f407",
+      "name": "Rabbit",
+      "image": "1f407.webp",
+      "gif": "1f407.gif",
+      "animation": "1f407.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f400",
+      "name": "Rat",
+      "image": "1f400.webp",
+      "gif": "1f400.gif",
+      "animation": "1f400.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f429",
+      "name": "Poodle",
+      "image": "1f429.webp",
+      "gif": "1f429.gif",
+      "animation": "1f429.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f415",
+      "name": "Dog",
+      "image": "1f415.webp",
+      "gif": "1f415.gif",
+      "animation": "1f415.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f9ae",
+      "name": "Guide-dog",
+      "image": "1f9ae.webp",
+      "gif": "1f9ae.gif",
+      "animation": "1f9ae.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f415_200d_1f9ba",
+      "name": "Service-dog",
+      "image": "1f415_200d_1f9ba.webp",
+      "gif": "1f415_200d_1f9ba.gif",
+      "animation": "1f415_200d_1f9ba.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f416",
+      "name": "Pig",
+      "image": "1f416.webp",
+      "gif": "1f416.gif",
+      "animation": "1f416.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f40e",
+      "name": "Racehorse",
+      "image": "1f40e.webp",
+      "gif": "1f40e.gif",
+      "animation": "1f40e.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1facf",
+      "name": "Donkey",
+      "image": "1facf.webp",
+      "gif": "1facf.gif",
+      "animation": "1facf.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f402",
+      "name": "Ox",
+      "image": "1f402.webp",
+      "gif": "1f402.gif",
+      "animation": "1f402.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f410",
+      "name": "Goat",
+      "image": "1f410.webp",
+      "gif": "1f410.gif",
+      "animation": "1f410.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f998",
+      "name": "Kangaroo",
+      "image": "1f998.webp",
+      "gif": "1f998.gif",
+      "animation": "1f998.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f405",
+      "name": "Tiger",
+      "image": "1f405.webp",
+      "gif": "1f405.gif",
+      "animation": "1f405.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f412",
+      "name": "Monkey",
+      "image": "1f412.webp",
+      "gif": "1f412.gif",
+      "animation": "1f412.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f98d",
+      "name": "Gorilla",
+      "image": "1f98d.webp",
+      "gif": "1f98d.gif",
+      "animation": "1f98d.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f9a7",
+      "name": "Orangutan",
+      "image": "1f9a7.webp",
+      "gif": "1f9a7.gif",
+      "animation": "1f9a7.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f43f_fe0f",
+      "name": "Chipmunk",
+      "image": "1f43f_fe0f.webp",
+      "gif": "1f43f_fe0f.gif",
+      "animation": "1f43f_fe0f.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f9a6",
+      "name": "Otter",
+      "image": "1f9a6.webp",
+      "gif": "1f9a6.gif",
+      "animation": "1f9a6.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f987",
+      "name": "Bat",
+      "image": "1f987.webp",
+      "gif": "1f987.gif",
+      "animation": "1f987.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f426",
+      "name": "Bird",
+      "image": "1f426.webp",
+      "gif": "1f426.gif",
+      "animation": "1f426.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f426_200d_2b1b",
+      "name": "Black-bird",
+      "image": "1f426_200d_2b1b.webp",
+      "gif": "1f426_200d_2b1b.gif",
+      "animation": "1f426_200d_2b1b.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f413",
+      "name": "Rooster",
+      "image": "1f413.webp",
+      "gif": "1f413.gif",
+      "animation": "1f413.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f423",
+      "name": "Hatching-chick",
+      "image": "1f423.webp",
+      "gif": "1f423.gif",
+      "animation": "1f423.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f424",
+      "name": "Baby-chick",
+      "image": "1f424.webp",
+      "gif": "1f424.gif",
+      "animation": "1f424.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f425",
+      "name": "Hatched-chick",
+      "image": "1f425.webp",
+      "gif": "1f425.gif",
+      "animation": "1f425.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f985",
+      "name": "Eagle",
+      "image": "1f985.webp",
+      "gif": "1f985.gif",
+      "animation": "1f985.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f989",
+      "name": "Owl",
+      "image": "1f989.webp",
+      "gif": "1f989.gif",
+      "animation": "1f989.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f54a_fe0f",
+      "name": "Peace",
+      "image": "1f54a_fe0f.webp",
+      "gif": "1f54a_fe0f.gif",
+      "animation": "1f54a_fe0f.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1fabf",
+      "name": "Goose",
+      "image": "1fabf.webp",
+      "gif": "1fabf.gif",
+      "animation": "1fabf.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f99a",
+      "name": "Peacock",
+      "image": "1f99a.webp",
+      "gif": "1f99a.gif",
+      "animation": "1f99a.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f426_200d_1f525",
+      "name": "Phoenix",
+      "image": "1f426_200d_1f525.webp",
+      "gif": "1f426_200d_1f525.gif",
+      "animation": "1f426_200d_1f525.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f9ad",
+      "name": "Seal",
+      "image": "1f9ad.webp",
+      "gif": "1f9ad.gif",
+      "animation": "1f9ad.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f988",
+      "name": "Shark",
+      "image": "1f988.webp",
+      "gif": "1f988.gif",
+      "animation": "1f988.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f42c",
+      "name": "Dolphin",
+      "image": "1f42c.webp",
+      "gif": "1f42c.gif",
+      "animation": "1f42c.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f433",
+      "name": "Whale",
+      "image": "1f433.webp",
+      "gif": "1f433.gif",
+      "animation": "1f433.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f41f",
+      "name": "Fish",
+      "image": "1f41f.webp",
+      "gif": "1f41f.gif",
+      "animation": "1f41f.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f421",
+      "name": "Blowfish",
+      "image": "1f421.webp",
+      "gif": "1f421.gif",
+      "animation": "1f421.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f99e",
+      "name": "Lobster",
+      "image": "1f99e.webp",
+      "gif": "1f99e.gif",
+      "animation": "1f99e.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f980",
+      "name": "Crab",
+      "image": "1f980.webp",
+      "gif": "1f980.gif",
+      "animation": "1f980.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f419",
+      "name": "Octopus",
+      "image": "1f419.webp",
+      "gif": "1f419.gif",
+      "animation": "1f419.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1fabc",
+      "name": "Jellyfish",
+      "image": "1fabc.webp",
+      "gif": "1fabc.gif",
+      "animation": "1fabc.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f982",
+      "name": "Scorpion",
+      "image": "1f982.webp",
+      "gif": "1f982.gif",
+      "animation": "1f982.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f577_fe0f",
+      "name": "Spider",
+      "image": "1f577_fe0f.webp",
+      "gif": "1f577_fe0f.gif",
+      "animation": "1f577_fe0f.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f40c",
+      "name": "Snail",
+      "image": "1f40c.webp",
+      "gif": "1f40c.gif",
+      "animation": "1f40c.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f41c",
+      "name": "Ant",
+      "image": "1f41c.webp",
+      "gif": "1f41c.gif",
+      "animation": "1f41c.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f99f",
+      "name": "Mosquito",
+      "image": "1f99f.webp",
+      "gif": "1f99f.gif",
+      "animation": "1f99f.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1fab3",
+      "name": "Cockroach",
+      "image": "1fab3.webp",
+      "gif": "1fab3.gif",
+      "animation": "1fab3.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1fab0",
+      "name": "Fly",
+      "image": "1fab0.webp",
+      "gif": "1fab0.gif",
+      "animation": "1fab0.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f41d",
+      "name": "Bee",
+      "image": "1f41d.webp",
+      "gif": "1f41d.gif",
+      "animation": "1f41d.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f41e",
+      "name": "Lady-bug",
+      "image": "1f41e.webp",
+      "gif": "1f41e.gif",
+      "animation": "1f41e.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f98b",
+      "name": "Butterfly",
+      "image": "1f98b.webp",
+      "gif": "1f98b.gif",
+      "animation": "1f98b.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f41b",
+      "name": "Bug",
+      "image": "1f41b.webp",
+      "gif": "1f41b.gif",
+      "animation": "1f41b.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1fab1",
+      "name": "Worm",
+      "image": "1fab1.webp",
+      "gif": "1fab1.gif",
+      "animation": "1fab1.json",
+      "group": "Animals and nature"
+    },
+    {
+      "code": "1f43e",
+      "name": "Paw Prints",
+      "image": "1f43e.webp",
+      "gif": "1f43e.gif",
+      "animation": "1f43e.json",
+      "group": "Animals and nature"
+    }
+  ],
+  "Food and drink": [
+    {
+      "code": "1f345",
+      "name": "Tomato",
+      "image": "1f345.webp",
+      "gif": "1f345.gif",
+      "animation": "1f345.json",
+      "group": "Food and drink"
+    },
+    {
+      "code": "1f345",
+      "name": "Tomato",
+      "image": "1f345.webp",
+      "gif": "1f345.gif",
+      "animation": "1f345.json",
+      "group": "Food and drink"
+    },
+    {
+      "code": "1fadc",
+      "name": "Root-vegetable",
+      "image": "1fadc.webp",
+      "gif": "1fadc.gif",
+      "animation": "1fadc.json",
+      "group": "Food and drink"
+    },
+    {
+      "code": "1f373",
+      "name": "Cooking",
+      "image": "1f373.webp",
+      "gif": "1f373.gif",
+      "animation": "1f373.json",
+      "group": "Food and drink"
+    },
+    {
+      "code": "1f32f",
+      "name": "Burrito",
+      "image": "1f32f.webp",
+      "gif": "1f32f.gif",
+      "animation": "1f32f.json",
+      "group": "Food and drink"
+    },
+    {
+      "code": "1f35d",
+      "name": "Spaghetti",
+      "image": "1f35d.webp",
+      "gif": "1f35d.gif",
+      "animation": "1f35d.json",
+      "group": "Food and drink"
+    },
+    {
+      "code": "1f35c",
+      "name": "Steaming-bowl",
+      "image": "1f35c.webp",
+      "gif": "1f35c.gif",
+      "animation": "1f35c.json",
+      "group": "Food and drink"
+    },
+    {
+      "code": "1f37f",
+      "name": "Popcorn",
+      "image": "1f37f.webp",
+      "gif": "1f37f.gif",
+      "animation": "1f37f.json",
+      "group": "Food and drink"
+    },
+    {
+      "code": "2615",
+      "name": "Hot-beverage",
+      "image": "2615.webp",
+      "gif": "2615.gif",
+      "animation": "2615.json",
+      "group": "Food and drink"
+    },
+    {
+      "code": "1f37b",
+      "name": "Clinking-beer-mugs",
+      "image": "1f37b.webp",
+      "gif": "1f37b.gif",
+      "animation": "1f37b.json",
+      "group": "Food and drink"
+    },
+    {
+      "code": "1f942",
+      "name": "Clinking-glasses",
+      "image": "1f942.webp",
+      "gif": "1f942.gif",
+      "animation": "1f942.json",
+      "group": "Food and drink"
+    },
+    {
+      "code": "1f37e",
+      "name": "Bottle-with-popping-cork",
+      "image": "1f37e.webp",
+      "gif": "1f37e.gif",
+      "animation": "1f37e.json",
+      "group": "Food and drink"
+    },
+    {
+      "code": "1f377",
+      "name": "Wine-glass",
+      "image": "1f377.webp",
+      "gif": "1f377.gif",
+      "animation": "1f377.json",
+      "group": "Food and drink"
+    },
+    {
+      "code": "1fad7",
+      "name": "Pour",
+      "image": "1fad7.webp",
+      "gif": "1fad7.gif",
+      "animation": "1fad7.json",
+      "group": "Food and drink"
+    },
+    {
+      "code": "1f379",
+      "name": "Tropical-drink",
+      "image": "1f379.webp",
+      "gif": "1f379.gif",
+      "animation": "1f379.json",
+      "group": "Food and drink"
+    }
+  ],
+  "Travel and places": [
+    {
+      "code": "1f6a7",
+      "name": "Construction",
+      "image": "1f6a7.webp",
+      "gif": "1f6a7.gif",
+      "animation": "1f6a7.json",
+      "group": "Travel and places"
+    },
+    {
+      "code": "1f6a7",
+      "name": "Construction",
+      "image": "1f6a7.webp",
+      "gif": "1f6a7.gif",
+      "animation": "1f6a7.json",
+      "group": "Travel and places"
+    },
+    {
+      "code": "1f6a8",
+      "name": "Police-car-light",
+      "image": "1f6a8.webp",
+      "gif": "1f6a8.gif",
+      "animation": "1f6a8.json",
+      "group": "Travel and places"
+    },
+    {
+      "code": "1f6b2",
+      "name": "Bicycle",
+      "image": "1f6b2.webp",
+      "gif": "1f6b2.gif",
+      "animation": "1f6b2.json",
+      "group": "Travel and places"
+    },
+    {
+      "code": "1f697",
+      "name": "Automobile",
+      "image": "1f697.webp",
+      "gif": "1f697.gif",
+      "animation": "1f697.json",
+      "group": "Travel and places"
+    },
+    {
+      "code": "1f3ce_fe0f",
+      "name": "Racing-car",
+      "image": "1f3ce_fe0f.webp",
+      "gif": "1f3ce_fe0f.gif",
+      "animation": "1f3ce_fe0f.json",
+      "group": "Travel and places"
+    },
+    {
+      "code": "1f695",
+      "name": "Taxi",
+      "image": "1f695.webp",
+      "gif": "1f695.gif",
+      "animation": "1f695.json",
+      "group": "Travel and places"
+    },
+    {
+      "code": "1f68c",
+      "name": "Bus",
+      "image": "1f68c.webp",
+      "gif": "1f68c.gif",
+      "animation": "1f68c.json",
+      "group": "Travel and places"
+    },
+    {
+      "code": "26f5",
+      "name": "Sailboat",
+      "image": "26f5.webp",
+      "gif": "26f5.gif",
+      "animation": "26f5.json",
+      "group": "Travel and places"
+    },
+    {
+      "code": "1f6f6",
+      "name": "Canoe",
+      "image": "1f6f6.webp",
+      "gif": "1f6f6.gif",
+      "animation": "1f6f6.json",
+      "group": "Travel and places"
+    },
+    {
+      "code": "1f6f8",
+      "name": "Flying-saucer",
+      "image": "1f6f8.webp",
+      "gif": "1f6f8.gif",
+      "animation": "1f6f8.json",
+      "group": "Travel and places"
+    },
+    {
+      "code": "1f680",
+      "name": "Rocket",
+      "image": "1f680.webp",
+      "gif": "1f680.gif",
+      "animation": "1f680.json",
+      "group": "Travel and places"
+    },
+    {
+      "code": "1f6eb",
+      "name": "Airplane-departure",
+      "image": "1f6eb.webp",
+      "gif": "1f6eb.gif",
+      "animation": "1f6eb.json",
+      "group": "Travel and places"
+    },
+    {
+      "code": "1f6ec",
+      "name": "Airplane-arrival",
+      "image": "1f6ec.webp",
+      "gif": "1f6ec.gif",
+      "animation": "1f6ec.json",
+      "group": "Travel and places"
+    },
+    {
+      "code": "1f3a2",
+      "name": "Roller-coaster",
+      "image": "1f3a2.webp",
+      "gif": "1f3a2.gif",
+      "animation": "1f3a2.json",
+      "group": "Travel and places"
+    },
+    {
+      "code": "1f3a1",
+      "name": "Ferris-wheel",
+      "image": "1f3a1.webp",
+      "gif": "1f3a1.gif",
+      "animation": "1f3a1.json",
+      "group": "Travel and places"
+    },
+    {
+      "code": "1f3d5_fe0f",
+      "name": "Camping",
+      "image": "1f3d5_fe0f.webp",
+      "gif": "1f3d5_fe0f.gif",
+      "animation": "1f3d5_fe0f.json",
+      "group": "Travel and places"
+    }
+  ],
+  "Activities and events": [
+    {
+      "code": "1f388",
+      "name": "Balloon",
+      "image": "1f388.webp",
+      "gif": "1f388.gif",
+      "animation": "1f388.json",
+      "group": "Activities and events"
+    },
+    {
+      "code": "1f388",
+      "name": "Balloon",
+      "image": "1f388.webp",
+      "gif": "1f388.gif",
+      "animation": "1f388.json",
+      "group": "Activities and events"
+    },
+    {
+      "code": "1f382",
+      "name": "Birthday-cake",
+      "image": "1f382.webp",
+      "gif": "1f382.gif",
+      "animation": "1f382.json",
+      "group": "Activities and events"
+    },
+    {
+      "code": "1f381",
+      "name": "Wrapped-gift",
+      "image": "1f381.webp",
+      "gif": "1f381.gif",
+      "animation": "1f381.json",
+      "group": "Activities and events"
+    },
+    {
+      "code": "1f386",
+      "name": "Fireworks",
+      "image": "1f386.webp",
+      "gif": "1f386.gif",
+      "animation": "1f386.json",
+      "group": "Activities and events"
+    },
+    {
+      "code": "1fa85",
+      "name": "Piñata",
+      "image": "1fa85.webp",
+      "gif": "1fa85.gif",
+      "animation": "1fa85.json",
+      "group": "Activities and events"
+    },
+    {
+      "code": "1faa9",
+      "name": "Mirror-ball",
+      "image": "1faa9.webp",
+      "gif": "1faa9.gif",
+      "animation": "1faa9.json",
+      "group": "Activities and events"
+    },
+    {
+      "code": "1f947",
+      "name": "Gold-medal",
+      "image": "1f947.webp",
+      "gif": "1f947.gif",
+      "animation": "1f947.json",
+      "group": "Activities and events"
+    },
+    {
+      "code": "1f948",
+      "name": "Silver-medal",
+      "image": "1f948.webp",
+      "gif": "1f948.gif",
+      "animation": "1f948.json",
+      "group": "Activities and events"
+    },
+    {
+      "code": "1f949",
+      "name": "Bronze-medal",
+      "image": "1f949.webp",
+      "gif": "1f949.gif",
+      "animation": "1f949.json",
+      "group": "Activities and events"
+    },
+    {
+      "code": "1f3c6",
+      "name": "Trophy",
+      "image": "1f3c6.webp",
+      "gif": "1f3c6.gif",
+      "animation": "1f3c6.json",
+      "group": "Activities and events"
+    },
+    {
+      "code": "26bd",
+      "name": "Soccer-ball",
+      "image": "26bd.webp",
+      "gif": "26bd.gif",
+      "animation": "26bd.json",
+      "group": "Activities and events"
+    },
+    {
+      "code": "26be",
+      "name": "Baseball",
+      "image": "26be.webp",
+      "gif": "26be.gif",
+      "animation": "26be.json",
+      "group": "Activities and events"
+    },
+    {
+      "code": "1f94e",
+      "name": "Softball",
+      "image": "1f94e.webp",
+      "gif": "1f94e.gif",
+      "animation": "1f94e.json",
+      "group": "Activities and events"
+    },
+    {
+      "code": "1f3be",
+      "name": "Tennis",
+      "image": "1f3be.webp",
+      "gif": "1f3be.gif",
+      "animation": "1f3be.json",
+      "group": "Activities and events"
+    },
+    {
+      "code": "1f3f8",
+      "name": "Badminton",
+      "image": "1f3f8.webp",
+      "gif": "1f3f8.gif",
+      "animation": "1f3f8.json",
+      "group": "Activities and events"
+    },
+    {
+      "code": "1f94d",
+      "name": "Lacrosse",
+      "image": "1f94d.webp",
+      "gif": "1f94d.gif",
+      "animation": "1f94d.json",
+      "group": "Activities and events"
+    },
+    {
+      "code": "1f3cf",
+      "name": "Cricket-game",
+      "image": "1f3cf.webp",
+      "gif": "1f3cf.gif",
+      "animation": "1f3cf.json",
+      "group": "Activities and events"
+    },
+    {
+      "code": "1f3d1",
+      "name": "Field-hockey",
+      "image": "1f3d1.webp",
+      "gif": "1f3d1.gif",
+      "animation": "1f3d1.json",
+      "group": "Activities and events"
+    },
+    {
+      "code": "1f3d2",
+      "name": "Ice-hockey",
+      "image": "1f3d2.webp",
+      "gif": "1f3d2.gif",
+      "animation": "1f3d2.json",
+      "group": "Activities and events"
+    },
+    {
+      "code": "26f8_fe0f",
+      "name": "Ice-skate",
+      "image": "26f8_fe0f.webp",
+      "gif": "26f8_fe0f.gif",
+      "animation": "26f8_fe0f.json",
+      "group": "Activities and events"
+    },
+    {
+      "code": "1f6fc",
+      "name": "Roller-skates",
+      "image": "1f6fc.webp",
+      "gif": "1f6fc.gif",
+      "animation": "1f6fc.json",
+      "group": "Activities and events"
+    },
+    {
+      "code": "1fa70",
+      "name": "Ballet-shoes",
+      "image": "1fa70.webp",
+      "gif": "1fa70.gif",
+      "animation": "1fa70.json",
+      "group": "Activities and events"
+    },
+    {
+      "code": "1f6f9",
+      "name": "Skateboard",
+      "image": "1f6f9.webp",
+      "gif": "1f6f9.gif",
+      "animation": "1f6f9.json",
+      "group": "Activities and events"
+    },
+    {
+      "code": "26f3",
+      "name": "Flag-in-hole",
+      "image": "26f3.webp",
+      "gif": "26f3.gif",
+      "animation": "26f3.json",
+      "group": "Activities and events"
+    },
+    {
+      "code": "1f3af",
+      "name": "Direct-hit",
+      "image": "1f3af.webp",
+      "gif": "1f3af.gif",
+      "animation": "1f3af.json",
+      "group": "Activities and events"
+    },
+    {
+      "code": "1f94f",
+      "name": "Flying-disc",
+      "image": "1f94f.webp",
+      "gif": "1f94f.gif",
+      "animation": "1f94f.json",
+      "group": "Activities and events"
+    },
+    {
+      "code": "1fa83",
+      "name": "Boomerang",
+      "image": "1fa83.webp",
+      "gif": "1fa83.gif",
+      "animation": "1fa83.json",
+      "group": "Activities and events"
+    },
+    {
+      "code": "1fa81",
+      "name": "Kite",
+      "image": "1fa81.webp",
+      "gif": "1fa81.gif",
+      "animation": "1fa81.json",
+      "group": "Activities and events"
+    },
+    {
+      "code": "1f3a3",
+      "name": "Fishing-pole",
+      "image": "1f3a3.webp",
+      "gif": "1f3a3.gif",
+      "animation": "1f3a3.json",
+      "group": "Activities and events"
+    },
+    {
+      "code": "1f94b",
+      "name": "Martial-arts-uniform",
+      "image": "1f94b.webp",
+      "gif": "1f94b.gif",
+      "animation": "1f94b.json",
+      "group": "Activities and events"
+    },
+    {
+      "code": "1f3b1",
+      "name": "8-ball",
+      "image": "1f3b1.webp",
+      "gif": "1f3b1.gif",
+      "animation": "1f3b1.json",
+      "group": "Activities and events"
+    },
+    {
+      "code": "1f3d3",
+      "name": "Ping-pong",
+      "image": "1f3d3.webp",
+      "gif": "1f3d3.gif",
+      "animation": "1f3d3.json",
+      "group": "Activities and events"
+    },
+    {
+      "code": "1f3b3",
+      "name": "Bowling",
+      "image": "1f3b3.webp",
+      "gif": "1f3b3.gif",
+      "animation": "1f3b3.json",
+      "group": "Activities and events"
+    },
+    {
+      "code": "1f3b2",
+      "name": "Die",
+      "image": "1f3b2.webp",
+      "gif": "1f3b2.gif",
+      "animation": "1f3b2.json",
+      "group": "Activities and events"
+    },
+    {
+      "code": "1f3b0",
+      "name": "Slot-machine",
+      "image": "1f3b0.webp",
+      "gif": "1f3b0.gif",
+      "animation": "1f3b0.json",
+      "group": "Activities and events"
+    },
+    {
+      "code": "1fa84",
+      "name": "Wand",
+      "image": "1fa84.webp",
+      "gif": "1fa84.gif",
+      "animation": "1fa84.json",
+      "group": "Activities and events"
+    },
+    {
+      "code": "1f4f8",
+      "name": "Camera-flash",
+      "image": "1f4f8.webp",
+      "gif": "1f4f8.gif",
+      "animation": "1f4f8.json",
+      "group": "Activities and events"
+    },
+    {
+      "code": "1fadf",
+      "name": "Splatter",
+      "image": "1fadf.webp",
+      "gif": "1fadf.gif",
+      "animation": "1fadf.json",
+      "group": "Activities and events"
+    },
+    {
+      "code": "1f3b7",
+      "name": "Saxophone",
+      "image": "1f3b7.webp",
+      "gif": "1f3b7.gif",
+      "animation": "1f3b7.json",
+      "group": "Activities and events"
+    },
+    {
+      "code": "1f3ba",
+      "name": "Trumpet",
+      "image": "1f3ba.webp",
+      "gif": "1f3ba.gif",
+      "animation": "1f3ba.json",
+      "group": "Activities and events"
+    },
+    {
+      "code": "1f3bb",
+      "name": "Violin",
+      "image": "1f3bb.webp",
+      "gif": "1f3bb.gif",
+      "animation": "1f3bb.json",
+      "group": "Activities and events"
+    },
+    {
+      "code": "1fa89",
+      "name": "Harp",
+      "image": "1fa89.webp",
+      "gif": "1fa89.gif",
+      "animation": "1fa89.json",
+      "group": "Activities and events"
+    },
+    {
+      "code": "1f941",
+      "name": "Drum",
+      "image": "1f941.webp",
+      "gif": "1f941.gif",
+      "animation": "1f941.json",
+      "group": "Activities and events"
+    },
+    {
+      "code": "1fa87",
+      "name": "Maracas",
+      "image": "1fa87.webp",
+      "gif": "1fa87.gif",
+      "animation": "1fa87.json",
+      "group": "Activities and events"
+    },
+    {
+      "code": "1f3ac",
+      "name": "Clapper",
+      "image": "1f3ac.webp",
+      "gif": "1f3ac.gif",
+      "animation": "1f3ac.json",
+      "group": "Activities and events"
+    }
+  ],
+  "Objects": [
+    {
+      "code": "1f50b",
+      "name": "Battery-full",
+      "image": "1f50b.webp",
+      "gif": "1f50b.gif",
+      "animation": "1f50b.json",
+      "group": "Objects"
+    },
+    {
+      "code": "1f50b",
+      "name": "Battery-full",
+      "image": "1f50b.webp",
+      "gif": "1f50b.gif",
+      "animation": "1f50b.json",
+      "group": "Objects"
+    },
+    {
+      "code": "1faab",
+      "name": "Battery-low",
+      "image": "1faab.webp",
+      "gif": "1faab.gif",
+      "animation": "1faab.json",
+      "group": "Objects"
+    },
+    {
+      "code": "1fa99",
+      "name": "Coin",
+      "image": "1fa99.webp",
+      "gif": "1fa99.gif",
+      "animation": "1fa99.json",
+      "group": "Objects"
+    },
+    {
+      "code": "1f4b8",
+      "name": "Money-with-wings",
+      "image": "1f4b8.webp",
+      "gif": "1f4b8.gif",
+      "animation": "1f4b8.json",
+      "group": "Objects"
+    },
+    {
+      "code": "1f48e",
+      "name": "Gem-stone",
+      "image": "1f48e.webp",
+      "gif": "1f48e.gif",
+      "animation": "1f48e.json",
+      "group": "Objects"
+    },
+    {
+      "code": "2696_fe0f",
+      "name": "Balance-scale",
+      "image": "2696_fe0f.webp",
+      "gif": "2696_fe0f.gif",
+      "animation": "2696_fe0f.json",
+      "group": "Objects"
+    },
+    {
+      "code": "1f4a1",
+      "name": "Light-bulb",
+      "image": "1f4a1.webp",
+      "gif": "1f4a1.gif",
+      "animation": "1f4a1.json",
+      "group": "Objects"
+    },
+    {
+      "code": "1f393",
+      "name": "Graduation-cap",
+      "image": "1f393.webp",
+      "gif": "1f393.gif",
+      "animation": "1f393.json",
+      "group": "Objects"
+    },
+    {
+      "code": "1f48d",
+      "name": "Ring",
+      "image": "1f48d.webp",
+      "gif": "1f48d.gif",
+      "animation": "1f48d.json",
+      "group": "Objects"
+    },
+    {
+      "code": "1faad",
+      "name": "Fan",
+      "image": "1faad.webp",
+      "gif": "1faad.gif",
+      "animation": "1faad.json",
+      "group": "Objects"
+    },
+    {
+      "code": "2602_fe0f",
+      "name": "Umbrella",
+      "image": "2602_fe0f.webp",
+      "gif": "2602_fe0f.gif",
+      "animation": "2602_fe0f.json",
+      "group": "Objects"
+    },
+    {
+      "code": "1fa8f",
+      "name": "Shovel",
+      "image": "1fa8f.webp",
+      "gif": "1fa8f.gif",
+      "animation": "1fa8f.json",
+      "group": "Objects"
+    },
+    {
+      "code": "2699_fe0f",
+      "name": "Gear",
+      "image": "2699_fe0f.webp",
+      "gif": "2699_fe0f.gif",
+      "animation": "2699_fe0f.json",
+      "group": "Objects"
+    },
+    {
+      "code": "26d3_fe0f_200d_1f4a5",
+      "name": "Broken-chain",
+      "image": "26d3_fe0f_200d_1f4a5.webp",
+      "gif": "26d3_fe0f_200d_1f4a5.gif",
+      "animation": "26d3_fe0f_200d_1f4a5.json",
+      "group": "Objects"
+    },
+    {
+      "code": "270f_fe0f",
+      "name": "Pencil",
+      "image": "270f_fe0f.webp",
+      "gif": "270f_fe0f.gif",
+      "animation": "270f_fe0f.json",
+      "group": "Objects"
+    },
+    {
+      "code": "23f0",
+      "name": "Alarm-clock",
+      "image": "23f0.webp",
+      "gif": "23f0.gif",
+      "animation": "23f0.json",
+      "group": "Objects"
+    },
+    {
+      "code": "1f6ce_fe0f",
+      "name": "Bellhop-bell",
+      "image": "1f6ce_fe0f.webp",
+      "gif": "1f6ce_fe0f.gif",
+      "animation": "1f6ce_fe0f.json",
+      "group": "Objects"
+    },
+    {
+      "code": "1f514",
+      "name": "Bell",
+      "image": "1f514.webp",
+      "gif": "1f514.gif",
+      "animation": "1f514.json",
+      "group": "Objects"
+    },
+    {
+      "code": "1f52e",
+      "name": "Crystal-ball",
+      "image": "1f52e.webp",
+      "gif": "1f52e.gif",
+      "animation": "1f52e.json",
+      "group": "Objects"
+    },
+    {
+      "code": "1f4a3",
+      "name": "Bomb",
+      "image": "1f4a3.webp",
+      "gif": "1f4a3.gif",
+      "animation": "1f4a3.json",
+      "group": "Objects"
+    },
+    {
+      "code": "1faa4",
+      "name": "Mouse-trap",
+      "image": "1faa4.webp",
+      "gif": "1faa4.gif",
+      "animation": "1faa4.json",
+      "group": "Objects"
+    },
+    {
+      "code": "1f512",
+      "name": "Locked",
+      "image": "1f512.webp",
+      "gif": "1f512.gif",
+      "animation": "1f512.json",
+      "group": "Objects"
+    }
+  ],
+  "Symbols": [
+    {
+      "code": "2648",
+      "name": "Aries",
+      "image": "2648.webp",
+      "gif": "2648.gif",
+      "animation": "2648.json",
+      "group": "Symbols"
+    },
+    {
+      "code": "2648",
+      "name": "Aries",
+      "image": "2648.webp",
+      "gif": "2648.gif",
+      "animation": "2648.json",
+      "group": "Symbols"
+    },
+    {
+      "code": "2649",
+      "name": "Taurus",
+      "image": "2649.webp",
+      "gif": "2649.gif",
+      "animation": "2649.json",
+      "group": "Symbols"
+    },
+    {
+      "code": "264a",
+      "name": "Gemini",
+      "image": "264a.webp",
+      "gif": "264a.gif",
+      "animation": "264a.json",
+      "group": "Symbols"
+    },
+    {
+      "code": "264b",
+      "name": "Cancer",
+      "image": "264b.webp",
+      "gif": "264b.gif",
+      "animation": "264b.json",
+      "group": "Symbols"
+    },
+    {
+      "code": "264c",
+      "name": "Leo",
+      "image": "264c.webp",
+      "gif": "264c.gif",
+      "animation": "264c.json",
+      "group": "Symbols"
+    },
+    {
+      "code": "264d",
+      "name": "Virgo",
+      "image": "264d.webp",
+      "gif": "264d.gif",
+      "animation": "264d.json",
+      "group": "Symbols"
+    },
+    {
+      "code": "264e",
+      "name": "Libra",
+      "image": "264e.webp",
+      "gif": "264e.gif",
+      "animation": "264e.json",
+      "group": "Symbols"
+    },
+    {
+      "code": "264f",
+      "name": "Scorpio",
+      "image": "264f.webp",
+      "gif": "264f.gif",
+      "animation": "264f.json",
+      "group": "Symbols"
+    },
+    {
+      "code": "2650",
+      "name": "Sagittarius",
+      "image": "2650.webp",
+      "gif": "2650.gif",
+      "animation": "2650.json",
+      "group": "Symbols"
+    },
+    {
+      "code": "2651",
+      "name": "Capricorn",
+      "image": "2651.webp",
+      "gif": "2651.gif",
+      "animation": "2651.json",
+      "group": "Symbols"
+    },
+    {
+      "code": "2652",
+      "name": "Aquarius",
+      "image": "2652.webp",
+      "gif": "2652.gif",
+      "animation": "2652.json",
+      "group": "Symbols"
+    },
+    {
+      "code": "2653",
+      "name": "Pisces",
+      "image": "2653.webp",
+      "gif": "2653.gif",
+      "animation": "2653.json",
+      "group": "Symbols"
+    },
+    {
+      "code": "26ce",
+      "name": "Ophiuchus",
+      "image": "26ce.webp",
+      "gif": "26ce.gif",
+      "animation": "26ce.json",
+      "group": "Symbols"
+    },
+    {
+      "code": "2757",
+      "name": "Exclamation",
+      "image": "2757.webp",
+      "gif": "2757.gif",
+      "animation": "2757.json",
+      "group": "Symbols"
+    },
+    {
+      "code": "2753",
+      "name": "Question",
+      "image": "2753.webp",
+      "gif": "2753.gif",
+      "animation": "2753.json",
+      "group": "Symbols"
+    },
+    {
+      "code": "2049_fe0f",
+      "name": "Exclamation-question-mark",
+      "image": "2049_fe0f.webp",
+      "gif": "2049_fe0f.gif",
+      "animation": "2049_fe0f.json",
+      "group": "Symbols"
+    },
+    {
+      "code": "203c_fe0f",
+      "name": "Exclamation-double",
+      "image": "203c_fe0f.webp",
+      "gif": "203c_fe0f.gif",
+      "animation": "203c_fe0f.json",
+      "group": "Symbols"
+    },
+    {
+      "code": "274c",
+      "name": "Cross-mark",
+      "image": "274c.webp",
+      "gif": "274c.gif",
+      "animation": "274c.json",
+      "group": "Symbols"
+    },
+    {
+      "code": "1f198",
+      "name": "Sos",
+      "image": "1f198.webp",
+      "gif": "1f198.gif",
+      "animation": "1f198.json",
+      "group": "Symbols"
+    },
+    {
+      "code": "1f4f4",
+      "name": "Phone-off",
+      "image": "1f4f4.webp",
+      "gif": "1f4f4.gif",
+      "animation": "1f4f4.json",
+      "group": "Symbols"
+    },
+    {
+      "code": "2622_fe0f",
+      "name": "Radioactive",
+      "image": "2622_fe0f.webp",
+      "gif": "2622_fe0f.gif",
+      "animation": "2622_fe0f.json",
+      "group": "Symbols"
+    },
+    {
+      "code": "2623_fe0f",
+      "name": "Biohazard",
+      "image": "2623_fe0f.webp",
+      "gif": "2623_fe0f.gif",
+      "animation": "2623_fe0f.json",
+      "group": "Symbols"
+    },
+    {
+      "code": "26a0_fe0f",
+      "name": "Warning",
+      "image": "26a0_fe0f.webp",
+      "gif": "26a0_fe0f.gif",
+      "animation": "26a0_fe0f.json",
+      "group": "Symbols"
+    },
+    {
+      "code": "2705",
+      "name": "Check-mark",
+      "image": "2705.webp",
+      "gif": "2705.gif",
+      "animation": "2705.json",
+      "group": "Symbols"
+    },
+    {
+      "code": "1f195",
+      "name": "New",
+      "image": "1f195.webp",
+      "gif": "1f195.gif",
+      "animation": "1f195.json",
+      "group": "Symbols"
+    },
+    {
+      "code": "1f193",
+      "name": "Free",
+      "image": "1f193.webp",
+      "gif": "1f193.gif",
+      "animation": "1f193.json",
+      "group": "Symbols"
+    },
+    {
+      "code": "1f199",
+      "name": "Up!",
+      "image": "1f199.webp",
+      "gif": "1f199.gif",
+      "animation": "1f199.json",
+      "group": "Symbols"
+    },
+    {
+      "code": "1f192",
+      "name": "Cool",
+      "image": "1f192.webp",
+      "gif": "1f192.gif",
+      "animation": "1f192.json",
+      "group": "Symbols"
+    },
+    {
+      "code": "1f6ae",
+      "name": "Litter",
+      "image": "1f6ae.webp",
+      "gif": "1f6ae.gif",
+      "animation": "1f6ae.json",
+      "group": "Symbols"
+    },
+    {
+      "code": "262e_fe0f",
+      "name": "Peace-symbol",
+      "image": "262e_fe0f.webp",
+      "gif": "262e_fe0f.gif",
+      "animation": "262e_fe0f.json",
+      "group": "Symbols"
+    },
+    {
+      "code": "262f_fe0f",
+      "name": "Yin-yang",
+      "image": "262f_fe0f.webp",
+      "gif": "262f_fe0f.gif",
+      "animation": "262f_fe0f.json",
+      "group": "Symbols"
+    },
+    {
+      "code": "267e_fe0f",
+      "name": "Infinity",
+      "image": "267e_fe0f.webp",
+      "gif": "267e_fe0f.gif",
+      "animation": "267e_fe0f.json",
+      "group": "Symbols"
+    },
+    {
+      "code": "1f3b6",
+      "name": "Musical-notes",
+      "image": "1f3b6.webp",
+      "gif": "1f3b6.gif",
+      "animation": "1f3b6.json",
+      "group": "Symbols"
+    },
+    {
+      "code": "2795",
+      "name": "Plus-sign",
+      "image": "2795.webp",
+      "gif": "2795.gif",
+      "animation": "2795.json",
+      "group": "Symbols"
+    }
+  ],
+  "Flags": [
+    {
+      "code": "1f3c1",
+      "name": "Chequered-flag",
+      "image": "1f3c1.webp",
+      "gif": "1f3c1.gif",
+      "animation": "1f3c1.json",
+      "group": "Flags"
+    },
+    {
+      "code": "1f3c1",
+      "name": "Chequered-flag",
+      "image": "1f3c1.webp",
+      "gif": "1f3c1.gif",
+      "animation": "1f3c1.json",
+      "group": "Flags"
+    },
+    {
+      "code": "1f6a9",
+      "name": "Triangular-flag",
+      "image": "1f6a9.webp",
+      "gif": "1f6a9.gif",
+      "animation": "1f6a9.json",
+      "group": "Flags"
+    },
+    {
+      "code": "1f3f4",
+      "name": "Black-flag",
+      "image": "1f3f4.webp",
+      "gif": "1f3f4.gif",
+      "animation": "1f3f4.json",
+      "group": "Flags"
+    },
+    {
+      "code": "1f3f3_fe0f",
+      "name": "White-flag",
+      "image": "1f3f3_fe0f.webp",
+      "gif": "1f3f3_fe0f.gif",
+      "animation": "1f3f3_fe0f.json",
+      "group": "Flags"
+    }
+  ]
+}
