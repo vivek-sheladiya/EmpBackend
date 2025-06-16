@@ -59,10 +59,6 @@ const serviceAccount = {
     universe_domain: process.env.universe_domain
 };
 
-initializeApp({
-    credential: cert(serviceAccount),
-});
-
 async function connectToDatabase() {
     try {
         await mongoose.connect(mongo_url);
@@ -73,6 +69,11 @@ async function connectToDatabase() {
 }
 
 async function startServer() {
+
+    initializeApp({
+        credential: cert(serviceAccount),
+    });
+
     await connectToDatabase();
 
     const PORT = process.env.PORT || 8080;
