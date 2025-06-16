@@ -37,9 +37,31 @@ const https = require('https');
 const upload = require("./imageUploader");
 const environment = require("./apiEndpoints");
 const {chatUpdates} = require("./lib/Controllers/ChatControllerNew");
+const http = require("node:http");
+const {Server} = require("socket.io");
+const {initializeApp, cert} = require("firebase-admin/app");
+// const serviceAccount = require("./firebase-service-account.json");
 // const path = require('path');
 
 const mongo_url = process.env.MONGO_CONN;
+
+const serviceAccount = {
+    type: process.env.type,
+    project_id: process.env.project_id,
+    private_key_id: process.env.private_key_id,
+    private_key: process.env.private_key?.replace(/\\n/g, '\n'),
+    client_email: process.env.client_email,
+    client_id: process.env.client_id,
+    auth_uri: process.env.auth_uri,
+    token_uri: process.env.token_uri,
+    auth_provider_x509_cert_url: process.env.auth_provider_x509_cert_url,
+    client_x509_cert_url: process.env.client_x509_cert_url,
+    universe_domain: process.env.universe_domain
+};
+
+initializeApp({
+    credential: cert(serviceAccount),
+});
 
 async function connectToDatabase() {
     try {
@@ -133,6 +155,11 @@ async function startServer() {
             }
         }, 1000);
 
+        // changeStream.on('error', (err) => {
+        //     console.error('ChangeStream Error:', err);
+        //     changeStream.close();
+        // });
+
         req.on('close', () => {
             clearInterval(interval);
             changeStream.close();
@@ -172,6 +199,11 @@ async function startServer() {
                 }
             }
         }, 1000);
+
+        // changeStream.on('error', (err) => {
+        //     console.error('ChangeStream Error:', err);
+        //     changeStream.close();
+        // });
 
         req.on('close', () => {
             clearInterval(interval);
@@ -248,6 +280,38 @@ async function startServer() {
             });
         }
     });
+
+    // const server = http.createServer(expressApp);
+    // const io = new Server(server, {
+    //     cors: { origin: '*' }
+    // });
+    //
+    // io.on('connection', (socket) => {
+    //     console.log('User connected:', socket.id);
+    //
+    //     socket.on('join', (roomId) => {
+    //         socket.join(roomId);
+    //         socket.to(roomId).emit('user-joined', socket.id);
+    //     });
+    //
+    //     socket.on('offer', ({ roomId, offer }) => {
+    //         socket.to(roomId).emit('offer', offer);
+    //     });
+    //
+    //     socket.on('answer', ({ roomId, answer }) => {
+    //         socket.to(roomId).emit('answer', answer);
+    //     });
+    //
+    //     socket.on('ice-candidate', ({ roomId, candidate }) => {
+    //         socket.to(roomId).emit('ice-candidate', candidate);
+    //     });
+    //
+    //     socket.on('disconnect', () => {
+    //         console.log('User disconnected:', socket.id);
+    //     });
+    // });
+    //
+    // server.listen(5201, () => console.log('Signaling server on port 5201'));
 
     // socketConnection(PORT);
     autoPunchOutJob();
