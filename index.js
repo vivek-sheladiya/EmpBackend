@@ -40,6 +40,7 @@ const {chatUpdates} = require("./lib/Controllers/ChatControllerNew");
 const http = require("node:http");
 // const {Server} = require("socket.io");
 const {initializeApp, cert} = require("firebase-admin/app");
+const {ExpressPeerServer} = require("peer");
 // const serviceAccount = require("./firebase-service-account.json");
 // const path = require('path');
 
@@ -81,6 +82,8 @@ async function startServer() {
     expressApp.get("/ping", (req, res) => {
         res.send("PONG");
     });
+
+    const server = http.createServer(expressApp);
 
     // expressApp.use(bodyParser.json());
     expressApp.use(bodyParser.json({ limit: '50mb' }));
@@ -317,9 +320,21 @@ async function startServer() {
     // socketConnection(PORT);
     autoPunchOutJob();
 
-    expressApp.listen(PORT, () => {
-        console.log(`Server is running on ${PORT}`);
+    const peerServer = ExpressPeerServer(server, {
+        debug: true,
+        path: "/myapp", // Can be any path you want
     });
+    expressApp.use('/peerjs', peerServer); // mount at /peerjs
+
+// Start server
+    server.listen(PORT, () => {
+        console.log(`Server is running on http://localhost:${PORT}`);
+        console.log(`PeerJS server is running on http://localhost:${PORT}/peerjs/myapp`);
+    });
+
+    // expressApp.listen(PORT, () => {
+    //     console.log(`Server is running on ${PORT}`);
+    // });
 
 
 }
