@@ -44,6 +44,34 @@ const {ExpressPeerServer} = require("peer");
 // const serviceAccount = require("./firebase-service-account.json");
 // const path = require('path');
 
+
+// const screenshot = require('screenshot-desktop');
+//
+// // Define the output path
+// const uploadDir = path.join(__dirname, 'uploads');
+// const fileName = `screenshot_${Date.now()}.png`;
+// const filePath = path.join(uploadDir, fileName);
+//
+// // Ensure the uploads directory exists
+// if (!fs.existsSync(uploadDir)) {
+//     fs.mkdirSync(uploadDir, { recursive: true });
+// }
+//
+// // Take the screenshot and save to file
+// screenshot().then((img) => {
+//     fs.writeFile(filePath, img, (err) => {
+//         if (err) {
+//             console.error('Failed to save screenshot:', err);
+//         } else {
+//             console.log('Screenshot saved to:', filePath);
+//         }
+//     });
+// }).catch((err) => {
+//     console.error('Error taking screenshot:', err);
+// });
+
+
+
 const mongo_url = process.env.MONGO_CONN;
 
 const serviceAccount = {
