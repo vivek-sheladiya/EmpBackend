@@ -18,6 +18,8 @@ const ProjectRouter = require("./lib/Routes/ProjectRouter");
 const punchReport = require("./lib/Routes/punchReportRoutes");
 const userFileUpload = require("./lib/Routes/userFileUploadRouter")
 const FileUploadRouter = require("./lib/Routes/FileUploadRouter")
+const DailyUpdateRouter = require("./lib/Routes/DailyUpdateRouter")
+const OfficeUpdatesRouter = require("./lib/Routes/OfficeUpdatesRouter")
 const path = require("path");
 const mongoose = require("mongoose");
 const { MongoClient } = require("mongodb");
@@ -41,6 +43,9 @@ const http = require("node:http");
 // const {Server} = require("socket.io");
 const {initializeApp, cert} = require("firebase-admin/app");
 const {ExpressPeerServer} = require("peer");
+const {officeUpdates} = require("./lib/Controllers/OfficeUpdateController");
+const {appSettingUpdates} = require("./lib/Controllers/AppSettingController");
+const {compareTwoStrings} = require("string-similarity");
 // const serviceAccount = require("./firebase-service-account.json");
 // const path = require('path');
 
@@ -111,6 +116,230 @@ async function startServer() {
         res.send("PONG");
     });
 
+    // const dailyReport = [
+    //     {
+    //         "date": "2025-06-25",
+    //         "userId": "emp123",
+    //         "tasks": [
+    //             "Fixed login issue",
+    //             "Updated user profile layout",
+    //             "Tested registration flow",
+    //             "Cleaned up console warnings"
+    //         ]
+    //     },
+    //     {
+    //         "date": "2025-06-26",
+    //         "userId": "emp123",
+    //         "tasks": [
+    //             "Fixed bug in login screen",
+    //             "Changed profile UI",
+    //             "Wrote test cases for signup",
+    //             "Removed unused imports"
+    //         ]
+    //     },
+    //     {
+    //         "date": "2025-06-27",
+    //         "userId": "emp123",
+    //         "tasks": [
+    //             "Added validation to login form",
+    //             "Updated registration tests",
+    //             "Reorganized component folder",
+    //             "Debugged email verification issue"
+    //         ]
+    //     },
+    //     {
+    //         "date": "2025-06-28",
+    //         "userId": "emp123",
+    //         "tasks": [
+    //             "Resolved login form bugs",
+    //             "Styled profile page",
+    //             "Tested email verification flow",
+    //             "Refactored login component"
+    //         ]
+    //     },
+    //     {
+    //         "date": "2025-06-29",
+    //         "userId": "emp123",
+    //         "tasks": [
+    //             "Added responsive design to dashboard",
+    //             "Optimized image loading",
+    //             "Cleaned up login logic",
+    //             "Improved form accessibility"
+    //         ]
+    //     },
+    //     {
+    //         "date": "2025-06-30",
+    //         "userId": "emp123",
+    //         "tasks": [
+    //             "Updated dashboard layout",
+    //             "Tested form responsiveness",
+    //             "Fixed dashboard alignment issue",
+    //             "Enhanced accessibility on forms"
+    //         ]
+    //     },
+    //     {
+    //         "date": "2025-07-01",
+    //         "userId": "emp123",
+    //         "tasks": [
+    //             "Added dark mode to dashboard",
+    //             "Fixed navbar collapse issue",
+    //             "Improved form field styling",
+    //             "Tested dark mode switch"
+    //         ]
+    //     },
+    //     {
+    //         "date": "2025-07-02",
+    //         "userId": "emp123",
+    //         "tasks": [
+    //             "Styled form components",
+    //             "Fixed sidebar toggle bug",
+    //             "Added dark mode styles",
+    //             "Validated responsive UI elements"
+    //         ]
+    //     },
+    //     {
+    //         "date": "2025-07-03",
+    //         "userId": "emp123",
+    //         "tasks": [
+    //             "Implemented search functionality",
+    //             "Fixed typo in login label",
+    //             "Refined profile update flow",
+    //             "Styled input fields"
+    //         ]
+    //     },
+    //     {
+    //         "date": "2025-07-04",
+    //         "userId": "emp123",
+    //         "tasks": [
+    //             "Added live search on user list",
+    //             "Fixed input label alignment",
+    //             "Updated profile update API",
+    //             "Improved input UI consistency"
+    //         ]
+    //     },
+    //     {
+    //         "date": "2025-07-05",
+    //         "userId": "emp123",
+    //         "tasks": [
+    //             "Tested live search feature",
+    //             "Cleaned up input field styles",
+    //             "Updated user search endpoint",
+    //             "Handled search empty state"
+    //         ]
+    //     },
+    //     {
+    //         "date": "2025-07-06",
+    //         "userId": "emp123",
+    //         "tasks": [
+    //             "Improved search UI UX",
+    //             "Refined login screen",
+    //             "Fixed minor bugs in profile form",
+    //             "Optimized input animations"
+    //         ]
+    //     },
+    //     {
+    //         "date": "2025-07-07",
+    //         "userId": "emp123",
+    //         "tasks": [
+    //             "Improved animations on login",
+    //             "Resolved bug in search function",
+    //             "Refactored profile form",
+    //             "Validated user profile inputs"
+    //         ]
+    //     },
+    //     {
+    //         "date": "2025-07-08",
+    //         "userId": "emp123",
+    //         "tasks": [
+    //             "Tested user profile validation",
+    //             "Fixed broken animation on login",
+    //             "Updated dark mode styles",
+    //             "Resolved search bugs"
+    //         ]
+    //     },
+    //     {
+    //         "date": "2025-07-09",
+    //         "userId": "emp123",
+    //         "tasks": [
+    //             "Handled dark mode toggle",
+    //             "Fixed form input validation",
+    //             "Debugged profile update errors",
+    //             "Improved component loading speed"
+    //         ]
+    //     },
+    //     {
+    //         "date": "2025-07-10",
+    //         "userId": "emp123",
+    //         "tasks": [
+    //             "Optimized login page loading",
+    //             "Fixed profile form validation",
+    //             "Improved performance of search",
+    //             "Tested dark/light toggle"
+    //         ]
+    //     },
+    //     {
+    //         "date": "2025-07-11",
+    //         "userId": "emp123",
+    //         "tasks": [
+    //             "Cleaned up unused CSS",
+    //             "Enhanced search speed",
+    //             "Fixed animation lag",
+    //             "Simplified login validation logic"
+    //         ]
+    //     },
+    //     {
+    //         "date": "2025-07-12",
+    //         "userId": "emp123",
+    //         "tasks": [
+    //             "Improved CSS for profile page",
+    //             "Optimized login form",
+    //             "Tested search debounce",
+    //             "Fixed search UI bugs"
+    //         ]
+    //     },
+    //     {
+    //         "date": "2025-07-13",
+    //         "userId": "emp123",
+    //         "tasks": [
+    //             "Updated profile image upload",
+    //             "Handled profile picture preview",
+    //             "Refactored image upload logic",
+    //             "Styled image input field"
+    //         ]
+    //     },
+    //     {
+    //         "date": "2025-07-14",
+    //         "userId": "emp123",
+    //         "tasks": [
+    //             "Fixed bug in image upload",
+    //             "Validated profile image format",
+    //             "Tested upload with large image",
+    //             "Improved upload feedback message"
+    //         ]
+    //     }
+    // ];
+
+    // const allTasks = dailyReport.flatMap(report => report.tasks);
+
+// Step 2: Detect similar tasks
+//     function detectSimilarTasks(tasks) {
+//         const repeated = [];
+//
+//         for (let i = 0; i < tasks.length; i++) {
+//             for (let j = i + 1; j < tasks.length; j++) {
+//                 const similarity = compareTwoStrings(tasks[i], tasks[j]);
+//                 if (similarity > 0.7) {
+//                     repeated.push({ task1: tasks[i], task2: tasks[j], similarity: similarity.toFixed(2) });
+//                 }
+//             }
+//         }
+//
+//         return repeated;
+//     }
+
+    // const result = detectSimilarTasks(allTasks);
+    // console.table(result);
+
     const server = http.createServer(expressApp);
 
     // expressApp.use(bodyParser.json());
@@ -143,6 +372,8 @@ async function startServer() {
     expressApp.use("/api", ensureAuthenticated, punchReport);
     expressApp.use("/api", ensureAuthenticated, userFileUpload);
     expressApp.use("/api", ensureAuthenticated, ChattingRouter);
+    expressApp.use("/api", ensureAuthenticated, DailyUpdateRouter);
+    expressApp.use("/api", ensureAuthenticated, OfficeUpdatesRouter);
     expressApp.use("/api", FileUploadRouter);
 
     expressApp.use(AppSettingDataRouter);
@@ -201,6 +432,8 @@ async function startServer() {
     });
 
     chatUpdates(expressApp);
+    officeUpdates(expressApp);
+    appSettingUpdates(expressApp);
 
     expressApp.get('/tasksChange', async (req, res) => {
         const { userId, role } = req.query;
