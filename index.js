@@ -40,6 +40,7 @@ const {ExpressPeerServer} = require("peer");
 const {officeUpdates} = require("./lib/Controllers/OfficeUpdateController");
 const {appSettingUpdates} = require("./lib/Controllers/AppSettingController");
 const {insertDefaultData} = require("./lib/Controllers/ApplicationController");
+const AppData = require("./lib/Models/AppData");
 
 const mongo_url = process.env.MONGO_CONN;
 
@@ -116,6 +117,20 @@ async function startServer() {
     expressApp.use("/api", ensureAuthenticated, OfficeUpdatesRouter);
     expressApp.use("/", ApplicationRouter);
     expressApp.use("/api", FileUploadRouter);
+
+    expressApp.get('/getAppAdsData', async (req, res) => {
+        try {
+            const data = await AppData.findOne();
+
+            if (!data) {
+                return res.status(404).json({ message: 'App data not found' });
+            }
+
+            res.json(data);
+        } catch (error) {
+            res.status(500).json({ error: 'Internal Server Error' });
+        }
+    });
 
     expressApp.use(AppSettingDataRouter);
 
