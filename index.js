@@ -20,6 +20,7 @@ const userFileUpload = require("./lib/Routes/userFileUploadRouter")
 const FileUploadRouter = require("./lib/Routes/FileUploadRouter")
 const DailyUpdateRouter = require("./lib/Routes/DailyUpdateRouter")
 const OfficeUpdatesRouter = require("./lib/Routes/OfficeUpdatesRouter")
+const ApplicationRouter = require("./lib/Routes/ApplicationRouter")
 const path = require("path");
 const mongoose = require("mongoose");
 
@@ -38,6 +39,7 @@ const {initializeApp, cert} = require("firebase-admin/app");
 const {ExpressPeerServer} = require("peer");
 const {officeUpdates} = require("./lib/Controllers/OfficeUpdateController");
 const {appSettingUpdates} = require("./lib/Controllers/AppSettingController");
+const {insertDefaultData} = require("./lib/Controllers/ApplicationController");
 
 const mongo_url = process.env.MONGO_CONN;
 
@@ -112,9 +114,13 @@ async function startServer() {
     expressApp.use("/api", ensureAuthenticated, ChattingRouter);
     expressApp.use("/api", ensureAuthenticated, DailyUpdateRouter);
     expressApp.use("/api", ensureAuthenticated, OfficeUpdatesRouter);
+    expressApp.use("/api", ApplicationRouter);
     expressApp.use("/api", FileUploadRouter);
 
     expressApp.use(AppSettingDataRouter);
+
+    await insertDefaultData();
+
     expressApp.use(express.static(path.join(__dirname, "lib", "frontend")));
     expressApp.use("/uploads", express.static(path.join(__dirname, "uploads")));
 
