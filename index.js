@@ -114,7 +114,7 @@ async function startServer() {
     expressApp.use("/api", ensureAuthenticated, ChattingRouter);
     expressApp.use("/api", ensureAuthenticated, DailyUpdateRouter);
     expressApp.use("/api", ensureAuthenticated, OfficeUpdatesRouter);
-    expressApp.use("/api", ApplicationRouter);
+    expressApp.use("/", ApplicationRouter);
     expressApp.use("/api", FileUploadRouter);
 
     expressApp.use(AppSettingDataRouter);
