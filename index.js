@@ -21,6 +21,7 @@ const FileUploadRouter = require("./lib/Routes/FileUploadRouter")
 const DailyUpdateRouter = require("./lib/Routes/DailyUpdateRouter")
 const OfficeUpdatesRouter = require("./lib/Routes/OfficeUpdatesRouter")
 const ApplicationRouter = require("./lib/Routes/ApplicationRouter")
+const AppVersionRoutes = require("./lib/Routes/AppVersionRoutes")
 const path = require("path");
 const mongoose = require("mongoose");
 
@@ -39,8 +40,6 @@ const {initializeApp, cert} = require("firebase-admin/app");
 const {ExpressPeerServer} = require("peer");
 const {officeUpdates} = require("./lib/Controllers/OfficeUpdateController");
 const {appSettingUpdates} = require("./lib/Controllers/AppSettingController");
-const {insertDefaultData} = require("./lib/Controllers/ApplicationController");
-const AppData = require("./lib/Models/AppData");
 
 const mongo_url = process.env.MONGO_CONN;
 
@@ -94,11 +93,6 @@ async function startServer() {
     //     credentials: true,
     // }));
     expressApp.options('*', cors());
-    expressApp.use("/auth", AuthRouter);
-    expressApp.use("/api", ensureAuthenticated, UserDataRouter);
-    expressApp.use(AppSettingDataRouter);
-    expressApp.use(express.static(path.join(__dirname, "lib", "frontend")));
-    expressApp.use("/uploads", express.static(path.join(__dirname, "uploads")));
 
     expressApp.use("/auth", AuthRouter);
     expressApp.use("/api", ensureAuthenticated, UserDataRouter);
@@ -115,26 +109,11 @@ async function startServer() {
     expressApp.use("/api", ensureAuthenticated, ChattingRouter);
     expressApp.use("/api", ensureAuthenticated, DailyUpdateRouter);
     expressApp.use("/api", ensureAuthenticated, OfficeUpdatesRouter);
-    expressApp.use("/", ApplicationRouter);
+    expressApp.use("/api", AppVersionRoutes);
+    expressApp.use("/api", ApplicationRouter);
     expressApp.use("/api", FileUploadRouter);
 
-    expressApp.get('/getAppAdsData', async (req, res) => {
-        try {
-            const data = await AppData.findOne();
-
-            if (!data) {
-                return res.status(404).json({ message: 'App data not found' });
-            }
-
-            res.json(data);
-        } catch (error) {
-            res.status(500).json({ error: 'Internal Server Error' });
-        }
-    });
-
     expressApp.use(AppSettingDataRouter);
-
-    await insertDefaultData();
 
     expressApp.use(express.static(path.join(__dirname, "lib", "frontend")));
     expressApp.use("/uploads", express.static(path.join(__dirname, "uploads")));
