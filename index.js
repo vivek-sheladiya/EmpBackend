@@ -37,7 +37,7 @@ const environment = require("./apiEndpoints");
 const {chatUpdates} = require("./lib/Controllers/ChatControllerNew");
 const http = require("node:http");
 const {initializeApp, cert} = require("firebase-admin/app");
-const {ExpressPeerServer} = require("peer");
+// const {ExpressPeerServer} = require("peer");
 const {officeUpdates} = require("./lib/Controllers/OfficeUpdateController");
 const {appSettingUpdates} = require("./lib/Controllers/AppSettingController");
 
@@ -109,7 +109,7 @@ async function startServer() {
     expressApp.use("/api", ensureAuthenticated, ChattingRouter);
     expressApp.use("/api", ensureAuthenticated, DailyUpdateRouter);
     expressApp.use("/api", ensureAuthenticated, OfficeUpdatesRouter);
-    expressApp.use("/api", AppVersionRoutes);
+    expressApp.use("/api", ensureAuthenticated, AppVersionRoutes);
     expressApp.use("/api", ApplicationRouter);
     expressApp.use("/api", FileUploadRouter);
 
@@ -216,124 +216,22 @@ async function startServer() {
         });
     });
 
-    expressApp.post('/api/upload', upload.single('file'), async (req, res) => {
-        try {
-            const file = req.file;
-            if (file) {
-                const form = new FormData();
-                const blob = new Blob([file.buffer], { type: file.mimetype });
-                const filename = `${Date.now()}_${file.originalname}`;
-
-                form.append("image", blob, filename);
-
-                const response = await fetch(`${environment.apiBaseUrl}upload.php`, {
-                    method: "POST",
-                    body: form,
-                });
-
-                const result = await response.json();
-
-                if (result.status === true) {
-                    return res.status(200).json({
-                        success: true,
-                        message: "Upload successfully",
-                        data: {
-                            attachmentType: file.mimetype,
-                            url: `${environment.apiBaseUrl}${result.file_url}`,
-                        },
-                    });
-                }
-            }
-        } catch (error) {
-            res.status(500).json({
-                success: false,
-                message: "Internal server error",
-            });
-        }
-    });
-
-    expressApp.post('/api/delete', async (req, res) => {
-        try {
-            const {fileUrl} = req.body;
-
-            const fileName = fileUrl.split("/").pop().split("?")[0];
-
-            const form = new FormData();
-            form.append("filename", fileName);
-
-            const response = await fetch(`${environment.apiBaseUrl}delete.php`, {
-                method: "POST",
-                body: form,
-            });
-
-            const result = await response.json();
-
-            if (result.status === true) {
-                return res.status(200).json({success: true, message: "Image deleted successfully"});
-            } else {
-                return res.status(500).json({
-                    success: false,
-                    message: "Failed to delete image from storage",
-                });
-            }
-        } catch (error) {
-            return res.status(500).json({
-                success: false,
-                message: "Failed to delete image from storage",
-            });
-        }
-    });
-
-    // const server = http.createServer(expressApp);
-    // const io = new Server(server, {
-    //     cors: { origin: '*' }
+    // autoPunchOutJob();
+    //
+    // const peerServer = ExpressPeerServer(server, {
+    //     debug: true,
+    //     path: "/myapp", // Can be any path you want
     // });
+    // expressApp.use('/peerjs', peerServer); // mount at /peerjs
     //
-    // io.on('connection', (socket) => {
-    //     console.log('User connected:', socket.id);
-    //
-    //     socket.on('join', (roomId) => {
-    //         socket.join(roomId);
-    //         socket.to(roomId).emit('user-joined', socket.id);
-    //     });
-    //
-    //     socket.on('offer', ({ roomId, offer }) => {
-    //         socket.to(roomId).emit('offer', offer);
-    //     });
-    //
-    //     socket.on('answer', ({ roomId, answer }) => {
-    //         socket.to(roomId).emit('answer', answer);
-    //     });
-    //
-    //     socket.on('ice-candidate', ({ roomId, candidate }) => {
-    //         socket.to(roomId).emit('ice-candidate', candidate);
-    //     });
-    //
-    //     socket.on('disconnect', () => {
-    //         console.log('User disconnected:', socket.id);
-    //     });
+    // server.listen(PORT, () => {
+    //     console.log(`Server is running on http://localhost:${PORT}`);
+    //     console.log(`PeerJS server is running on http://localhost:${PORT}/peerjs/myapp`);
     // });
-    //
-    // server.listen(5201, () => console.log('Signaling server on port 5201'));
 
-    // socketConnection(PORT);
-    autoPunchOutJob();
-
-    const peerServer = ExpressPeerServer(server, {
-        debug: true,
-        path: "/myapp", // Can be any path you want
+    expressApp.listen(PORT, () => {
+        console.log(`Server is running on ${PORT}`);
     });
-    expressApp.use('/peerjs', peerServer); // mount at /peerjs
-
-// Start server
-    server.listen(PORT, () => {
-        console.log(`Server is running on http://localhost:${PORT}`);
-        console.log(`PeerJS server is running on http://localhost:${PORT}/peerjs/myapp`);
-    });
-
-    // expressApp.listen(PORT, () => {
-    //     console.log(`Server is running on ${PORT}`);
-    // });
 
 
 }
